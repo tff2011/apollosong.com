@@ -1,0 +1,131 @@
+{
+  "title": "Modifica le informazioni dell'ordine",
+  "titleWithRecipient": "Migliora la storia di {name} e modifica il tuo ordine",
+  "subtitle": "Più dettagli condividi, più emozionante sarà il testo che i nostri autori creeranno.",
+  "stages": {
+    "step1": {
+      "label": "Passo 1",
+      "title": "Aggiorna i dati principali",
+      "subtitle": "Controlla nome, relazione, stile e voce."
+    },
+    "step2": {
+      "label": "Passo 2",
+      "title": "Rispondi a domande provocatorie su {name}",
+      "titleFallback": "Rispondi a domande provocatorie sulla persona omaggiata",
+      "subtitle": "Queste risposte arricchiranno automaticamente il testo finale."
+    },
+    "step3": {
+      "label": "Passo 3",
+      "title": "Rivedi e salva",
+      "subtitle": "Controlla i campi finali e salva le modifiche."
+    }
+  },
+  "email": {
+    "title": "Conferma la tua email",
+    "subtitle": "Usa la stessa email usata per l'acquisto.",
+    "label": "Email",
+    "placeholder": "tu@email.com",
+    "button": "Continua",
+    "checking": "Verifica...",
+    "invalid": "Inserisci un'email valida.",
+    "notFound": "Non abbiamo trovato questo ordine con questa email.",
+    "notEditable": "Questo ordine non può più essere modificato.",
+    "error": "Non siamo riusciti a caricare il tuo ordine. Riprova.",
+    "confirmedLabel": "Email confermata",
+    "change": "Cambia email"
+  },
+  "form": {
+    "title": "Aggiorna la tua storia",
+    "subtitle": "Più dettagli inserisci, migliore sarà il testo.",
+    "helper": "Quando salvi, rigeneriamo il testo da zero.",
+    "writeTip": "Scrivi quanto vuoi, non c'è limite di parole! Più dettagli inserisci, migliore sarà la canzone. Includi date importanti, luoghi speciali, momenti memorabili, traguardi, sfide superate, soprannomi affettuosi... tutto ciò che rende questa storia unica.",
+    "guidedQuestions": {
+      "intro": "Ciao! 😊 Stiamo preparando la canzone per {name} con grande cura. Per rendere il testo ancora più speciale e personalizzato, abbiamo bisogno di qualche dettaglio in più:",
+      "sectionTitle": "Domande che ispirano il testo",
+      "sectionSubtitle": "Più dettagli fornisci, più unica sarà la canzone di {name}.",
+      "defaultRecipient": "questa persona speciale",
+      "items": [
+        {
+          "title": "🌍 Da dove nasce la storia?",
+          "description": "Dove è nato o nata e cresciuto o cresciuta {name}? Qual è la data di nascita? C'è qualche dettaglio dell'infanzia o della città che vi ha segnato?"
+        },
+        {
+          "title": "💼 Il percorso costruito",
+          "description": "Qual è la professione o carriera di {name}? C'è stato un traguardo, una sfida o una svolta professionale importante?"
+        },
+        {
+          "title": "✈️ Viaggi e avventure",
+          "description": "C'è un viaggio o un'avventura indimenticabile vissuta insieme? Dove è stato, cosa è successo e perché è stato così speciale?"
+        },
+        {
+          "title": "💎 Il momento che ha cambiato tutto",
+          "description": "Qual è stato il momento più forte tra voi? Quello che, se potessi tornare indietro, rivivresti. Dove è successo e cosa avete provato?"
+        },
+        {
+          "title": "🗣️ Il tratto distintivo",
+          "description": "{name} ha un soprannome affettuoso? Una frase, un'abitudine o un'espressione che dice sempre?"
+        },
+        {
+          "title": "📸 La scena che riassume tutto",
+          "description": "Se potessi fermare {name} in una sola immagine, quale sarebbe? Esempio: ballare in cucina, pregare all'alba, sistemare tutto in casa."
+        },
+        {
+          "title": "🏠 Il vostro luogo",
+          "description": "Esiste un posto sacro per voi due? Una strada, una città, un angolo di casa, una spiaggia..."
+        },
+        {
+          "title": "💬 Quello che non hai mai detto",
+          "description": "Cosa vorresti dire a {name} ma non hai mai avuto il coraggio? Quella parola che è rimasta bloccata in gola..."
+        }
+      ],
+      "footer": "Più dettagli condividi, più la canzone sarà unica ed emozionante! 🎵",
+      "answerHint": "Le risposte vengono applicate automaticamente ai campi finali qui sotto (qualità, ricordi e messaggio).",
+      "answerPlaceholder": "Scrivi la tua risposta con più dettagli possibili...",
+      "autoAddedLabel": "Aggiunto automaticamente dalle risposte guidate",
+      "toneLabel": "Che tono deve avere l'omaggio?",
+      "toneHint": "Scegli uno o più che corrispondono al sentimento che vuoi trasmettere.",
+      "toneOptions": {
+        "joyful": "Gioioso",
+        "emotional": "Emozionante",
+        "nostalgic": "Nostalgico",
+        "grateful": "Riconoscente",
+        "romantic": "Romantico",
+        "hopeful": "Speranzoso",
+        "reflective": "Riflessivo",
+        "playful": "Giocoso"
+      }
+    },
+    "save": "Salva modifiche",
+    "saving": "Salvataggio...",
+    "saved": "Salvato! Stiamo rigenerando il testo.",
+    "error": "Non siamo riusciti a salvare le modifiche. Riprova.",
+    "cooldown": "Attendi qualche minuto prima di modificare di nuovo.",
+    "required": "Compila i campi obbligatori.",
+    "backToTrack": "Segui ordine",
+    "savedDialog": {
+      "title": "Modifiche salvate!",
+      "subtitle": "Stiamo ricreando il testo della tua canzone.",
+      "changed": "Cosa è stato aggiornato:",
+      "close": "Capito",
+      "fields": {
+        "recipientName": "Nome",
+        "recipient": "Destinatario",
+        "genre": "Genere musicale",
+        "vocals": "Voce",
+        "qualities": "Qualità",
+        "memories": "Ricordi",
+        "message": "Messaggio"
+      }
+    }
+  },
+  "validation": {
+    "required": "Questo campo è obbligatorio.",
+    "minChars": "Scrivi almeno {count} caratteri."
+  },
+  "unsaved": {
+    "title": "Hai modifiche non salvate",
+    "description": "Per aggiornare la tua canzone, fai clic su \"Salva modifiche\" prima di uscire.",
+    "stay": "Torna indietro e salva",
+    "leave": "Esci senza salvare"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "brand": "ChansonDivine",
+  "brandByline": "par ApolloSong",
+  "header": {
+    "announcement": "Nous ne créons pas des chansons. Nous créons des moments inoubliables.",
+    "announcementCta": "Commencer ma chanson",
+    "nav": {
+      "trackOrder": "Suivi de commande",
+      "reviews": "Avis",
+      "createSong": "Créer votre chanson",
+      "about": "Qui Sommes-Nous",
+      "contact": "Contact"
+    },
+    "mobile": {
+      "trackOrder": "Suivre ma commande",
+      "reviews": "Avis",
+      "contact": "Nous Contacter",
+      "cta": "Créez votre chanson",
+      "terms": "Conditions",
+      "payment": "Paiement",
+      "privacy": "Confidentialité"
+    }
+  },
+  "footer": {
+    "tagline": "Nous ne créons pas des chansons. Nous créons des moments inoubliables.",
+    "navigation": "Navigation",
+    "legal": "Mentions legales",
+    "links": {
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation",
+      "payment": "Modes de Paiement",
+      "about": "Qui Sommes-Nous",
+      "contact": "Nous Contacter"
+    },
+    "hours": "Lun-Ven, 9h - 17h (heure de Paris)",
+    "languageLabel": "Langue",
+    "languages": {
+      "en": "Anglais",
+      "pt": "Portugais",
+      "es": "Espagnol",
+      "fr": "Francais",
+      "it": "Italien"
+    },
+    "rights": "Tous droits reserves.",
+    "madeWith": "Fait avec",
+    "madeFor": "pour les familles du monde entier."
+  }
+}

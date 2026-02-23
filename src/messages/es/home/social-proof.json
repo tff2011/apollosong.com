@@ -1,0 +1,38 @@
+{
+  "title": "Amado por más de 10,000 familias en todo el mundo",
+  "logos": [
+    "Good Morning America",
+    "Today Show",
+    "BuzzFeed"
+  ],
+  "badge": "Testimonios Reales",
+  "subtitle": "Historias reales de conexiones inolvidables.",
+  "customerLoveTitle": "Por qué más de 10.000 familias aman",
+  "items": {
+    "godGaveMeYou": {
+      "title": "Dios Me Dio a Ti",
+      "subtitle": "ApolloSong"
+    },
+    "wendyB": {
+      "quote": "¡Oh alabado sea Dios! Esto es absolutamente impresionante. No puedo creerlo... Voy a tener dificultades para mantener esto en secreto hasta el domingo. ¡Lo escucharemos camino a la iglesia! Dios bendiga el trabajo que hacen.",
+      "author": "Wendy B.",
+      "verified": "Cliente Verificado"
+    },
+    "threeSqueezes": {
+      "title": "Tres Apretones",
+      "subtitle": "ApolloSong"
+    },
+    "myHeartIsYours": {
+      "title": "Mi Corazón es Tuyo",
+      "subtitle": "ApolloSong"
+    },
+    "mommysLove": {
+      "title": "El Amor de Mamá",
+      "subtitle": "ApolloSong"
+    },
+    "chosenHearts": {
+      "title": "Corazones Elegidos",
+      "subtitle": "ApolloSong"
+    }
+  }
+}

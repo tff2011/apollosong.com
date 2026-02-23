@@ -1,0 +1,27 @@
+{
+  "title": "Hear The Tears of Joy",
+  "subtitle": "Real families sharing their ApolloSong reaction.",
+  "items": [
+    {
+      "name": "Sarah M.",
+      "location": "Texas",
+      "quote": "I've never cried like this.",
+      "video": "/images/testimonial-sarah.webp",
+      "alt": "Sarah wiping tears of joy after listening to her song"
+    },
+    {
+      "name": "David K.",
+      "location": "Tennessee",
+      "quote": "This felt like God speaking through music.",
+      "video": "/images/testimonial-david.webp",
+      "alt": "David emotional in his car holding his phone"
+    },
+    {
+      "name": "Emily R.",
+      "location": "California",
+      "quote": "The best gift I've ever given.",
+      "video": "/images/testimonial-emily.webp",
+      "alt": "Emily crying happy tears holding a gift box"
+    }
+  ]
+}

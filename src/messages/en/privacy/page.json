@@ -1,0 +1,296 @@
+{
+  "hero": {
+    "eyebrow": "Privacy",
+    "title": "Privacy Policy",
+    "subtitle": "We honor the stories you share. This policy explains what we collect, how we use it, and the choices you have.",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdated": "February 1, 2025"
+  },
+  "summary": {
+    "title": "At a glance",
+    "items": [
+      {
+        "title": "What we collect",
+        "description": "Contact details, order info, story details you provide, and basic device data."
+      },
+      {
+        "title": "Why we use it",
+        "description": "To craft your song, deliver it securely, provide support, and improve the experience."
+      },
+      {
+        "title": "How we share it",
+        "description": "With trusted providers (payment, hosting, email) and when required by law."
+      },
+      {
+        "title": "Your choices",
+        "description": "Request access, correction, or deletion and opt out of marketing anytime."
+      }
+    ]
+  },
+  "tocTitle": "On this page",
+  "toc": [
+    {
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "id": "information-we-collect",
+      "label": "Information we collect"
+    },
+    {
+      "id": "how-we-use",
+      "label": "How we use information"
+    },
+    {
+      "id": "legal-basis",
+      "label": "Legal bases (EEA/UK)"
+    },
+    {
+      "id": "how-we-share",
+      "label": "How we share information"
+    },
+    {
+      "id": "cookies",
+      "label": "Cookies and analytics"
+    },
+    {
+      "id": "data-retention",
+      "label": "Data retention"
+    },
+    {
+      "id": "security",
+      "label": "Security"
+    },
+    {
+      "id": "your-rights",
+      "label": "Your rights and choices"
+    },
+    {
+      "id": "international-transfers",
+      "label": "International transfers"
+    },
+    {
+      "id": "children",
+      "label": "Children's privacy"
+    },
+    {
+      "id": "third-party",
+      "label": "Third-party links"
+    },
+    {
+      "id": "changes",
+      "label": "Changes to this policy"
+    },
+    {
+      "id": "contact",
+      "label": "Contact us"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "paragraphs": [
+        "This Privacy Policy explains how ApolloSong (\"we\", \"us\", and \"our\") collects, uses, and protects information when you visit our website, request a custom song, or contact our team.",
+        "By using our services, you agree to the practices described here. If you do not agree, please do not use the site or submit personal information."
+      ]
+    },
+    {
+      "id": "information-we-collect",
+      "title": "Information we collect",
+      "paragraphs": [
+        "We collect information you provide directly and information that is generated through your use of our services. We only collect what we need to deliver and improve ApolloSong."
+      ],
+      "subsections": [
+        {
+          "title": "Information you provide",
+          "paragraphs": [
+            "When you place an order or contact us, you may provide details such as your name, email address, recipient name, occasion, preferred style, scripture references, and other story details needed to craft your song."
+          ],
+          "bullets": [
+            "Contact details (name, email, phone if provided)",
+            "Order details (recipient name, occasion, timeline preferences)",
+            "Creative inputs (story notes, themes, messages, scripture references)",
+            "Communication content (support inquiries, feedback, revision notes)"
+          ]
+        },
+        {
+          "title": "Order and payment information",
+          "paragraphs": [
+            "Payments are processed by third-party payment providers. We receive confirmation of payment, order identifiers, and limited billing details needed for recordkeeping. We do not store full payment card numbers on our servers."
+          ],
+          "bullets": [
+            "Transaction IDs and payment status",
+            "Billing name and postal code (if provided)",
+            "Invoice and tax-related records"
+          ]
+        },
+        {
+          "title": "Usage and device data",
+          "paragraphs": [
+            "When you visit our site, we may automatically collect basic information about your device and usage to keep the site secure and perform analytics."
+          ],
+          "bullets": [
+            "IP address, browser type, and operating system",
+            "Pages viewed and time spent on the site",
+            "Referring URLs and approximate location"
+          ]
+        },
+        {
+          "title": "Sensitive information",
+          "paragraphs": [
+            "Your story may include sensitive personal details. Please avoid sharing unnecessary sensitive information (such as government IDs, financial account numbers, or health records). If you include sensitive details, we will treat them with heightened care and use them only for fulfilling your order."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-we-use",
+      "title": "How we use information",
+      "paragraphs": [
+        "We use the information we collect to provide, maintain, and improve ApolloSong."
+      ],
+      "bullets": [
+        "Create your custom song and deliver it to you securely",
+        "Communicate about your order, revisions, and support requests",
+        "Improve our creative process, website performance, and user experience",
+        "Detect and prevent fraud, abuse, or security incidents",
+        "Comply with legal obligations and enforce our terms"
+      ]
+    },
+    {
+      "id": "legal-basis",
+      "title": "Legal bases (EEA/UK)",
+      "paragraphs": [
+        "If you are located in the European Economic Area or the United Kingdom, we process your personal information under the following legal bases:"
+      ],
+      "bullets": [
+        "Contractual necessity (to fulfill your order)",
+        "Legitimate interests (to improve services and protect our platform)",
+        "Consent (for optional marketing communications)",
+        "Legal obligations (tax, accounting, and compliance requirements)"
+      ]
+    },
+    {
+      "id": "how-we-share",
+      "title": "How we share information",
+      "paragraphs": [
+        "We do not sell your personal information. We share information only as needed to operate ApolloSong."
+      ],
+      "subsections": [
+        {
+          "title": "Service providers",
+          "paragraphs": [
+            "We use trusted vendors for payments, hosting, analytics, and communication. These providers may access information only to perform services on our behalf and are required to protect it."
+          ],
+          "bullets": [
+            "Payment processing",
+            "Email delivery and customer support",
+            "Website hosting and analytics"
+          ]
+        },
+        {
+          "title": "Legal and safety",
+          "paragraphs": [
+            "We may disclose information if required by law, regulation, subpoena, or legal process, or to protect the rights, property, or safety of ApolloSong, our customers, or the public."
+          ]
+        },
+        {
+          "title": "Business transfers",
+          "paragraphs": [
+            "If we are involved in a merger, acquisition, or asset sale, your information may be transferred as part of that transaction. We will notify you of any material changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies and analytics",
+      "paragraphs": [
+        "We use cookies and similar technologies to remember preferences, measure performance, and improve the site."
+      ],
+      "bullets": [
+        "Essential cookies for core site functionality",
+        "Preference cookies to remember language or settings",
+        "Analytics cookies to understand site usage trends"
+      ]
+    },
+    {
+      "id": "data-retention",
+      "title": "Data retention",
+      "paragraphs": [
+        "We keep personal information only as long as necessary to provide our services and comply with legal obligations."
+      ],
+      "bullets": [
+        "Order records are retained for accounting and customer support purposes",
+        "Creative briefs and communications are kept to fulfill your order and handle revisions",
+        "Analytics data is retained in aggregate form when possible"
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "paragraphs": [
+        "We use administrative, technical, and physical safeguards to protect your information. This includes access controls, encrypted connections, and least-privilege access for team members.",
+        "No system can be 100% secure. Please use a strong email password and contact us immediately if you believe your information has been compromised."
+      ]
+    },
+    {
+      "id": "your-rights",
+      "title": "Your rights and choices",
+      "paragraphs": [
+        "Depending on where you live, you may have rights regarding your personal information."
+      ],
+      "bullets": [
+        "Access, correct, or delete your personal information",
+        "Request a copy of your data (data portability)",
+        "Object to or restrict certain processing",
+        "Opt out of marketing emails by using the unsubscribe link or contacting us"
+      ]
+    },
+    {
+      "id": "international-transfers",
+      "title": "International transfers",
+      "paragraphs": [
+        "ApolloSong may operate across borders. Your information may be processed in countries other than your own. When we transfer data, we use appropriate safeguards to protect it."
+      ]
+    },
+    {
+      "id": "children",
+      "title": "Children's privacy",
+      "paragraphs": [
+        "ApolloSong is not directed to children under 13, and we do not knowingly collect personal information from children. If you believe a child has provided us personal information, please contact us so we can delete it."
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "Third-party links",
+      "paragraphs": [
+        "Our website may link to third-party websites. We are not responsible for the privacy practices of those sites, and we encourage you to review their policies."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Changes to this policy",
+      "paragraphs": [
+        "We may update this Privacy Policy from time to time. If we make material changes, we will post an updated version and revise the \"Last updated\" date."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact us",
+      "paragraphs": [
+        "If you have questions about this policy or want to exercise your privacy rights, please reach out using the contact details below."
+      ]
+    }
+  ],
+  "contactCard": {
+    "title": "Privacy questions or requests",
+    "description": "We respond to privacy inquiries and data requests as quickly as possible.",
+    "emailLabel": "Email",
+    "email": "contact@apollosong.com",
+    "responseLabel": "Response time",
+    "responseTime": "Typically within 2 business days.",
+    "note": "If you are requesting data on someone else's behalf, include proof of authority."
+  }
+}

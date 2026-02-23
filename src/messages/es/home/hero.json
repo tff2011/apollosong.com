@@ -1,0 +1,30 @@
+{
+  "platformTagline": "La Plataforma #1 de Canciones Personalizadas",
+  "badge": "Más de 10.000+ lágrimas de alegría derramadas",
+  "title": "Convierte su Historia en la Canción Más Emocionante",
+  "titleHighlight": "de su Vida.",
+  "description": "Olvida los regalos obvios que terminan en un cajón. Nuestros compositores premiados transforman tus sentimientos más profundos en una canción original con calidad de radio. Garantizamos: será imposible contener las lágrimas.",
+  "primaryCta": "Empezar a Emocionar",
+  "urgency": {
+    "timer": "La oferta expira en"
+  },
+  "meta": [
+    "Lista en hasta 7 días",
+    "Calidad de Estudio",
+    "100% Personalizada"
+  ],
+  "player": {
+    "label": "Sonando: \"Três Apertos\"",
+    "quote": "\"Nunca había llorado así...\""
+  },
+  "video": {
+    "listenButton": "Escuchar Ejemplo",
+    "muteButton": "Silenciar",
+    "audioUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/tres-apertos.mp3"
+  },
+  "socialProof": {
+    "text": "Amado por",
+    "highlight": "10.000+ familias"
+  },
+  "backgroundAlt": "Mujer llorando de alegría mientras escucha música"
+}

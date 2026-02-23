@@ -1,0 +1,27 @@
+{
+  "title": "Ecoutez les larmes de joie",
+  "subtitle": "De vraies familles partagent leur reaction a leur ChansonDivine.",
+  "items": [
+    {
+      "name": "Sarah M.",
+      "location": "Paris",
+      "quote": "Je n'ai jamais pleure comme ca.",
+      "video": "/images/testimonial-sarah.webp",
+      "alt": "Sarah essuyant ses larmes de joie apres avoir ecoute sa chanson"
+    },
+    {
+      "name": "David K.",
+      "location": "Lyon",
+      "quote": "C'etait comme si Dieu parlait a travers la musique.",
+      "video": "/images/testimonial-david.webp",
+      "alt": "David emu dans sa voiture tenant son telephone"
+    },
+    {
+      "name": "Emily R.",
+      "location": "Marseille",
+      "quote": "Le plus beau cadeau que j'ai jamais offert.",
+      "video": "/images/testimonial-emily.webp",
+      "alt": "Emily pleurant de joie tenant une boite cadeau"
+    }
+  ]
+}

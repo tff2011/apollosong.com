@@ -1,0 +1,216 @@
+{
+  "hero": {
+    "eyebrow": "Conditions",
+    "title": "Conditions generales",
+    "subtitle": "Veuillez lire attentivement ces conditions avant de commander ou d'utiliser ChansonDivine.",
+    "lastUpdatedLabel": "Derniere mise a jour",
+    "lastUpdated": "1er fevrier 2025"
+  },
+  "summary": {
+    "title": "Points cles",
+    "items": [
+      {
+        "title": "Commandes personnalisees",
+        "description": "Chaque chanson est creee sur commande en fonction de l'histoire et des details que vous fournissez."
+      },
+      {
+        "title": "Livraison et revisions",
+        "description": "La livraison standard est de 7 jours maximum, avec une option prioritaire 24h. Les revisions sont traitees au cas par cas dans le cadre du brief original."
+      },
+      {
+        "title": "Paiements et remboursements",
+        "description": "Le paiement est du au moment de la commande. Nous offrons une garantie satisfait ou rembourse de 30 jours si votre chanson ne convient pas."
+      },
+      {
+        "title": "Licence d'utilisation",
+        "description": "Vous recevez une licence personnelle, non exclusive, pour partager votre chanson en prive."
+      }
+    ]
+  },
+  "tocTitle": "Sur cette page",
+  "toc": [
+    {"id": "overview", "label": "Apercu"},
+    {"id": "eligibility", "label": "Eligibilite et comptes"},
+    {"id": "orders", "label": "Commandes et processus creatif"},
+    {"id": "your-content", "label": "Votre contenu et permissions"},
+    {"id": "revisions", "label": "Revisions et approbations"},
+    {"id": "delivery", "label": "Livraison et acces"},
+    {"id": "payments", "label": "Tarifs et paiements"},
+    {"id": "refunds", "label": "Remboursements et garantie"},
+    {"id": "license", "label": "Licence accordee"},
+    {"id": "ip", "label": "Propriete intellectuelle"},
+    {"id": "prohibited", "label": "Utilisations interdites"},
+    {"id": "third-party", "label": "Services tiers"},
+    {"id": "disclaimers", "label": "Avertissements"},
+    {"id": "liability", "label": "Limitation de responsabilite"},
+    {"id": "indemnification", "label": "Indemnisation"},
+    {"id": "termination", "label": "Resiliation"},
+    {"id": "changes", "label": "Modifications des conditions"},
+    {"id": "contact", "label": "Nous contacter"}
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Apercu",
+      "paragraphs": [
+        "Ces Conditions generales (\"Conditions\") regissent votre acces et votre utilisation de ChansonDivine, y compris toute commande, communication et contenu numerique qui vous est livre.",
+        "En accedant a notre site web ou en passant une commande, vous acceptez ces Conditions. Si vous n'etes pas d'accord, vous ne pouvez pas utiliser les services."
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "Eligibilite et comptes",
+      "paragraphs": [
+        "Vous devez avoir au moins 18 ans, ou l'age de la majorite dans votre juridiction, pour passer une commande. Si vous passez une commande pour quelqu'un d'autre, vous garantissez avoir l'autorite pour le faire.",
+        "Si nous proposons des fonctionnalites de compte, vous etes responsable de la confidentialite de vos identifiants de connexion et de toute activite sous votre compte."
+      ]
+    },
+    {
+      "id": "orders",
+      "title": "Commandes et processus creatif",
+      "paragraphs": [
+        "ChansonDivine cree des chansons personnalisees sur commande en fonction des details que vous fournissez. La qualite et la precision de votre soumission affectent directement le resultat final.",
+        "Nous pouvons vous contacter pour clarifier certains points afin de nous assurer que la chanson correspond a votre vision. Nous nous reservons le droit de refuser ou d'annuler toute commande qui viole ces Conditions ou nos standards de contenu."
+      ],
+      "bullets": [
+        "Vous etes responsable de fournir des details de commande precis et l'email de livraison prefere",
+        "Nous interpretons votre histoire et vos preferences en paroles et arrangements musicaux",
+        "Les delais de livraison dependent du volume de commandes et de la vitesse de livraison choisie"
+      ]
+    },
+    {
+      "id": "your-content",
+      "title": "Votre contenu et permissions",
+      "paragraphs": [
+        "Vous conservez la propriete de l'histoire et du contenu que vous soumettez. En passant une commande, vous accordez a ChansonDivine une licence limitee, mondiale et libre de droits pour utiliser votre contenu soumis uniquement pour creer et livrer votre chanson personnalisee et fournir un support client.",
+        "Vous garantissez avoir les droits et permissions pour soumettre tous les noms, histoires ou materiaux inclus dans votre commande, et que votre soumission ne viole aucun droit de tiers."
+      ],
+      "bullets": [
+        "N'incluez pas d'informations confidentielles que vous n'etes pas autorise a partager",
+        "Ne soumettez pas de contenu illegal, diffamatoire ou haineux",
+        "Nous pouvons supprimer ou refuser le contenu qui viole ces Conditions"
+      ]
+    },
+    {
+      "id": "revisions",
+      "title": "Revisions et approbations",
+      "paragraphs": [
+        "Nous voulons que vous aimiez votre ChansonDivine. Si la chanson livree ne correspond pas au brief original, nous pouvons proposer des revisions raisonnables dans le cadre de votre demande initiale.",
+        "Les changements majeurs, nouveaux themes ou histoires entierement nouvelles peuvent necessiter une nouvelle commande."
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": "Livraison et acces",
+      "paragraphs": [
+        "Votre chanson est livree numeriquement via un lien securise envoye a l'adresse email que vous fournissez. Vous etes responsable de vous assurer que votre email est correct et que vous pouvez acceder au lien.",
+        "La livraison standard est de 7 jours maximum. Une option prioritaire 24h peut etre disponible au moment du paiement. Les delais de livraison sont des estimations et peuvent varier en raison de la complexite ou du volume."
+      ]
+    },
+    {
+      "id": "payments",
+      "title": "Tarifs et paiements",
+      "paragraphs": [
+        "Les prix sont affiches au moment du paiement et sont payables integralement avant le debut de la production. Des taxes peuvent s'appliquer selon votre localisation.",
+        "Les paiements sont traites par des prestataires tiers. Nous ne stockons pas les numeros complets de cartes de paiement sur nos serveurs."
+      ]
+    },
+    {
+      "id": "refunds",
+      "title": "Remboursements et garantie",
+      "paragraphs": [
+        "Nous soutenons notre travail avec une garantie satisfait ou rembourse de 30 jours. Si votre chanson ne capture pas votre histoire, nous travaillerons avec vous pour la reviser ou rembourser votre commande.",
+        "Les demandes de remboursement doivent etre soumises dans les 30 jours suivant la livraison en contactant notre equipe de support."
+      ]
+    },
+    {
+      "id": "license",
+      "title": "Licence accordee",
+      "paragraphs": [
+        "Apres paiement integral, ChansonDivine vous accorde une licence personnelle, non exclusive et non transferable pour utiliser et partager votre chanson personnalisee a des fins privees (comme offrir un cadeau, reunions familiales ou evenements d'eglise).",
+        "L'utilisation commerciale, la revente ou la distribution sur des plateformes de streaming necessite une autorisation ecrite prealable de ChansonDivine."
+      ]
+    },
+    {
+      "id": "ip",
+      "title": "Propriete intellectuelle",
+      "paragraphs": [
+        "ChansonDivine conserve tous les droits de propriete intellectuelle sur la composition, l'arrangement et l'enregistrement de la chanson, a l'exception de la licence limitee qui vous est accordee ci-dessus.",
+        "Les commentaires que vous fournissez peuvent etre utilises pour ameliorer nos services sans obligation envers vous."
+      ]
+    },
+    {
+      "id": "prohibited",
+      "title": "Utilisations interdites",
+      "paragraphs": [
+        "Vous acceptez de ne pas abuser du site web ou des services. Les activites interdites incluent :"
+      ],
+      "bullets": [
+        "Violer les lois ou reglementations",
+        "Porter atteinte aux droits de propriete intellectuelle",
+        "Soumettre du code malveillant ou tenter de perturber le site",
+        "Utiliser le service pour creer du contenu nuisible, haineux ou abusif"
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "Services tiers",
+      "paragraphs": [
+        "Nous pouvons creer des liens vers ou nous appuyer sur des services tiers (tels que les processeurs de paiement). Leurs conditions et politiques de confidentialite regissent leurs services, et nous ne sommes pas responsables de leurs actions."
+      ]
+    },
+    {
+      "id": "disclaimers",
+      "title": "Avertissements",
+      "paragraphs": [
+        "ChansonDivine est fourni \"en l'etat\" et \"selon disponibilite\". Nous ne garantissons pas un acces ininterrompu ou que le service sera exempt d'erreurs.",
+        "Nous ne fournissons pas de conseils juridiques, medicaux ou financiers. Toute decision que vous prenez sur la base du contenu releve de votre responsabilite."
+      ]
+    },
+    {
+      "id": "liability",
+      "title": "Limitation de responsabilite",
+      "paragraphs": [
+        "Dans toute la mesure permise par la loi, ChansonDivine ne sera pas responsable des dommages indirects, accessoires, speciaux ou consecutifs resultant de votre utilisation des services.",
+        "Notre responsabilite totale pour toute reclamation est limitee au montant que vous avez paye pour la commande a l'origine de la reclamation."
+      ]
+    },
+    {
+      "id": "indemnification",
+      "title": "Indemnisation",
+      "paragraphs": [
+        "Vous acceptez d'indemniser et de degager de toute responsabilite ChansonDivine, ses employes et sous-traitants de toute reclamation, dommage ou depense resultant de votre utilisation des services ou de la violation de ces Conditions."
+      ]
+    },
+    {
+      "id": "termination",
+      "title": "Resiliation",
+      "paragraphs": [
+        "Nous pouvons suspendre ou mettre fin a l'acces aux services si vous violez ces Conditions ou vous engagez dans une conduite illegale. La resiliation n'affecte pas les droits ou obligations accumules avant la date de resiliation."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Modifications des conditions",
+      "paragraphs": [
+        "Nous pouvons mettre a jour ces Conditions de temps en temps. Si nous apportons des modifications importantes, nous publierons une version mise a jour et reviserons la date de \"Derniere mise a jour\"."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Nous contacter",
+      "paragraphs": [
+        "Des questions sur ces Conditions ? Contactez-nous a l'adresse email ci-dessous et nous vous aiderons."
+      ]
+    }
+  ],
+  "contactCard": {
+    "title": "Besoin d'aide avec une commande ?",
+    "description": "Notre equipe de support est prete a vous assister pour les questions, revisions ou mises a jour de livraison.",
+    "emailLabel": "Email",
+    "email": "contact@chansondivine.com",
+    "responseLabel": "Delai de reponse",
+    "responseTime": "Generalement sous 2 jours ouvrables.",
+    "note": "Incluez votre email de commande et le nom du destinataire pour que nous puissions vous aider plus rapidement."
+  }
+}

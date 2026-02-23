@@ -1,0 +1,320 @@
+{
+  "title": "Acompanhe Sua Música",
+  "subtitle": "<b>Digite seu email ou telefone</b> para ver o status da sua Apollo Song e quando ela será entregue.",
+  "guarantee": {
+    "title": "Completamos todos os pedidos—você está coberto!",
+    "description": "Temos uma taxa de conclusão de 100%. Se você não encontrar sua música, geralmente é devido a um email digitado errado ou filtro de spam. Basta nos enviar um email em {email} e reenviaremos sua música imediatamente. Respondemos em 3-5 dias durante feriados, geralmente mais rápido."
+  },
+  "form": {
+    "placeholder": "seu@email.com",
+    "phonePlaceholder": "(11) 99999-9999",
+    "submit": "Buscar Minha Música",
+    "searching": "Buscando...",
+    "searchAnother": "Buscar outro",
+    "searchByEmail": "Email",
+    "searchByPhone": "Telefone",
+    "searchHint": "<b>Priorize o email.</b> Se não encontrar, tente pelo telefone."
+  },
+  "notFound": {
+    "icon": "🎵",
+    "title": "Não Encontrou Seu Pedido?",
+    "paragraph1": "Pode ser porque você digitou seu email errado ao fazer o pedido. Muitos clientes acidentalmente digitam o email errado, e tudo bem – vamos te ajudar a encontrar.",
+    "paragraph2": "Primeiro, verifique se você está usando o mesmo email que usou ao fazer o pedido. Erros comuns incluem usar @gmail.com quando seu email real é @icloud.com, ou @hotmail.com em vez de @outlook.com. Ou pode ser um erro de digitação no próprio email.",
+    "paragraph3": "Se ainda não encontrar, entre em contato conosco em {email} com as seguintes informações e localizaremos seu pedido imediatamente. Respondemos em 3-5 dias durante feriados, geralmente mais rápido.",
+    "helpList": [
+      "A data em que você fez o pedido",
+      "O nome do seu pedido",
+      "Uma visão geral do formulário que você preencheu"
+    ],
+    "supportNote": "Estamos aqui para te apoiar em cada etapa. Entre em contato se tiver qualquer problema e faremos o possível para resolver.",
+    "contactSupport": "Falar com Suporte",
+    "createSong": "Criar Minha Primeira Música"
+  },
+  "results": {
+    "title": "Seus Pedidos",
+    "titleWithCount": "Seus Pedidos ({count})",
+    "nowViewing": "Vendo agora",
+    "ofTotal": "de {total}",
+    "labelMainOrder": "Pedido principal",
+    "labelGenreExtra": "Gênero extra",
+    "orderFor": "Música para {name}",
+    "ordered": "Pedido em",
+    "pricePaid": "Valor:",
+    "deliveryEstimate": {
+      "label": "Previsão de entrega",
+      "planExpress": "Express 24h",
+      "planStandard": "Essencial 7 dias",
+      "ready": "Até {date} • {plan}",
+      "pending": "{plan} após o pagamento"
+    },
+    "status": {
+      "PENDING": "Não pago",
+      "PAID": "Pagamento Recebido",
+      "IN_PROGRESS": "Em Criação",
+      "COMPLETED": "Concluída",
+      "REVISION": "Em Revisão"
+    },
+    "statusShort": {
+      "PENDING": "Pendente",
+      "PAID": "Pago",
+      "IN_PROGRESS": "Criando",
+      "COMPLETED": "Pronta",
+      "REVISION": "Revisão"
+    },
+    "pendingPayment": {
+      "title": "Pagamento pendente",
+      "description": "Seu pedido ainda não foi pago. Finalize o pagamento para liberar sua música.",
+      "cta": "Finalizar pagamento"
+    },
+    "editOrder": {
+      "title": "Esqueceu algo ou precisa corrigir algo?",
+      "description": "Complete ou ajuste os detalhes com calma.",
+      "cta": "Editar informações"
+    },
+    "reviewInfo": {
+      "title": "Informações enviadas",
+      "description": "Confira os dados que você preencheu",
+      "cta": "Ver detalhes",
+      "hide": "Ocultar",
+      "recipient": "Homenageado",
+      "genre": "Estilo musical",
+      "vocals": "Tipo de voz",
+      "vocalsFemale": "Feminina",
+      "vocalsMale": "Masculina",
+      "vocalsEither": "Tanto faz",
+      "qualities": "Qualidades",
+      "memories": "Memórias especiais",
+      "message": "Mensagem pessoal",
+      "noQualities": "Nenhuma qualidade selecionada",
+      "noMemories": "Nenhuma memória adicionada",
+      "noMessage": "Nenhuma mensagem adicionada",
+      "edit": "Editar",
+      "save": "Salvar",
+      "saving": "Salvando...",
+      "cancel": "Cancelar",
+      "saved": "Salvo com sucesso!",
+      "qualitiesPlaceholder": "Descreva as qualidades...",
+      "memoriesPlaceholder": "Descreva memórias especiais...",
+      "messagePlaceholder": "Adicione uma mensagem pessoal..."
+    },
+    "fastDelivery": "Entrega 24h",
+    "extraSong": "Música Extra",
+    "extraSongFor": "Música extra para {name}",
+    "songReady": "Sua música está pronta!",
+    "songsReady": "Suas músicas estão prontas!",
+    "listenNow": "Ouça sua música personalizada abaixo",
+    "chooseFavorite": "Criamos duas versões - ouça e escolha sua favorita!",
+    "option1": "Opção 1",
+    "option2": "Opção 2",
+    "genreVariant": "Estilo: {genre}",
+    "genreVariantFor": "Versão {genre} para {name}",
+    "shareSongMessage": "🎵 Ouça essa música especial que criei para {name}!",
+    "shareButton": "Enviar",
+    "downloadButton": "Baixar",
+    "revisionButton": "Revisão",
+    "streamingButton": "Lançar no Spotify",
+    "orderBumps": {
+      "title": "Serviços já comprados",
+      "certificate": "Experiência de Presente",
+      "chooseOption": "Escolha qual versão enviar de presente:",
+      "certificateDesc": "Compartilhe a magia - envie este link para {name}",
+      "openCertificate": "Abrir",
+      "copyLink": "Copiar Link",
+      "copiedLink": "Copiado!",
+      "shareWhatsApp": "Enviar no WhatsApp",
+      "whatsAppMessage": "🎁 Olá {name}! Tenho uma surpresa especial para você - uma música feita só para você! Clique aqui para ver:",
+      "lyrics": "Letra da Música",
+      "lyricsDesc": "Baixe o PDF estilizado com a letra da música de {name} no estilo {genre}",
+      "downloadLyrics": "Baixar PDF",
+      "streamingVip": "Distribuição VIP (Spotify/Instagram/TikTok)",
+      "streamingVipDesc": "Já solicitada. Andamento: {status}",
+      "streamingVipListen": "Ouvir {songName} no Spotify",
+      "streamingVipListenFallback": "Ouvir no Spotify",
+      "streamingShare": "Compartilhar",
+      "streamingShareSuccess": "Link copiado!",
+      "pendingDesc": "Disponível quando sua música estiver pronta",
+      "pending": "Pendente",
+      "songNameLabel": "Nome da música no PDF",
+      "songNamePlaceholder": "Digite um nome para esta música",
+      "songNameSave": "Salvar",
+      "songNameSaving": "Salvando...",
+      "songNameSaved": "Salvo! O PDF será atualizado em instantes.",
+      "songNameError": "Não foi possível salvar.",
+      "karaoke": "Sua Vez no Palco",
+      "karaokeProcessing": "Preparando sua versão karaokê...",
+      "karaokeReady": "Sua versão karaokê está pronta!",
+      "downloadKaraoke": "Baixar Karaokê"
+    }
+  },
+  "upsellSection": {
+    "title": "Serviços disponíveis",
+    "description": "Serviços que você ainda não comprou e pode adicionar agora"
+  },
+  "genreVariantUpsell": {
+    "title": "Turbine a música para {name} com **outro estilo**",
+    "description": "Mesma história, **letra nova do zero** — feita para combinar com o estilo",
+    "selectStyles": "Selecione estilos adicionais:",
+    "perStyle": "por estilo",
+    "buyNow": "Comprar Agora",
+    "adding": "Adicionando...",
+    "total": "Total:",
+    "alreadyHave": "Você já tem:",
+    "currentGenre": "Estilo atual",
+    "selectVoice": "Escolha o tipo de voz:",
+    "voiceFemale": "Feminina",
+    "voiceMale": "Masculina",
+    "voiceEither": "Tanto faz",
+    "lyricsOptionLabel": "O que fazer com a letra?",
+    "lyricsOptionSame": "Manter a mesma letra",
+    "lyricsOptionSameDesc": "Usa a letra original, perfeita para o novo estilo",
+    "lyricsOptionAdapt": "Adaptar para o novo ritmo",
+    "lyricsOptionAdaptDesc": "Nossa equipe ajusta a letra para combinar melhor com o estilo"
+  },
+  "lyricsUpsell": {
+    "title": "Quer o **PDF da letra** da música de {name}?",
+    "description": "Receba um PDF estilizado com a letra da música de {name} para **imprimir, emoldurar ou compartilhar**",
+    "price": "R$19,90",
+    "buyNow": "Adicionar Letra",
+    "adding": "Adicionando..."
+  },
+  "streamingVipUpsell": {
+    "badge": "VIP",
+    "title": "Coloque a música de {name} no **Spotify, Instagram, TikTok, WhatsApp e Deezer**",
+    "description": "Transforme seu presente em **lançamento oficial** e deixe a música **pública para qualquer pessoa ouvir**.",
+    "bullets": [
+      "Distribuição nas plataformas (**Spotify, Instagram, TikTok, Apple Music, YouTube Music, Amazon Music, Deezer e outros**)",
+      "Sua música fica **pública para todos ouvirem**",
+      "**Capa profissional** feita com a foto da pessoa"
+    ],
+    "buyNow": "Quero publicar 1 música - R$197,00",
+    "adding": "Ativando...",
+    "quantity1": "1 música",
+    "quantity2": "2 músicas",
+    "selectQuantity": "Quantas músicas colocar no Spotify?",
+    "bothDiscount": "Economize {discount}!",
+    "purchaseRemaining": "Adicionar a outra música",
+    "confirmPurchase": "Continuar para Pagamento"
+  },
+  "karaokeUpsell": {
+    "title": "**Sua Vez no Palco** — cante a música de {name}!",
+    "description": "Receba a versão karaokê e viva a emoção de cantar a música que você criou, em festas, reuniões ou no karaokê da família",
+    "price": "R$49,90",
+    "buyNow": "Quero Cantar!",
+    "adding": "Preparando..."
+  },
+  "createAnotherUpsell": {
+    "title": "Gostou do **resultado**?",
+    "description": "Crie outra música para **alguém especial**",
+    "cta": "Criar nova música"
+  },
+  "musicianTip": {
+    "title": "Sua música tocou seu coração?",
+    "subtitle": "Sua contribuição faz a diferença",
+    "description": "Cobramos um **valor simbólico** pelas nossas músicas para alcançar o maior número de pessoas possível. Mas sabemos o **verdadeiro valor e dedicação** que cada canção exige para atingir esse nível de qualidade. Se nossa música tocou seu coração, sua contribuição vai **diretamente para os artistas talentosos** que a criaram.",
+    "placeholder": "Valor",
+    "minValue": "Mínimo R$10",
+    "maxValue": "Máximo R$2.950",
+    "button": "Contribuir com carinho",
+    "processing": "Preparando...",
+    "optional": "100% opcional",
+    "thankYou": "Obrigado por valorizar nosso trabalho!"
+  },
+  "needHelp": {
+    "title": "Precisa de Ajuda?",
+    "description": "Se você está tendo dificuldade em encontrar seu pedido ou tem alguma dúvida, fale conosco pelo WhatsApp. Respondemos rapidamente!",
+    "contactSupport": "Falar pelo WhatsApp",
+    "whatsAppMessage": "Olá! Preciso de ajuda com meu pedido de música personalizada.",
+    "followInstagram": "Seguir no Instagram",
+    "createNewSongTitle": "Quer criar uma música para alguém especial?",
+    "createNewSongCta": "Criar minha música agora"
+  },
+  "revision": {
+    "button": "Solicitar Revisão",
+    "cardTitle": "Revisão da música de {name}",
+    "cardSubtitle": "Estilo: {genre}",
+    "cardDescription": "Algo não ficou como esperado? Gratuito se for erro nosso, R$39,90 se for informação incorreta.",
+    "modalTitle": "Solicitar Revisão da Música",
+    "modalWarning": "Esta ação é irreversível",
+    "modalDescription": "Sua música entrará em revisão e analisaremos em até 48 horas, enviando uma nova versão corrigida.",
+    "modalFee": "Se o erro for nosso, a revisão é **gratuita**. Se for por **informações incorretas** fornecidas por você, será cobrada uma taxa de **R$39,90** apenas após a entrega da nova versão.",
+    "modalCancel": "Cancelar",
+    "modalConfirm": "Entendi, Solicitar Revisão",
+    "statusInRevision": "Revisão Solicitada",
+    "statusDescription": "Sua solicitação está sendo analisada. Você receberá uma nova versão em até 48 horas.",
+    "queuePosition": "{position}º na fila",
+    "queueProcessing": "Em análise",
+    "cancelButton": "Cancelar revisão",
+    "cancelConfirmTitle": "Cancelar revisão?",
+    "cancelConfirmDescription": "Você ficará com a música como está. Esta ação usa 1 das suas 2 revisões disponíveis.",
+    "cancelConfirmButton": "Sim, manter música atual",
+    "cancelling": "Cancelando...",
+    "cancelHelperText": "Não quer mais esperar?",
+    "finalVersionTitle": "Versão Final",
+    "finalVersionDescription": "Esta é a versão final da música de {name}. Você já utilizou suas 2 revisões disponíveis.",
+    "addNotesButton": "Adicionar informações",
+    "addNotesTitle": "Adicionar mais informações",
+    "addNotesDescription": "Esqueceu de mencionar algo? Adicione mais detalhes sobre o que precisa ser corrigido.",
+    "addNotesPlaceholder": "Escreva aqui o que esqueceu de mencionar...",
+    "addNotesSend": "Enviar",
+    "addNotesSending": "Enviando...",
+    "existingNotesLabel": "O que você já escreveu:",
+    "preferredVersionLabel": "Versão preferida",
+    "melodyPreferenceLabel": "Preferência de melodia",
+    "melodyKeepCurrent": "Manter a melodia atual",
+    "melodySuggestNew": "Quero 2 novas opções de melodia",
+    "revisionCompletedBadge": "Revisão #{number} concluída"
+  },
+  "timeline": {
+    "pendingPayment": "Aguardando Pagamento",
+    "ordered": "Pagamento Realizado",
+    "processing": "Em criação",
+    "ready": "Música Concluída"
+  },
+  "tabs": {
+    "orders": "Pedidos",
+    "listen": "Ouvir",
+    "extras": "Extras",
+    "help": "Ajuda",
+    "ordersTitle": "Seus Pedidos ({count})",
+    "listenTitle": "Ouça a Música de {name} 🎧",
+    "extrasTitle": "Extras para {name} ✨",
+    "helpTitle": "Precisa de Ajuda?"
+  },
+  "sidebar": {
+    "title": "Seus Pedidos",
+    "selectOrder": "Selecione um pedido"
+  },
+  "listen": {
+    "noSongYet": "Música ainda não pronta",
+    "noSongDescription": "Sua música está sendo criada",
+    "nowPlaying": "Você está ouvindo",
+    "songFor": "A música exclusiva de {name}"
+  },
+  "extras": {
+    "purchased": "Serviços Comprados",
+    "available": "Serviços Disponíveis",
+    "noPurchased": "Nenhuma compra ainda",
+    "noAvailable": "Nenhum extra disponível"
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "items": [
+      {
+        "question": "Como baixo minha música no celular ou computador?",
+        "answer": "<strong>No celular (iPhone/Android):</strong><br/>1. Toque no botão <strong>Baixar</strong> abaixo do player<br/>2. O arquivo MP3 será salvo na pasta Downloads ou Arquivos do seu celular<br/>3. No iPhone, você pode abrir no app Arquivos e salvar no iCloud<br/><br/><strong>No computador:</strong><br/>1. Clique no botão <strong>Baixar</strong><br/>2. O arquivo será salvo na pasta Downloads<br/>3. Você pode mover para onde quiser ou importar para o iTunes/Spotify local"
+      },
+      {
+        "question": "Como solicito uma revisão da minha música?",
+        "answer": "Se algo não ficou como esperado, você pode pedir uma revisão:<br/><br/>1. Vá na aba <strong>Pedidos</strong> e selecione sua música<br/>2. Role até encontrar o card <strong>Solicitar Revisão</strong><br/>3. Clique e descreva o que precisa ser ajustado<br/>4. Analisamos em até 48h e enviamos a versão corrigida<br/><br/><strong>Importante:</strong> Se o erro foi nosso, a revisão é grátis. Se foi por informação incorreta, há uma taxa de R$39,90."
+      },
+      {
+        "question": "Como coloco minha música no Spotify?",
+        "answer": "Com nosso serviço <strong>VIP de Distribuição</strong>, sua música fica disponível em todas as plataformas:<br/><br/>• Spotify, Apple Music, YouTube Music<br/>• Instagram, TikTok, Facebook<br/>• Deezer, Amazon Music e mais<br/><br/><strong>Como contratar:</strong><br/>1. Vá na aba <strong>Extras</strong><br/>2. Encontre o card \"Distribuição VIP\"<br/>3. Clique em \"Quero publicar 1 música - R$197,00\"<br/><br/>Criamos uma capa profissional com a foto da pessoa e sua música fica pública para qualquer um ouvir!"
+      }
+    ]
+  },
+  "seo": {
+    "title": "Acompanhe Seu Pedido | Apollo Song",
+    "description": "Verifique o status do seu pedido de música personalizada. Digite seu email para ver quando sua Apollo Song será entregue."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "headline": "Non è solo una canzone.",
+  "headlineEmphasis": "È la tua firma emozionale.",
+  "player": {
+    "title": "La tua canzone personalizzata",
+    "duration": "Durata: 3:45"
+  },
+  "label": {
+    "lines": [
+      "Apollo",
+      "Song"
+    ],
+    "subline": "Dal 2024"
+  },
+  "features": [
+    {
+      "id": "radio",
+      "title": "Un Suono Che Colpisce",
+      "description": "Prodotta professionalmente con voci e strumentazione da studio, pronta per la radio."
+    },
+    {
+      "id": "lyrics",
+      "title": "Le Tue Parole Esatte",
+      "description": "Ogni riga e verso sono tessuti direttamente con i dettagli più intimi che condividi con noi."
+    },
+    {
+      "id": "delivery",
+      "title": "Pronta Entro la Scadenza",
+      "description": "Comprendiamo l'estrema importanza delle date. Consegniamo la tua canzone finita al 100% in massimo 7 giorni."
+    },
+    {
+      "id": "replay",
+      "title": "Colonna Sonora Ufficiale",
+      "description": "Il file è tuo per sempre. Salvalo su una chiavetta USB, suonalo durante la festa e segna l'occasione speciale."
+    }
+  ]
+}

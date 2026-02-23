@@ -1,0 +1,24 @@
+{
+  "title": "The Path to Their Heart",
+  "subtitle": "Just 3 quick steps separate you from the most unforgettable gift they've ever received.",
+  "audioPrompt": "Listen to the audio below to understand how it works.",
+  "audioCta": "Create My Song",
+  "cta": "Start here",
+  "steps": [
+    {
+      "id": "share",
+      "title": "1. Open Your Heart",
+      "description": "Answer 5 simple questions. Tell us the inside jokes, what makes them unique, and why you love them."
+    },
+    {
+      "id": "create",
+      "title": "2. Studio Magic",
+      "description": "Real musicians turn your unpolished words into breathtaking lyrics and a melody that sticks to the soul."
+    },
+    {
+      "id": "deliver",
+      "title": "3. Unforgettable Tears",
+      "description": "Receive the master track. Hit play and get your camera ready: the reaction of tears mixed with smiles is instantaneous."
+    }
+  ]
+}

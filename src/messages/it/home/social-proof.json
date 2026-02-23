@@ -1,0 +1,38 @@
+{
+  "title": "Amata da oltre 10.000 famiglie in tutto il mondo",
+  "logos": [
+    "Christian Today",
+    "Faith Radio",
+    "Worship Weekly"
+  ],
+  "badge": "Testimonianze Reali",
+  "subtitle": "Storie vere di connessioni indimenticabili.",
+  "customerLoveTitle": "Perché oltre 10.000 famiglie ci adorano",
+  "items": {
+    "godGaveMeYou": {
+      "title": "Dio mi ha dato te",
+      "subtitle": "ApolloSong"
+    },
+    "wendyB": {
+      "quote": "Oh lode a Dio! E assolutamente meravigliosa. Non riesco a crederci... Sara difficile mantenere il segreto fino a domenica. La ascolteremo andando in chiesa! Che Dio benedica il lavoro che fate.",
+      "author": "Wendy B.",
+      "verified": "Cliente verificato"
+    },
+    "threeSqueezes": {
+      "title": "Tre Strette",
+      "subtitle": "ApolloSong"
+    },
+    "myHeartIsYours": {
+      "title": "Il mio cuore e tuo",
+      "subtitle": "ApolloSong"
+    },
+    "mommysLove": {
+      "title": "L'amore di mamma",
+      "subtitle": "ApolloSong"
+    },
+    "chosenHearts": {
+      "title": "Cuori scelti",
+      "subtitle": "ApolloSong"
+    }
+  }
+}

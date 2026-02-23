@@ -1,0 +1,36 @@
+{
+  "envelope": {
+    "teaser": "Someone prepared something special for you...",
+    "openButton": "Open Gift"
+  },
+  "reveal": {
+    "subtitle": "A song was created exclusively for",
+    "playButton": "Listen to Your Song"
+  },
+  "title": "Song of the Heart",
+  "subtitle": "This song was created exclusively for",
+  "createdOn": "Created on",
+  "genre": "Genre",
+  "listenNow": "Listen to Your Song",
+  "option1": "Option 1",
+  "option2": "Option 2",
+  "share": {
+    "title": "Share",
+    "copied": "Link copied!"
+  },
+  "lyrics": {
+    "title": "Song Lyrics",
+    "downloadPdf": "Download Lyrics PDF"
+  },
+  "download": {
+    "certificate": "Download Certificate PDF",
+    "downloading": "Generating PDF..."
+  },
+  "footer": "Created with love by ApolloSong",
+  "notFound": {
+    "title": "Certificate Not Found",
+    "description": "The certificate you are looking for does not exist or is not yet available.",
+    "goHome": "Go to Home Page"
+  },
+  "loading": "Loading certificate..."
+}

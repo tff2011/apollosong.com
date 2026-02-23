@@ -1,0 +1,24 @@
+{
+  "title": "Il Percorso Verso Il Loro Cuore",
+  "subtitle": "Solo 3 rapidi passaggi ti separano dal regalo più indimenticabile che abbiano mai ricevuto.",
+  "audioPrompt": "Ascolta l'audio qui sotto per capire come funziona.",
+  "audioCta": "Crea La Mia Canzone",
+  "cta": "Inizia qui",
+  "steps": [
+    {
+      "id": "share",
+      "title": "1. Apri il Tuo Cuore",
+      "description": "Rispondi a 5 semplici domande. Raccontaci le battute interne, cosa li rende unici e perché li ami."
+    },
+    {
+      "id": "create",
+      "title": "2. La Magia dello Studio",
+      "description": "Veri musicisti trasformano le tue parole sparse in un testo mozzafiato e una melodia che resta nell'anima."
+    },
+    {
+      "id": "deliver",
+      "title": "3. Lacrime Indimenticabili",
+      "description": "Ricevi la canzone pronta. Premi play e prepara la fotocamera: la reazione di lacrime miste a sorrisi è istantanea."
+    }
+  ]
+}

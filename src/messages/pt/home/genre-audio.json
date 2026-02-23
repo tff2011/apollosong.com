@@ -1,0 +1,20 @@
+{
+  "title": "Ouça nossas homenagens por Gênero Musical",
+  "subtitle": "Nossos Estilos",
+  "subgenreLabel": "Subgênero de {genre}",
+  "missingBadge": "Em breve",
+  "missingAudio": "Áudio em breve",
+  "searchPlaceholder": "Buscar gênero musical...",
+  "noResults": "Nenhum gênero encontrado",
+  "showingAll": "Mostrando todos os {count} gêneros",
+  "showingFiltered": "Mostrando {count} de {total} gêneros",
+  "showMore": "Ver mais estilos ({count} restantes)",
+  "showLess": "Ocultar estilos",
+  "description": "Explore nossa biblioteca de estilos musicais, do clássico ao moderno.",
+  "totalGenres": "{count} estilos musicais disponíveis",
+  "clearSearch": "Ver todos os gêneros",
+  "ctaButton": "Criar minha música",
+  "vocalsFilter": "Quero ouvir os exemplos com voz",
+  "vocalsMale": "Masculina",
+  "vocalsFemale": "Feminina"
+}

@@ -1,0 +1,306 @@
+{
+  "title": "Recensioni ApolloSong",
+  "subtitle": "Scopri perche oltre 10.000 famiglie si affidano a ApolloSong per creare canzoni personalizzate e significative che toccano i cuori e creano ricordi eterni.",
+  "stats": {
+    "rating": "4.99/5",
+    "customers": "1000+ clienti soddisfatti",
+    "verified": "Recensioni verificate"
+  },
+  "cta": "Crea la tua canzone personalizzata",
+  "brand": "ApolloSong",
+  "verified": "Cliente verificato",
+  "items": [
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-1.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-1.mp4",
+      "title": "La sua storia d'amore per me, sei tu",
+      "alt": "Video di reazione del cliente"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-2.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-2.mp4",
+      "title": "Cuori scelti",
+      "alt": "Video di reazione del cliente"
+    },
+    {
+      "type": "text",
+      "quote": "Oh lode a Dio! E assolutamente meravigliosa. Non riesco a crederci... Sara difficile mantenere il segreto fino a domenica. La ascolteremo andando in chiesa! Che Dio benedica il lavoro che fate.",
+      "name": "Wendy B.",
+      "avatar": "/images/reviews/avatar-1.webp"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-3.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-3.mp4",
+      "title": "Il mio cuore e tuo",
+      "alt": "Video di reazione del cliente"
+    },
+    {
+      "type": "text",
+      "quote": "Una canzone davvero meravigliosa. L'ho adorata e anche David! L'ho messa su Facebook, l'ho inviata ai suoi figli perche la ascoltassero... Cantero le vostre lodi e parlero del vostro bel lavoro a tutti. Che Dio vi benedica tutti....",
+      "name": "Markeeta B.",
+      "avatar": "/images/reviews/avatar-2.webp"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-4.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-4.mp4",
+      "title": "Tre strette e un miracolo",
+      "alt": "Video di reazione del cliente"
+    },
+    {
+      "type": "text",
+      "quote": "Assolutamente meravigliosa, avete catturato momenti cosi speciali... abbiamo pianto entrambi. Non potevamo chiedere una canzone piu bella. Grazie infinite per questo regalo incredibile.",
+      "name": "Pamela S.",
+      "avatar": "/images/reviews/avatar-3.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Questa canzone mi ha fatto venire le lacrime agli occhi. Il modo in cui avete catturato la nostra storia e l'avete trasformata in una melodia cosi bella e veramente un dono di Dio. Grazie per questo prezioso ricordo.",
+      "name": "Rachel M.",
+      "avatar": "/images/reviews/avatar-4.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Questa canzone era cosi bella e toccante, mi ha fatto venire le lacrime agli occhi ascoltandola. Ogni giorno cerco di mantenere vivi i ricordi delle mie nipoti ed era cosi bella. Volevo esprimervi la mia gratitudine.",
+      "name": "Linda K.",
+      "avatar": "/images/reviews/avatar-5.webp"
+    },
+    {
+      "type": "text",
+      "quote": "E il MIGLIORE, il piu PREMUROSO dei regali che abbia mai ricevuto. Gliela faro ascoltare stasera e vi mandero il video della sua reazione! Grazie infinite. Sto piangendo come una fontana.",
+      "name": "Jessica T.",
+      "avatar": "/images/reviews/avatar-6.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Sono senza parole! E assolutamente meravigliosa e non possiamo ringraziarvi abbastanza per queste parole cosi belle. Grazie per aver reso il compleanno di mio marito cosi incredibilmente speciale.",
+      "name": "Maria G.",
+      "avatar": "/images/reviews/avatar-7.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mia madre e mancata il mese scorso e questa canzone ha catturato il suo spirito perfettamente. Ogni volta che la ascolto, sento la sua presenza. Grazie per questo dono eterno.",
+      "name": "Sarah Johnson",
+      "avatar": "/images/reviews/avatar-8.webp"
+    },
+    {
+      "type": "text",
+      "quote": "L'abbiamo riprodotta alla nostra festa per i 25 anni di matrimonio. Non c'era un occhio asciutto nella sala. I nostri figli singhiozzavano. I soldi meglio spesi di sempre.",
+      "name": "David Thompson",
+      "avatar": "/images/reviews/avatar-9.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ho ordinato questa canzone per il battesimo di mia figlia. Le parole sul suo percorso verso la fede erano cosi personali e belle. La cusodira per sempre.",
+      "name": "Emily Davis",
+      "avatar": "/images/reviews/avatar-10.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ho regalato questa a mia moglie il giorno del nostro matrimonio come sorpresa. Non riusciva a smettere di piangere. Il pastore ha persino chiesto di usarla per cerimonie future!",
+      "name": "Michael Roberts",
+      "avatar": "/images/reviews/avatar-11.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mio padre ha prestato servizio nell'esercito per 30 anni. Questa canzone ha onorato il suo servizio e la sua fede in un modo che non avrei mai potuto esprimere da solo.",
+      "name": "Jennifer Wilson",
+      "avatar": "/images/reviews/avatar-12.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Come si mettono 50 anni di matrimonio in una canzone? Voi ci siete riusciti. I miei genitori erano senza parole.",
+      "name": "Robert Anderson",
+      "avatar": "/images/reviews/avatar-13.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Sono responsabile della lode e non ho mai sentito nulla di cosi autentico. Avete catturato l'eredita di mia nonna nel modo piu bello.",
+      "name": "Amanda Martinez",
+      "avatar": "/images/reviews/avatar-14.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mio figlio e autistico e questa canzone ha celebrato il suo percorso unico. La ascolta ogni sera prima di dormire. Ci avete dato un tesoro.",
+      "name": "Christina Taylor",
+      "avatar": "/images/reviews/avatar-15.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ordinata per i 60 anni di mio marito. E un tipo duro che non piange mai. Si e completamente sciolto. Valeva ogni centesimo.",
+      "name": "Patricia Brown",
+      "avatar": "/images/reviews/avatar-16.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Era per la festa di guarigione dal cancro della mia migliore amica. La canzone ha messo in parole emozioni che non riuscivamo a esprimere. Che Dio benedica il vostro team.",
+      "name": "Michelle Lee",
+      "avatar": "/images/reviews/avatar-17.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ho sorpreso i miei genitori per le loro nozze d'oro. La mamma ha detto che era come sentire la loro storia d'amore raccontata dagli angeli.",
+      "name": "Kevin Garcia",
+      "avatar": "/images/reviews/avatar-18.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mia figlia si e sposata lo scorso fine settimana. L'abbiamo riprodotta durante il ballo padre-figlia. Il momento piu emozionante della mia vita.",
+      "name": "William Clark",
+      "avatar": "/images/reviews/avatar-19.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ho perso mio fratello all'improvviso. Questa canzone ha aiutato la nostra famiglia a elaborare il lutto e celebrare la sua vita. Viene riprodotta a ogni riunione di famiglia ora.",
+      "name": "Stephanie Moore",
+      "avatar": "/images/reviews/avatar-20.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Le armonie mi hanno fatto venire i brividi! Avete saputo esattamente cosa il mio cuore voleva dire a mia moglie. La ascolta ogni giorno.",
+      "name": "James Miller",
+      "avatar": "/images/reviews/avatar-21.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Sono pastore e ho visto molti momenti toccanti. Ma sentire la mia storia sotto forma di canzone? Assolutamente sconvolgente.",
+      "name": "Daniel White",
+      "avatar": "/images/reviews/avatar-22.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Le mie gemelle hanno compiuto 18 anni e questa canzone ha catturato il loro legame perfettamente. Si sono fatte tatuare un verso della canzone!",
+      "name": "Rebecca Harris",
+      "avatar": "/images/reviews/avatar-23.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Per gli 80 anni di mia madre. Quattro generazioni della nostra famiglia piangevano insieme. E diventato il nostro inno di famiglia.",
+      "name": "Christopher Martin",
+      "avatar": "/images/reviews/avatar-24.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Io e mio marito abbiamo rinnovato i voti dopo 20 anni. Questa canzone era il pezzo forte. Nessuno aveva gli occhi asciutti.",
+      "name": "Laura Thompson",
+      "avatar": "/images/reviews/avatar-25.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ho ordinato questa canzone per il servizio commemorativo di mia nonna. Era cosi personale che la gente ha chiesto se l'avesse scritta lei stessa.",
+      "name": "Brian Jackson",
+      "avatar": "/images/reviews/avatar-26.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ho regalato questa a mia moglie dopo il suo aborto spontaneo. Ci ha aiutato entrambi a guarire e a ricordare il nostro angioletto. Eternamente grato.",
+      "name": "Andrew Walker",
+      "avatar": "/images/reviews/avatar-27.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mia figlia e sopravvissuta a un incidente d'auto. Questa canzone racconta la sua testimonianza della protezione di Dio. La condivide ovunque.",
+      "name": "Nicole Robinson",
+      "avatar": "/images/reviews/avatar-28.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Per il 100esimo anniversario della nostra chiesa. Avete catturato un secolo di fede, comunita e amore. Standing ovation da tutti.",
+      "name": "Timothy Young",
+      "avatar": "/images/reviews/avatar-29.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mio padre ha l'Alzheimer. Quando ha sentito questa canzone sui nostri ricordi, ha sorriso e ha pronunciato il mio nome. Momento inestimabile.",
+      "name": "Kimberly King",
+      "avatar": "/images/reviews/avatar-30.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Sono famiglia affidataria. Questa canzone ha celebrato il mio percorso con i miei figli. Finalmente sentono di avere un inno di famiglia.",
+      "name": "Ashley Wright",
+      "avatar": "/images/reviews/avatar-31.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ho regalato questa alla mia fidanzata per il nostro fidanzamento. Ha detto si prima ancora che finissi la canzone! La migliore proposta di sempre.",
+      "name": "Joshua Lopez",
+      "avatar": "/images/reviews/avatar-32.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mia moglie e infermiera e ha lavorato durante il COVID. Questa canzone ha onorato il suo sacrificio. Tutta la sua unita ha pianto sentendola.",
+      "name": "Matthew Hill",
+      "avatar": "/images/reviews/avatar-33.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Per la laurea di mio figlio. Dai suoi primi passi alla laurea - tutto in una bella canzone. La portera all'universita.",
+      "name": "Elizabeth Scott",
+      "avatar": "/images/reviews/avatar-34.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mio marito e mancato dopo 45 anni insieme. Questa canzone e il mio conforto. La ascolto ogni mattina con il mio caffe.",
+      "name": "Dorothy Adams",
+      "avatar": "/images/reviews/avatar-35.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ho sorpreso il mio mentore che mi ha portato a Cristo 20 anni fa. Era completamente sopraffatto. Il modo migliore per dire grazie.",
+      "name": "Ryan Mitchell",
+      "avatar": "/images/reviews/avatar-36.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mia figlia ha superato la dipendenza. Questa canzone celebra i suoi 5 anni di sobrieta. E il suo promemoria della grazia di Dio.",
+      "name": "Catherine Baker",
+      "avatar": "/images/reviews/avatar-37.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Abbiamo adottato nostro figlio dall'estero. Questa canzone racconta il suo viaggio verso di noi. Chiede di sentire 'la sua canzone' ogni sera.",
+      "name": "Mark Nelson",
+      "avatar": "/images/reviews/avatar-38.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Per il 40esimo anniversario dei miei genitori. Hanno ballato lentamente in cucina piangendo. Non li vedevo cosi felici da anni.",
+      "name": "Heather Carter",
+      "avatar": "/images/reviews/avatar-39.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mia sorella ha sconfitto il cancro al seno. Questa canzone era il suo inno di vittoria. La fa suonare a ogni controllo.",
+      "name": "Steven Phillips",
+      "avatar": "/images/reviews/avatar-40.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ho 85 anni e ho ordinato questa per i miei pronipoti. Ora avranno sempre una parte di me quando non ci saro piu. Meravigliosa.",
+      "name": "Margaret Evans",
+      "avatar": "/images/reviews/avatar-41.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Il nostro gruppo di studio biblico e insieme da 15 anni. Questa canzone ha catturato il nostro legame. La riproduciamo a ogni incontro ora.",
+      "name": "Jason Turner",
+      "avatar": "/images/reviews/avatar-42.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mio figlio e tornato sano e salvo dalla missione militare. Questa canzone ringrazia Dio per averlo riportato a casa. Tutto il suo plotone l'ha adorata.",
+      "name": "Diane Collins",
+      "avatar": "/images/reviews/avatar-43.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Per il pensionamento di mio marito dopo 35 anni di insegnamento. I suoi ex studenti hanno fatto una colletta. C'erano cosi tante lacrime.",
+      "name": "Susan Edwards",
+      "avatar": "/images/reviews/avatar-44.webp"
+    }
+  ]
+}

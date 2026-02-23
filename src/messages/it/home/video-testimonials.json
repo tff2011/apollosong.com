@@ -1,0 +1,27 @@
+{
+  "title": "Ascolta le lacrime di gioia",
+  "subtitle": "Famiglie vere condividono la loro reazione alla loro ApolloSong.",
+  "items": [
+    {
+      "name": "Sara M.",
+      "location": "Roma",
+      "quote": "Non ho mai pianto cosi tanto.",
+      "video": "/images/testimonial-sarah.webp",
+      "alt": "Sara si asciuga le lacrime di gioia dopo aver ascoltato la sua canzone"
+    },
+    {
+      "name": "Davide K.",
+      "location": "Milano",
+      "quote": "Era come se Dio parlasse attraverso la musica.",
+      "video": "/images/testimonial-david.webp",
+      "alt": "Davide commosso in macchina con il telefono in mano"
+    },
+    {
+      "name": "Emilia R.",
+      "location": "Napoli",
+      "quote": "Il regalo piu bello che abbia mai fatto.",
+      "video": "/images/testimonial-emily.webp",
+      "alt": "Emilia piange di gioia tenendo una scatola regalo"
+    }
+  ]
+}

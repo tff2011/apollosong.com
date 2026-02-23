@@ -1,0 +1,37 @@
+{
+  "headline": "No es solo una canción.",
+  "headlineEmphasis": "Es tu firma emocional.",
+  "player": {
+    "title": "Tu canción personalizada",
+    "duration": "Duración: 3:45"
+  },
+  "label": {
+    "lines": [
+      "Apollo",
+      "Song"
+    ],
+    "subline": "Desde 2024"
+  },
+  "features": [
+    {
+      "id": "radio",
+      "title": "Sonido Que Impresiona",
+      "description": "Producida profesionalmente con voces e instrumentación de estudio, lista para la radio."
+    },
+    {
+      "id": "lyrics",
+      "title": "Tus Palabras Exactas",
+      "description": "Cada línea y verso se tejen directamente con los detalles más íntimos que compartes con nosotros."
+    },
+    {
+      "id": "delivery",
+      "title": "Lista en tu Plazo",
+      "description": "Entendemos la extrema importancia de las fechas. Entregamos tu canción 100% terminada en hasta 7 días."
+    },
+    {
+      "id": "replay",
+      "title": "Banda Sonora de la Vida",
+      "description": "El archivo es tuyo para siempre. Guárdalo en un pendrive, reprodúcelo en la fiesta y marca la ocasión especial."
+    }
+  ]
+}

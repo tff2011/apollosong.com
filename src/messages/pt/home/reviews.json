@@ -1,0 +1,302 @@
+{
+  "title": "Apollo Song é Confiável?",
+  "subtitle": "Veja por que mais de 10.000 famílias confiam na Apollo Song para criar canções personalizadas e significativas que tocam corações e criam memórias eternas.",
+  "stats": {
+    "rating": "4.99/5",
+    "customers": "1000+ Clientes Felizes",
+    "verified": "Avaliações Verificadas"
+  },
+  "cta": "Criar Sua Canção Personalizada",
+  "brand": "Apollo Song",
+  "verified": "Cliente Verificado",
+  "items": [
+    {
+      "type": "image",
+      "src": "/images/reviews/depoimento-1.webp",
+      "alt": "Depoimento de cliente Apollo Song"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-1.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/depoimento3.mp4",
+      "title": "Depoimento Cliente",
+      "alt": "Vídeo de depoimento de cliente Apollo Song"
+    },
+    {
+      "type": "image",
+      "src": "/images/reviews/depoimento-2.webp",
+      "alt": "Depoimento de cliente Apollo Song"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-2.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/depoimento4.mp4",
+      "title": "Depoimento Cliente",
+      "alt": "Vídeo de depoimento de cliente Apollo Song"
+    },
+    {
+      "type": "text",
+      "quote": "Oh, glória a Deus! Isso é absolutamente impressionante. Não consigo acreditar... Vai ser difícil guardar esse segredo até domingo. Vamos ouvir no caminho para a igreja! Deus abençoe o trabalho que vocês estão fazendo.",
+      "name": "Vera Lúcia S.",
+      "avatar": "/images/reviews/avatar-1.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Uma canção muito muito maravilhosa. Eu amei absolutamente e o Davi também! Coloquei no meu Facebook, enviei para os filhos dele... Vou cantar seus louvores e contar a todos sobre seu belo trabalho. Deus abençoe vocês...",
+      "name": "Elisabete M.",
+      "avatar": "/images/reviews/avatar-2.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Absolutamente linda, vocês capturaram momentos tão especiais... nós dois estávamos chorando. Não poderia pedir uma canção mais bonita. Muito obrigada por este presente incrível.",
+      "name": "Patrícia R.",
+      "avatar": "/images/reviews/avatar-3.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Esta canção trouxe lágrimas aos meus olhos. A forma como vocês capturaram nossa história e transformaram em uma melodia tão bonita é verdadeiramente um presente de Deus. Obrigada por esta memória preciosa.",
+      "name": "Raquel M.",
+      "avatar": "/images/reviews/avatar-4.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Esta canção foi tão bonita e emocionante, trouxe lágrimas aos meus olhos enquanto ouvia. Todo dia tento manter as memórias das minhas sobrinhas vivas e isso foi simplesmente lindo. Queria expressar minha gratidão.",
+      "name": "Lúcia Helena",
+      "avatar": "/images/reviews/avatar-5.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Este é o MELHOR, MAIS ATENCIOSO presente que já recebi. Vou tocar para ele hoje à noite e com certeza enviarei o vídeo da reação! Muito muito muito obrigada. Estou chorando muito agora.",
+      "name": "Jéssica T.",
+      "avatar": "/images/reviews/avatar-6.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Estou sem palavras! Isso é absolutamente lindo e não podemos agradecer o suficiente por palavras tão bonitas. Obrigada por tornar o aniversário do meu marido tão incrivelmente especial.",
+      "name": "Maria G.",
+      "avatar": "/images/reviews/avatar-7.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Minha mãe faleceu mês passado e essa música capturou o espírito dela perfeitamente. Toda vez que ouço, sinto a presença dela. Obrigada por esse presente eterno.",
+      "name": "Fernanda Santos",
+      "avatar": "/images/reviews/avatar-8.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Tocamos na festa de 25 anos de casamento. Não tinha um olho seco na sala. Nossos filhos estavam soluçando. Melhor dinheiro que já gastei.",
+      "name": "Ricardo Oliveira",
+      "avatar": "/images/reviews/avatar-9.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Encomendei para o batismo da minha filha. A letra sobre a jornada de fé dela foi tão pessoal e linda. Ela vai guardar isso para sempre.",
+      "name": "Juliana Costa",
+      "avatar": "/images/reviews/avatar-10.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Dei para minha esposa no dia do nosso casamento como surpresa. Ela não parava de chorar. O pastor até pediu para usar em cerimônias futuras!",
+      "name": "Bruno Pereira",
+      "avatar": "/images/reviews/avatar-11.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Meu pai serviu no exército por 30 anos. Essa música honrou o serviço e a fé dele de uma forma que eu nunca conseguiria expressar.",
+      "name": "Camila Rodrigues",
+      "avatar": "/images/reviews/avatar-12.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Como você coloca 50 anos de casamento em uma música? De alguma forma vocês conseguiram. Meus pais ficaram sem palavras.",
+      "name": "Marcos Almeida",
+      "avatar": "/images/reviews/avatar-13.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Sou líder de louvor e nunca ouvi nada tão genuíno. Vocês capturaram o legado da minha avó da forma mais bonita.",
+      "name": "Priscila Lima",
+      "avatar": "/images/reviews/avatar-14.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Meu filho tem autismo e essa música celebrou a jornada única dele. Ele ouve toda noite antes de dormir. Vocês nos deram um tesouro.",
+      "name": "Luciana Ferreira",
+      "avatar": "/images/reviews/avatar-15.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Encomendei para o aniversário de 60 anos do meu marido. Ele é durão e nunca chora. Desabou completamente. Valeu cada centavo.",
+      "name": "Regina Souza",
+      "avatar": "/images/reviews/avatar-16.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Foi para a celebração de recuperação do câncer da minha melhor amiga. A música deu palavras a emoções que não conseguíamos expressar.",
+      "name": "Tatiana Carvalho",
+      "avatar": "/images/reviews/avatar-17.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Surpreendi meus pais nas bodas de ouro. Minha mãe disse que foi como ouvir a história de amor deles contada por anjos.",
+      "name": "Felipe Barbosa",
+      "avatar": "/images/reviews/avatar-18.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Minha filha casou no fim de semana passado. Tocamos durante a dança pai e filha. Momento mais emocionante da minha vida.",
+      "name": "José Carlos",
+      "avatar": "/images/reviews/avatar-19.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Perdi meu irmão inesperadamente. Essa música ajudou nossa família a sofrer e celebrar a vida dele. Toca em todo encontro familiar.",
+      "name": "Andreia Nascimento",
+      "avatar": "/images/reviews/avatar-20.webp"
+    },
+    {
+      "type": "text",
+      "quote": "As harmonias me deram arrepios! Vocês de alguma forma sabiam exatamente o que meu coração queria dizer para minha esposa.",
+      "name": "Carlos Eduardo",
+      "avatar": "/images/reviews/avatar-21.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Sou pastor e já vi muitos momentos tocantes. Mas ouvir minha própria história em forma de música? Absolutamente avassalador.",
+      "name": "Pedro Henrique",
+      "avatar": "/images/reviews/avatar-22.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Meus gêmeos fizeram 18 anos e essa música capturou o vínculo deles perfeitamente. Os dois fizeram tatuagens iguais de uma letra!",
+      "name": "Fabiana Martins",
+      "avatar": "/images/reviews/avatar-23.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Para os 80 anos da minha mãe. Quatro gerações da família chorando juntas. Agora é o nosso hino familiar.",
+      "name": "Rafael Gomes",
+      "avatar": "/images/reviews/avatar-24.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Eu e meu marido renovamos os votos depois de 20 anos. Essa música foi o centro. Ninguém ficou com os olhos secos.",
+      "name": "Ana Paula",
+      "avatar": "/images/reviews/avatar-25.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Encomendei para o memorial da minha avó. Foi tão pessoal que as pessoas perguntaram se ela mesma tinha escrito.",
+      "name": "Thiago Ribeiro",
+      "avatar": "/images/reviews/avatar-26.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Dei para minha esposa depois do aborto espontâneo. Ajudou nós dois a curar e lembrar do nosso bebê anjo. Eternamente grato.",
+      "name": "Gustavo Mendes",
+      "avatar": "/images/reviews/avatar-27.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Minha filha sobreviveu a um acidente de carro. Essa música conta o testemunho dela da proteção de Deus. Ela compartilha em todo lugar.",
+      "name": "Cristiane Moreira",
+      "avatar": "/images/reviews/avatar-28.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Para o centenário da nossa igreja. Vocês capturaram um século de fé, comunidade e amor. Aplausos de pé de todos.",
+      "name": "Paulo Roberto",
+      "avatar": "/images/reviews/avatar-29.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Meu pai tem Alzheimer. Quando ouviu essa música sobre nossas memórias, sorriu e chamou meu nome. Momento impagável.",
+      "name": "Adriana Castro",
+      "avatar": "/images/reviews/avatar-30.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Sou mãe adotiva. Essa música celebrou minha jornada com meus filhos. Eles finalmente sentem que têm um hino de família.",
+      "name": "Renata Araújo",
+      "avatar": "/images/reviews/avatar-31.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Peguei isso para minha noiva no pedido de casamento. Ela disse sim antes mesmo de eu terminar a música! Melhor pedido.",
+      "name": "Leonardo Cardoso",
+      "avatar": "/images/reviews/avatar-32.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Minha esposa é enfermeira que trabalhou durante a COVID. Essa música honrou o sacrifício dela. A equipe inteira chorou.",
+      "name": "Alexandre Monteiro",
+      "avatar": "/images/reviews/avatar-33.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Para a formatura do meu filho. Dos primeiros passos ao diploma - tudo em uma música linda. Ele está levando para a faculdade.",
+      "name": "Elaine Teixeira",
+      "avatar": "/images/reviews/avatar-34.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Meu marido faleceu depois de 45 anos juntos. Essa música é meu conforto. Ouço toda manhã com meu café.",
+      "name": "Dona Lúcia",
+      "avatar": "/images/reviews/avatar-35.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Surpreendi meu mentor que me levou a Cristo 20 anos atrás. Ele ficou completamente emocionado. Melhor forma de agradecer.",
+      "name": "Vinícius Freitas",
+      "avatar": "/images/reviews/avatar-36.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Minha filha venceu o vício. Essa música celebra os 5 anos de sobriedade dela. É o lembrete da graça de Deus.",
+      "name": "Sandra Pinto",
+      "avatar": "/images/reviews/avatar-37.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Adotamos nosso filho do exterior. Essa música conta a jornada dele até nós. Ele pede para ouvir 'a música dele' toda noite.",
+      "name": "Marcelo Nunes",
+      "avatar": "/images/reviews/avatar-38.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Para os 40 anos de casamento dos meus pais. Eles dançaram na cozinha chorando. Não os via tão felizes há anos.",
+      "name": "Beatriz Campos",
+      "avatar": "/images/reviews/avatar-39.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Minha irmã venceu o câncer de mama. Essa música foi o hino de vitória dela. Ela toca em toda consulta de retorno.",
+      "name": "Roberto Machado",
+      "avatar": "/images/reviews/avatar-40.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Tenho 85 anos e fiz isso para meus bisnetos. Agora eles sempre terão um pedaço de mim quando eu partir. Lindo.",
+      "name": "Dona Margarida",
+      "avatar": "/images/reviews/avatar-41.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Nosso grupo de célula está junto há 15 anos. Essa música capturou nosso vínculo. Tocamos em toda reunião agora.",
+      "name": "Fábio Correia",
+      "avatar": "/images/reviews/avatar-42.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Meu filho voltou do serviço militar em segurança. Essa música agradece a Deus por trazê-lo para casa. O pelotão inteiro amou.",
+      "name": "Cláudia Dias",
+      "avatar": "/images/reviews/avatar-43.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Para a aposentadoria do meu marido depois de 35 anos ensinando. Os ex-alunos se juntaram. Tinha tanta lágrima.",
+      "name": "Sônia Vieira",
+      "avatar": "/images/reviews/avatar-44.webp"
+    }
+  ]
+}

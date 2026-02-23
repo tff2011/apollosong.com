@@ -1,0 +1,30 @@
+{
+  "platformTagline": "A Plataforma #1 de Músicas Personalizadas",
+  "badge": "Mais de 10.000+ lágrimas de alegria derramadas",
+  "title": "Transforme a História de Vocês na Música",
+  "titleHighlight": "Mais Emocionante da Vida Deles.",
+  "description": "Esqueça presentes óbvios que acabam na gaveta. Nossos compositores premiados transformam seus sentimentos mais profundos em uma música original com qualidade de rádio. Garantimos: será impossível segurar as lágrimas.",
+  "primaryCta": "Começar a Emocionar",
+  "urgency": {
+    "timer": "Oferta expira em"
+  },
+  "meta": [
+    "Pronta em até 7 dias",
+    "Qualidade de Estúdio",
+    "100% Personalizada"
+  ],
+  "player": {
+    "label": "Tocando: \"Três Apertos\"",
+    "quote": "\"Nunca chorei assim antes...\""
+  },
+  "video": {
+    "listenButton": "Ouvir Exemplo",
+    "muteButton": "Silenciar",
+    "audioUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/tres-apertos.mp3"
+  },
+  "socialProof": {
+    "text": "Amado por",
+    "highlight": "10.000+ famílias"
+  },
+  "backgroundAlt": "Mulher chorando de alegria ao ouvir música"
+}

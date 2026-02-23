@@ -1,0 +1,31 @@
+{
+    "title": "Cosa Ricevi",
+    "subtitle": "Più Di Una Canzone. Un'Esperienza Implacable.",
+    "description": "Abbiamo progettato ogni passaggio meticolosamente per assicurarci che il momento della consegna superi tutte le aspettative e li lasci senza fiato.",
+    "deliveryLink": "Pagina Ufficiale Della Canzone",
+    "deliveryEmail": "Email Di Consegna VIP",
+    "vinylLabel": "Apollo Song",
+    "features": {
+        "radio": {
+            "title": "Suono Professionale Assoluto",
+            "description": "Vera musica prodotta da veri artisti. La qualità dell'audio e della voce cattura l'attenzione e l'emozione nei primi 5 secondi."
+        },
+        "lyrics": {
+            "title": "Testo e Anima Su Misura",
+            "description": "Ogni verso racconta inequivocabilmente la vostra storia. Ascoltandola, sapranno subito che è stata creata apposta per loro."
+        },
+        "versions": {
+            "title": "Scegli La Versione Perfetta",
+            "description": "Nel nostro sistema, consegniamo sempre 2 versioni della canzone da ascoltare. Scegli quella che cattura meglio i tuoi sentimenti."
+        },
+        "plans": {
+            "title": "Scadenze Per Ogni Urgenza",
+            "description": "Hai dimenticato il regalo? Abbiamo un percorso Express di 24 ore. E il nostro percorso Classico, consegnato comodamente in massimo 7 giorni."
+        },
+        "streaming": {
+            "title": "Eternizzala su Spotify e Apple Music",
+            "description": "Potranno aggiungere la canzone alla loro playlist e ascoltarla in auto, insieme ai loro artisti preferiti."
+        }
+    },
+    "cta": "Crea La Mia Canzone"
+}

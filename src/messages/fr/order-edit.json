@@ -1,0 +1,131 @@
+{
+  "title": "Modifier les informations de la commande",
+  "titleWithRecipient": "Améliorez l'histoire de {name} et modifiez votre commande",
+  "subtitle": "Plus vous partagez de détails, plus les paroles que nos compositeurs créeront seront émouvantes.",
+  "stages": {
+    "step1": {
+      "label": "Étape 1",
+      "title": "Mettez à jour les détails principaux",
+      "subtitle": "Vérifiez le nom, la relation, le style et la voix."
+    },
+    "step2": {
+      "label": "Étape 2",
+      "title": "Répondez aux questions provocantes sur {name}",
+      "titleFallback": "Répondez aux questions provocantes sur la personne honorée",
+      "subtitle": "Ces réponses enrichiront automatiquement le texte final."
+    },
+    "step3": {
+      "label": "Étape 3",
+      "title": "Vérifiez et enregistrez",
+      "subtitle": "Relisez les champs finaux puis enregistrez vos modifications."
+    }
+  },
+  "email": {
+    "title": "Confirmez votre email",
+    "subtitle": "Utilisez le même email que lors de l'achat.",
+    "label": "Email",
+    "placeholder": "vous@email.com",
+    "button": "Continuer",
+    "checking": "Vérification...",
+    "invalid": "Entrez un email valide.",
+    "notFound": "Nous n'avons pas trouvé cette commande avec cet email.",
+    "notEditable": "Cette commande ne peut plus être modifiée.",
+    "error": "Impossible de charger votre commande. Réessayez.",
+    "confirmedLabel": "Email confirme",
+    "change": "Changer l'email"
+  },
+  "form": {
+    "title": "Mettez à jour votre histoire",
+    "subtitle": "Plus vous donnez de détails, meilleure sera la lettre.",
+    "helper": "En enregistrant, nous régénérerons la lettre depuis zéro.",
+    "writeTip": "Écrivez autant que vous le souhaitez, il n'y a pas de limite de mots ! Plus il y a de détails, meilleure sera la chanson. Incluez des dates importantes, des lieux spéciaux, des moments mémorables, des réussites, des défis surmontés, des surnoms affectueux... tout ce qui rend cette histoire unique.",
+    "guidedQuestions": {
+      "intro": "Bonjour ! 😊 Nous préparons la chanson pour {name} avec beaucoup d'attention. Pour rendre les paroles encore plus spéciales et personnalisées, nous avons besoin de quelques détails supplémentaires :",
+      "sectionTitle": "Questions qui inspirent les paroles",
+      "sectionSubtitle": "Plus vous donnez de détails, plus la chanson de {name} sera unique.",
+      "defaultRecipient": "cette personne speciale",
+      "items": [
+        {
+          "title": "🌍 D'où vient l'histoire ?",
+          "description": "Où {name} est-elle ou est-il né(e) et a grandi ? Quelle est sa date de naissance ? Y a-t-il un détail de l'enfance ou de sa ville qui vous a marqué ?"
+        },
+        {
+          "title": "💼 Le chemin parcouru",
+          "description": "Quelle est la profession ou la carrière de {name} ? Y a-t-il eu une réussite, une lutte ou un tournant professionnel marquant ?"
+        },
+        {
+          "title": "✈️ Voyages et aventures",
+          "description": "Avez-vous vécu un voyage ou une aventure inoubliable ensemble ? Où était-ce, que s'est-il passé et pourquoi ce moment est-il si spécial ?"
+        },
+        {
+          "title": "💎 Le moment qui a tout changé",
+          "description": "Quel a été le moment le plus fort entre vous ? Celui que vous revivriez si vous le pouviez. Où cela s'est-il passé et qu'avez-vous ressenti ?"
+        },
+        {
+          "title": "🗣️ La marque personnelle",
+          "description": "{name} a-t-il ou a-t-elle un surnom affectueux ? Une phrase, une habitude ou une expression qu'il ou elle dit toujours ?"
+        },
+        {
+          "title": "📸 La scene qui resume tout",
+          "description": "Si vous pouviez figer {name} dans une seule image, laquelle serait-ce ? Exemple : danser dans la cuisine, prier a l'aube, reparer tout a la maison."
+        },
+        {
+          "title": "🏠 Votre lieu symbolique",
+          "description": "Existe-t-il un endroit sacré pour vous deux ? Une rue, une ville, un coin de la maison, une plage..."
+        },
+        {
+          "title": "💬 Ce que vous n'avez jamais dit",
+          "description": "Qu'aimeriez-vous dire à {name} mais n'avez jamais osé ? Ce mot qui est resté coincé dans votre gorge..."
+        }
+      ],
+      "footer": "Plus vous partagez de détails, plus la chanson sera unique et émouvante ! 🎵",
+      "answerHint": "Vos réponses sont appliquées automatiquement dans les champs finaux ci-dessous (qualités, souvenirs et message).",
+      "answerPlaceholder": "Écrivez votre réponse avec autant de détails que possible...",
+      "autoAddedLabel": "Ajouté automatiquement depuis les réponses guidées",
+      "toneLabel": "Quel ton pour l'hommage ?",
+      "toneHint": "Choisissez un ou plusieurs qui correspondent au sentiment que vous souhaitez transmettre.",
+      "toneOptions": {
+        "joyful": "Joyeux",
+        "emotional": "Émouvant",
+        "nostalgic": "Nostalgique",
+        "grateful": "Reconnaissant",
+        "romantic": "Romantique",
+        "hopeful": "Plein d'espoir",
+        "reflective": "Réfléchi",
+        "playful": "Ludique"
+      }
+    },
+    "save": "Enregistrer les modifications",
+    "saving": "Enregistrement...",
+    "saved": "Enregistré ! Nous régénérons la lettre.",
+    "error": "Impossible d'enregistrer vos changements. Réessayez.",
+    "cooldown": "Veuillez attendre quelques minutes avant de modifier à nouveau.",
+    "required": "Veuillez remplir les champs obligatoires.",
+    "backToTrack": "Suivre ma commande",
+    "savedDialog": {
+      "title": "Modifications enregistrées !",
+      "subtitle": "Nous recréons les paroles de votre chanson.",
+      "changed": "Ce qui a été mis à jour :",
+      "close": "Compris",
+      "fields": {
+        "recipientName": "Nom",
+        "recipient": "Destinataire",
+        "genre": "Genre musical",
+        "vocals": "Voix",
+        "qualities": "Qualités",
+        "memories": "Souvenirs",
+        "message": "Message"
+      }
+    }
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire.",
+    "minChars": "Écrivez au moins {count} caractères."
+  },
+  "unsaved": {
+    "title": "Vous avez des modifications non enregistrées",
+    "description": "Pour mettre à jour votre chanson, cliquez sur \"Enregistrer les modifications\" avant de partir.",
+    "stay": "Revenir et enregistrer",
+    "leave": "Partir sans enregistrer"
+  }
+}

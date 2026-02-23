@@ -1,0 +1,24 @@
+{
+  "title": "El Camino al Corazón",
+  "subtitle": "Solo 3 rápidos pasos te separan del regalo más inolvidable que jamás hayan recibido.",
+  "audioPrompt": "Escucha el audio a continuación para entender cómo funciona.",
+  "audioCta": "Crear Mi Canción",
+  "cta": "Empieza aquí",
+  "steps": [
+    {
+      "id": "share",
+      "title": "1. Abre tu Corazón",
+      "description": "Responde 5 preguntas sencillas. Cuéntanos las bromas internas, lo que los hace únicos y por qué los amas."
+    },
+    {
+      "id": "create",
+      "title": "2. La Magia del Estudio",
+      "description": "Músicos reales transforman tus palabras sueltas en una letra deslumbrante y una melodía que se queda en el alma."
+    },
+    {
+      "id": "deliver",
+      "title": "3. Lágrimas Inolvidables",
+      "description": "Recibe la canción lista. Dale al play y prepara la cámara: la reacción de lágrimas mezcladas con sonrisas es instantánea."
+    }
+  ]
+}

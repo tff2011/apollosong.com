@@ -1,0 +1,38 @@
+{
+  "title": "Adore par plus de 10 000 familles dans le monde",
+  "logos": [
+    "Christian Today",
+    "Faith Radio",
+    "Worship Weekly"
+  ],
+  "badge": "Témoignages Réels",
+  "subtitle": "Histoires vraies de connexions inoubliables.",
+  "customerLoveTitle": "Pourquoi plus de 10 000 familles adorent",
+  "items": {
+    "godGaveMeYou": {
+      "title": "Dieu m'a donne toi",
+      "subtitle": "ChansonDivine"
+    },
+    "wendyB": {
+      "quote": "Oh louez Dieu ! C'est absolument magnifique. Je n'arrive pas a y croire... Je vais avoir du mal a garder le secret jusqu'a dimanche. On l'ecoutera en allant a l'eglise ! Que Dieu benisse ce travail que vous faites.",
+      "author": "Wendy B.",
+      "verified": "Client verifie"
+    },
+    "threeSqueezes": {
+      "title": "Trois Pressions",
+      "subtitle": "ChansonDivine"
+    },
+    "myHeartIsYours": {
+      "title": "Mon coeur est a toi",
+      "subtitle": "ChansonDivine"
+    },
+    "mommysLove": {
+      "title": "L'amour de maman",
+      "subtitle": "ChansonDivine"
+    },
+    "chosenHearts": {
+      "title": "Coeurs choisis",
+      "subtitle": "ChansonDivine"
+    }
+  }
+}

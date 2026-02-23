@@ -1,0 +1,49 @@
+{
+  "brand": "ApolloSong",
+  "brandByline": "por ApolloSong",
+  "header": {
+    "announcement": "Não criamos músicas. Criamos momentos inesquecíveis.",
+    "announcementCta": "Começar minha canção",
+    "nav": {
+      "trackOrder": "Acompanhar pedido",
+      "reviews": "Avaliações",
+      "createSong": "Criar sua canção",
+      "about": "Quem Somos",
+      "contact": "Contato"
+    },
+    "mobile": {
+      "trackOrder": "Acompanhar pedido",
+      "reviews": "Avaliações",
+      "contact": "Contato",
+      "cta": "Criar sua canção",
+      "terms": "Termos",
+      "payment": "Pagamento",
+      "privacy": "Privacidade"
+    }
+  },
+  "footer": {
+    "tagline": "Não criamos músicas. Criamos momentos inesquecíveis.",
+    "navigation": "Navegação",
+    "legal": "Legal",
+    "links": {
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço",
+      "payment": "Formas de Pagamento",
+      "about": "Quem Somos",
+      "contact": "Fale Conosco"
+    },
+    "hours": "Seg-Sex, 9h - 17h (horário de Brasília)",
+    "languageLabel": "Idioma",
+    "languages": {
+      "en": "Inglês",
+      "pt": "Português",
+      "es": "Espanhol",
+      "fr": "Francês",
+      "it": "Italiano"
+    },
+    "rights": "Todos os direitos reservados.",
+    "madeWith": "Feito com",
+    "madeFor": "para famílias em todo lugar."
+  },
+  "cta": "Criar sua canção"
+}

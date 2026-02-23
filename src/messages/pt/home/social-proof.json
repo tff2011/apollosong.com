@@ -1,0 +1,38 @@
+{
+  "title": "Amada por mais de 10.000+ famílias pelo mundo",
+  "logos": [
+    "Music Weekly",
+    "Gift Guide",
+    "Song Review"
+  ],
+  "badge": "Depoimentos Reais",
+  "subtitle": "Histórias reais de conexões inesquecíveis.",
+  "customerLoveTitle": "Por que mais de 10.000 famílias amam",
+  "items": {
+    "godGaveMeYou": {
+      "title": "Deus me Deu Você",
+      "subtitle": "Apollo Song"
+    },
+    "wendyB": {
+      "quote": "Oh glória a Deus! Isso é absolutamente de tirar o fôlego. Eu não consigo acreditar... Vou ter dificuldade em manter isso em segredo até domingo. Vamos ouvir no caminho para a igreja! Deus abençoe este trabalho que vocês estão fazendo.",
+      "author": "Vera Lúcia S.",
+      "verified": "Cliente Verificado"
+    },
+    "threeSqueezes": {
+      "title": "Três Apertos",
+      "subtitle": "Apollo Song"
+    },
+    "myHeartIsYours": {
+      "title": "Meu Coração é Seu",
+      "subtitle": "Apollo Song"
+    },
+    "mommysLove": {
+      "title": "Amor de Mãe",
+      "subtitle": "Apollo Song"
+    },
+    "chosenHearts": {
+      "title": "Corações Escolhidos",
+      "subtitle": "Apollo Song"
+    }
+  }
+}

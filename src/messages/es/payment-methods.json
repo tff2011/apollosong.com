@@ -1,0 +1,28 @@
+{
+    "hero": {
+        "eyebrow": "Pago",
+        "title": "Formas de Pago",
+        "subtitle": "Conozca as opciones seguras para adquirir su canción personalizada.",
+        "lastUpdatedLabel": "Última actualización",
+        "lastUpdated": "11 de enero de 2026"
+    },
+    "intro": "En ApolloSong, priorizamos la seguridad y la transparencia en cada transacción. Utilizamos los estándares más rigurosos de cifrado para garantizar que sus datos estén siempre protegidos.",
+    "methods": {
+        "creditCard": {
+            "title": "Tarjetas de Crédito y Débito",
+            "description": "Aceptamos todas las principales tarjetas (Visa, Mastercard, American Express). En su extracto bancario, el cargo aparecerá como **APOLLOSONG**."
+        },
+        "digitalWallets": {
+            "title": "Billeteras Digitales",
+            "description": "Para su conveniencia, aceptamos **Apple Pay** y **Google Pay**, lo que permite un pago rápido y seguro directamente desde su dispositivo."
+        },
+        "security": {
+            "title": "Seguridad y Stripe",
+            "description": "Nuestros pagos globales son procesados por **Stripe**, una de las plataformas de pago más grandes y seguras do mundo. No almacenamos los datos de su tarjeta en nuestros servidores."
+        }
+    },
+    "seo": {
+        "title": "Formas de Pago | ApolloSong",
+        "description": "Conozca los métodos de pago aceptados en ApolloSong, incluyendo tarjetas de crédito y billeteras digitales a través de Stripe."
+    }
+}

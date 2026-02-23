@@ -1,0 +1,14 @@
+{
+  "title": "Nous contacter",
+  "subtitle": "Une question ou une histoire a partager ? Nous serions ravis de vous entendre.",
+  "form": {
+    "nameLabel": "Nom",
+    "namePlaceholder": "Votre nom",
+    "emailLabel": "Email",
+    "emailPlaceholder": "bonjour@exemple.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "sending": "Envoi en cours...",
+    "submit": "Envoyer le message"
+  }
+}

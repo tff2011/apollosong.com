@@ -1,0 +1,270 @@
+{
+  "hero": {
+    "eyebrow": "Términos",
+    "title": "Términos de Servicio",
+    "subtitle": "Por favor lee estos términos cuidadosamente antes de ordenar o usar ApolloSong.",
+    "lastUpdatedLabel": "Última actualización",
+    "lastUpdated": "1 de febrero de 2025"
+  },
+  "summary": {
+    "title": "Puntos clave",
+    "items": [
+      {
+        "title": "Pedidos personalizados",
+        "description": "Cada canción se crea por pedido basándose en la historia y detalles que envías."
+      },
+      {
+        "title": "Entrega y revisiones",
+        "description": "La entrega estándar es de hasta 7 días, con una opción prioritaria de 24 horas. Las revisiones se manejan caso por caso dentro del resumen original."
+      },
+      {
+        "title": "Pagos y reembolsos",
+        "description": "El pago se realiza al finalizar la compra. Ofrecemos una garantía de devolución de dinero de 30 días si tu canción no es correcta."
+      },
+      {
+        "title": "Licencia de uso",
+        "description": "Recibes una licencia personal, no exclusiva para compartir tu canción de forma privada."
+      }
+    ]
+  },
+  "tocTitle": "En esta página",
+  "toc": [
+    {
+      "id": "overview",
+      "label": "Descripción general"
+    },
+    {
+      "id": "eligibility",
+      "label": "Elegibilidad y cuentas"
+    },
+    {
+      "id": "orders",
+      "label": "Pedidos y proceso creativo"
+    },
+    {
+      "id": "your-content",
+      "label": "Tu contenido y permisos"
+    },
+    {
+      "id": "revisions",
+      "label": "Revisiones y aprobaciones"
+    },
+    {
+      "id": "delivery",
+      "label": "Entrega y acceso"
+    },
+    {
+      "id": "payments",
+      "label": "Precios y pagos"
+    },
+    {
+      "id": "refunds",
+      "label": "Reembolsos y garantía"
+    },
+    {
+      "id": "license",
+      "label": "Licencia para ti"
+    },
+    {
+      "id": "ip",
+      "label": "Propiedad intelectual"
+    },
+    {
+      "id": "prohibited",
+      "label": "Uso prohibido"
+    },
+    {
+      "id": "third-party",
+      "label": "Servicios de terceros"
+    },
+    {
+      "id": "disclaimers",
+      "label": "Descargos de responsabilidad"
+    },
+    {
+      "id": "liability",
+      "label": "Limitación de responsabilidad"
+    },
+    {
+      "id": "indemnification",
+      "label": "Indemnización"
+    },
+    {
+      "id": "termination",
+      "label": "Terminación"
+    },
+    {
+      "id": "changes",
+      "label": "Cambios a estos términos"
+    },
+    {
+      "id": "contact",
+      "label": "Contáctanos"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Descripción general",
+      "paragraphs": [
+        "Estos Términos de Servicio (\"Términos\") rigen tu acceso y uso de ApolloSong, incluyendo cualquier pedido, comunicación y contenido digital entregado a ti.",
+        "Al acceder a nuestro sitio web o realizar un pedido, aceptas estos Términos. Si no estás de acuerdo, no puedes usar los servicios."
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "Elegibilidad y cuentas",
+      "paragraphs": [
+        "Debes tener al menos 18 años, o la mayoría de edad en tu jurisdicción, para realizar un pedido. Si realizas un pedido en nombre de otra persona, declaras que tienes autoridad para hacerlo.",
+        "Si ofrecemos funciones de cuenta, eres responsable de mantener la confidencialidad de tus credenciales de inicio de sesión y de toda la actividad bajo tu cuenta."
+      ]
+    },
+    {
+      "id": "orders",
+      "title": "Pedidos y proceso creativo",
+      "paragraphs": [
+        "ApolloSong crea canciones personalizadas hechas a pedido basándose en los detalles que proporcionas. La calidad y precisión de tu envío afecta directamente el resultado final.",
+        "Podemos contactarte con preguntas de aclaración para asegurar que la canción se alinee con tu visión. Nos reservamos el derecho de rechazar o cancelar cualquier pedido que viole estos Términos o nuestros estándares de contenido."
+      ],
+      "bullets": [
+        "Eres responsable de proporcionar detalles precisos del pedido y correo electrónico de entrega preferido",
+        "Interpretamos tu historia y preferencias en letras y arreglos musicales",
+        "Los tiempos de entrega dependen del volumen de pedidos y la velocidad de entrega elegida"
+      ]
+    },
+    {
+      "id": "your-content",
+      "title": "Tu contenido y permisos",
+      "paragraphs": [
+        "Conservas la propiedad de la historia y el contenido que envías. Al realizar un pedido, otorgas a ApolloSong una licencia limitada, mundial, libre de regalías para usar tu contenido enviado únicamente para crear y entregar tu canción personalizada y proporcionar soporte al cliente.",
+        "Declaras que tienes los derechos y permisos para enviar cualquier nombre, historia o material incluido en tu pedido, y que tu envío no infringe ningún derecho de terceros."
+      ],
+      "bullets": [
+        "No incluyas información confidencial que no estés autorizado a compartir",
+        "No envíes contenido ilegal, difamatorio u odioso",
+        "Podemos eliminar o rechazar contenido que viole estos Términos"
+      ]
+    },
+    {
+      "id": "revisions",
+      "title": "Revisiones y aprobaciones",
+      "paragraphs": [
+        "Queremos que ames tu ApolloSong. Si la canción entregada no se alinea con el resumen original, podemos ofrecer revisiones razonables dentro del alcance de tu solicitud inicial.",
+        "Los cambios mayores, nuevos temas o historias completamente nuevas pueden requerir un nuevo pedido."
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": "Entrega y acceso",
+      "paragraphs": [
+        "Tu canción se entrega digitalmente a través de un enlace seguro enviado a la dirección de correo electrónico que proporcionas. Eres responsable de asegurar que tu correo sea preciso y que puedas acceder al enlace.",
+        "La entrega estándar es de hasta 7 días. Una opción prioritaria de 24 horas puede estar disponible al finalizar la compra. Los tiempos de entrega son estimaciones y pueden variar debido a la complejidad o volumen."
+      ]
+    },
+    {
+      "id": "payments",
+      "title": "Precios y pagos",
+      "paragraphs": [
+        "Los precios se muestran al finalizar la compra y deben pagarse en su totalidad antes de que comience la producción. Los impuestos pueden aplicar dependiendo de tu ubicación.",
+        "Los pagos son procesados por proveedores externos. No almacenamos detalles completos de tarjetas de pago en nuestros servidores."
+      ]
+    },
+    {
+      "id": "refunds",
+      "title": "Reembolsos y garantía",
+      "paragraphs": [
+        "Respaldamos nuestro trabajo con una garantía de devolución de dinero de 30 días. Si tu canción no captura tu historia, trabajaremos contigo para revisarla o reembolsar tu pedido.",
+        "Las solicitudes de reembolso deben enviarse dentro de los 30 días posteriores a la entrega contactando a nuestro equipo de soporte."
+      ]
+    },
+    {
+      "id": "license",
+      "title": "Licencia para ti",
+      "paragraphs": [
+        "Tras el pago completo, ApolloSong te otorga una licencia personal, no exclusiva, intransferible para usar y compartir tu canción personalizada para propósitos privados (como regalos, reuniones familiares o eventos de iglesia).",
+        "El uso comercial, reventa o distribución en plataformas de streaming requiere permiso previo por escrito de ApolloSong."
+      ]
+    },
+    {
+      "id": "ip",
+      "title": "Propiedad intelectual",
+      "paragraphs": [
+        "ApolloSong retiene todos los derechos de propiedad intelectual en la composición, arreglo y grabación de la canción, excepto por la licencia limitada otorgada a ti anteriormente.",
+        "Los comentarios que proporciones pueden ser usados para mejorar nuestros servicios sin obligación hacia ti."
+      ]
+    },
+    {
+      "id": "prohibited",
+      "title": "Uso prohibido",
+      "paragraphs": [
+        "Aceptas no hacer mal uso del sitio web o los servicios. Las actividades prohibidas incluyen:"
+      ],
+      "bullets": [
+        "Violar leyes o regulaciones",
+        "Infringir derechos de propiedad intelectual",
+        "Enviar código malicioso o intentar interrumpir el sitio",
+        "Usar el servicio para crear contenido dañino, odioso o abusivo"
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "Servicios de terceros",
+      "paragraphs": [
+        "Podemos enlazar o depender de servicios de terceros (como procesadores de pago). Sus términos y políticas de privacidad gobiernan sus servicios, y no somos responsables de sus acciones."
+      ]
+    },
+    {
+      "id": "disclaimers",
+      "title": "Descargos de responsabilidad",
+      "paragraphs": [
+        "ApolloSong se proporciona \"tal cual\" y \"según disponibilidad\". No garantizamos acceso ininterrumpido ni que el servicio estará libre de errores.",
+        "No proporcionamos asesoramiento legal, médico o financiero. Cualquier decisión que tomes basándote en el contenido es tu responsabilidad."
+      ]
+    },
+    {
+      "id": "liability",
+      "title": "Limitación de responsabilidad",
+      "paragraphs": [
+        "En la máxima medida permitida por la ley, ApolloSong no será responsable por daños indirectos, incidentales, especiales o consecuentes derivados de tu uso de los servicios.",
+        "Nuestra responsabilidad total por cualquier reclamo está limitada al monto que pagaste por el pedido que dio origen al reclamo."
+      ]
+    },
+    {
+      "id": "indemnification",
+      "title": "Indemnización",
+      "paragraphs": [
+        "Aceptas indemnizar y mantener indemne a ApolloSong, sus empleados y contratistas de cualquier reclamo, daño o gasto derivado de tu uso de los servicios o violación de estos Términos."
+      ]
+    },
+    {
+      "id": "termination",
+      "title": "Terminación",
+      "paragraphs": [
+        "Podemos suspender o terminar el acceso a los servicios si violas estos Términos o te involucras en conducta ilegal. La terminación no afecta ningún derecho u obligación que se haya acumulado antes de la fecha de terminación."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Cambios a estos términos",
+      "paragraphs": [
+        "Podemos actualizar estos Términos de vez en cuando. Si hacemos cambios materiales, publicaremos una versión actualizada y revisaremos la fecha de \"Última actualización\"."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contáctanos",
+      "paragraphs": [
+        "¿Preguntas sobre estos Términos? Contáctanos al correo electrónico a continuación y te ayudaremos."
+      ]
+    }
+  ],
+  "contactCard": {
+    "title": "¿Necesitas ayuda con un pedido?",
+    "description": "Nuestro equipo de soporte está listo para asistir con preguntas, revisiones o actualizaciones de entrega.",
+    "emailLabel": "Correo electrónico",
+    "email": "contact@apollosong.com",
+    "responseLabel": "Tiempo de respuesta",
+    "responseTime": "Típicamente dentro de 2 días hábiles.",
+    "note": "Incluye tu correo de pedido y nombre del destinatario para que podamos ayudarte más rápido."
+  }
+}

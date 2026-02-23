@@ -1,0 +1,25 @@
+{
+    "title": "Who Is This Song For?",
+    "swipeHint": "Swipe to explore →",
+    "cta": "Start Creating Your Song",
+    "items": {
+        "partner": "For the Love of Your Life",
+        "children": "For Your Son or Daughter",
+        "proposal": "For the Perfect Proposal",
+        "wedding": "To Celebrate Your Union",
+        "birthday": "For an Unforgettable Birthday",
+        "parents": "For Your Mom or Dad",
+        "grandparents": "For Your Grandparents",
+        "friends": "For That Special Friend",
+        "yourself": "For Yourself",
+        "baptism": "For Your Baby's Baptism",
+        "genderReveal": "For the Gender Reveal",
+        "graduation": "For a Special Graduation",
+        "anniversary": "To Celebrate Your Anniversary",
+        "loss": "To Honor Someone You Lost",
+        "strength": "To Give Someone Strength",
+        "healing": "For Someone Who Needs Healing",
+        "prayers": "For a Special Prayer",
+        "breakthroughs": "To Celebrate a Victory"
+    }
+}

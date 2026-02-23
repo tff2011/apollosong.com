@@ -1,0 +1,30 @@
+{
+  "success": {
+    "title": "Disiscrizione Effettuata",
+    "message": "La tua email e stata rimossa dalla nostra lista marketing. Non riceverai piu email promozionali.",
+    "note": "Nota: Continuerai a ricevere email transazionali relative ai tuoi ordini (conferme di acquisto, consegne di canzoni, ecc.)."
+  },
+  "errors": {
+    "missing_params": {
+      "title": "Link Non Valido",
+      "message": "Il link di disiscrizione non e valido o e incompleto. Per favore, usa il link fornito nell'email."
+    },
+    "invalid_token": {
+      "title": "Link Non Valido",
+      "message": "Questo link di disiscrizione non e valido o e scaduto. Per favore, usa un link da un'email recente."
+    },
+    "server_error": {
+      "title": "Qualcosa e Andato Storto",
+      "message": "Non siamo riusciti a elaborare la tua richiesta. Per favore, riprova o contatta il supporto."
+    },
+    "contactSupport": "Contatta il Supporto via WhatsApp"
+  },
+  "landing": {
+    "title": "Preferenze Email",
+    "message": "Usa il link nella tua email per gestire le tue preferenze di iscrizione."
+  },
+  "seo": {
+    "title": "Disiscriviti | ApolloSong",
+    "description": "Gestisci le tue preferenze di iscrizione email per ApolloSong."
+  }
+}

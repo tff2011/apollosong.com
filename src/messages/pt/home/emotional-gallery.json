@@ -1,0 +1,34 @@
+{
+  "title": "Toda história merece uma canção",
+  "subtitle": "De celebrações alegres a momentos de profunda cura, transformamos suas emoções em música.",
+  "items": [
+    {
+      "id": "spouse",
+      "title": "Para o cônjuge",
+      "description": "Celebre sua história de amor com uma melodia que fala ao coração.",
+      "image": "/images/gallery-spouse.webp",
+      "alt": "Para o cônjuge"
+    },
+    {
+      "id": "children",
+      "title": "Para seus filhos",
+      "description": "Uma canção de ninar ou bênção eterna que eles levarão por toda a vida.",
+      "image": "/images/gallery-children.webp",
+      "alt": "Para seus filhos"
+    },
+    {
+      "id": "healing",
+      "title": "Para cura e luto",
+      "description": "Encontre conforto e paz em uma canção que honra uma memória.",
+      "image": "/images/gallery-healing.webp",
+      "alt": "Para cura e luto"
+    },
+    {
+      "id": "faith",
+      "title": "Para força e fé",
+      "description": "Letras poderosas para erguer o espírito em tempos difíceis.",
+      "image": "/images/gallery-faith.webp",
+      "alt": "Para força e fé"
+    }
+  ]
+}

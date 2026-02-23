@@ -1,0 +1,380 @@
+{
+  "progress": {
+    "stepOf": "di",
+    "step": "Passo",
+    "complete": "Completato",
+    "saved": "Salvato",
+    "optional": "(facoltativo)",
+    "storyProgress": "Domanda {current} di 3"
+  },
+  "steps": {
+    "basics": {
+      "title": "Iniziamo dalle basi",
+      "subtitle": "Raccontaci di questa persona speciale na tua vita",
+      "recipient": {
+        "label": "Per chi è questa canzone?",
+        "options": {
+          "husband": "Marito",
+          "wife": "Moglie",
+          "boyfriend": "Fidanzato",
+          "girlfriend": "Fidanzata",
+          "children": "Figli",
+          "father": "Padre",
+          "mother": "Madre",
+          "sibling": "Fratello/Sorella",
+          "friend": "Amico/a",
+          "myself": "Me stesso",
+          "group": "Un gruppo di persone",
+          "other": "Altro"
+        }
+      },
+      "name": {
+        "label": "Qual è il suo nome?",
+        "labelSelf": "Qual è il tuo nome?",
+        "labelGroup": "Nome del gruppo / Membri",
+        "placeholder": "Inserisci il suo nome",
+        "placeholderSelf": "Inserisci il tuo nome",
+        "placeholderGroup": "Nomi non richiesti",
+        "tip": "Suggerimento: aggiungi la pronuncia per maggiore chiarezza (es. Lucia: lu-ci-a)"
+      },
+      "relationship": {
+        "label": "Qual è il tuo rapporto con questa persona?",
+        "placeholder": "es: madrina, nonna, insegnante, pastore..."
+      }
+    },
+    "occasion": {
+      "title": "Qual è l'occasione?",
+      "subtitle": "Aiutaci a capire il momento che questa canzone celebrerà",
+      "occasion": {
+        "label": "Seleziona un'occasione",
+        "options": {
+          "birthday": "Compleanno",
+          "wedding": "Matrimonio",
+          "anniversary": "Anniversario di matrimonio",
+          "memorial": "Commemorazione / In memoria",
+          "graduation": "Laurea",
+          "baptism": "Battesimo",
+          "mothersDay": "Festa della mamma",
+          "fathersDay": "Festa del papà",
+          "christmas": "Natale",
+          "justBecause": "Semplicemente così",
+          "other": "Altro"
+        }
+      },
+      "date": {
+        "label": "Qual è la data speciale?",
+        "placeholder": "Seleziona una data (opzionale)"
+      }
+    },
+    "story": {
+      "title": "Condividi la sua storia",
+      "subtitle": "I dettagli che condividi diventeranno il cuore della canzone",
+      "story": {
+        "label": "Raccontaci di questa persona",
+        "placeholder": "Condividi ricordi, qualità, momenti importanti, battute tra voi, o qualsiasi cosa la renda speciale...",
+        "tip": "Più dettagli condividi, più personale sarà a tua canzone"
+      },
+      "verses": {
+        "label": "Citazioni o frasi da includere?",
+        "placeholder": "es. una frase speciale, un motto di famiglia, un verso preferito (opzionale)"
+      }
+    },
+    "genre": {
+      "title": "Scegli un genere",
+      "subtitle": "Seleziona lo stile che si adatta meglio al tuo caro",
+      "genre": {
+        "label": "Genere preferito",
+        "options": {
+          "balada": "Ballata Romantica",
+          "napoletana": "Canzone Napoletana",
+          "lirico": "Lirico / Opera",
+          "worship": "Lode / Gospel",
+          "pop": "Pop",
+          "jazz": "Jazz",
+          "blues": "Blues Americano",
+          "blues-melancholic": "Blues Americano (Malinconico)",
+          "blues-upbeat": "Blues Americano (Solare)",
+          "lullaby": "Ninna Nanna",
+          "tarantella": "Tarantella",
+          "rock": "Rock"
+        },
+        "subgenres": {
+          "blues": {
+            "label": "Sottogeneri del Blues",
+            "subtitle": "Scegli lo stile che meglio si adatta alla canzone"
+          },
+          "options": {
+            "blues-melancholic": "Blues americano più malinconico, con voce soul e chitarre 'piangenti'. Atmosfera intima e riflessiva. Nello stile di: **B.B. King, John Lee Hooker, Gary Moore**.",
+            "blues-upbeat": "Blues americano più vivace, con groove shuffle e riff di chitarra energici. Atmosfera solare e positiva. Nello stile di: **Muddy Waters, Chuck Berry, Stevie Ray Vaughan**."
+          }
+        }
+      },
+      "vocals": {
+        "label": "Genere di voce preferito",
+        "tip": "Consigliamo di scegliere il tuo stesso genere per rendere la voce più personale.",
+        "options": {
+          "female": "Voce femminile",
+          "male": "Voce maschile",
+          "either": "Nessuna preferenza"
+        }
+      }
+    },
+    "qualities": {
+      "title": "Cosa lo/la rende speciale?",
+      "titleSelf": "Condividi il tuo cuore",
+      "subtitle": "Descrivi il suo carattere e le qualità che ami di più",
+      "subtitleSelf": "Cosa vorresti esprimere na tua canzone?",
+      "savedLabel": "Qualità salvate",
+      "qualities": {
+        "label": "Le sue belle qualità",
+        "labelSelf": "Cosa hai nel cuore ultimamente?",
+        "placeholder": "È paziente, saggio, divertente, incoraggiante, ispiratore? Cosa lo/la rende una persona incredibile per te?",
+        "placeholderSelf": "Stai attraversando un momento importante? Stai affrontando qualcosa di difficile? O hai superato qualcosa di cui vuoi ricordarti?"
+      }
+    },
+    "memories": {
+      "title": "Condividi i tuoi ricordi preferiti",
+      "titleSelf": "Momenti speciali della tua vita",
+      "subtitle": "**Più dettagli specifici fornisci, migliori saranno i testi che creeremo!** Non preoccuparti, potrai aggiungere altre informazioni dopo aver completato l'ordine.",
+      "subtitleSelf": "Hai momenti ed eventi chiave che hanno segnato la tua vita?",
+      "savedLabel": "Ricordi salvati",
+      "memories": {
+        "label": "Momenti speciali insieme",
+        "labelSelf": "Momenti speciali della tua vita",
+        "placeholder": "Quali ricordi ti tornano sempre in mente? Un momento che ti fa ridere ogni volta? Qualcosa che avete attraversato insieme e vi ha avvicinato?",
+        "placeholderSelf": "Ci sono stati momenti che ti hanno cambiato la vita? Sfide che hai superato? Qual è la tua storia?"
+      }
+    },
+    "message": {
+      "title": "Un messaggio dal profondo del cuore",
+      "titleSelf": "Di cosa vuoi ricordarti ogni volta che ascolterai questa canzone?",
+      "subtitle": "Scrivi tutto ciò che pensi sia rilevante da includere na tua canzone, e faremo del nosso meglio per integrarlo!",
+      "subtitleSelf": "Immagina di ascoltare questa canzone in una giornata difficile, cosa vuoi che ti dica?",
+      "message": {
+        "label": "Messaggio speciale",
+        "labelSelf": "Messaggio speciale",
+        "placeholder": "Cosa vuoi che sappia, che non hai mai detto abbastanza? Per cosa vuoi ringraziarla? Qual è quella cosa nel profondo del tuo cuore che vuoi dirle?",
+        "placeholderSelf": "Hai bisogno di rassicurazione, speranza, pace, fiducia, identità o forza? Qual è il messaggio che vuoi ricordare quando tutto sembra vacillare?"
+      }
+    },
+    "plans": {
+      "popular": "PIÙ POPOLARE"
+    },
+    "checkout": {
+      "limitedOffer": "Offerta limitata",
+      "title": "Ci sei quasi!",
+      "someone": "il tuo caro",
+      "subtitle": "A un passo dal regalare a {name} una canzone che custodirà per sempre",
+      "oneTime": "Pagamento unico, nessun costo nascosto",
+      "expectedDelivery": "Data di consegna prevista:",
+      "selectedGenre": "Genere",
+      "emailLabel": "Inserisci il tuo miglior indirizzo email",
+      "emailPlaceholder": "tu@email.com",
+      "emailRequired": "Obbligatorio",
+      "whatsappLabel": "WhatsApp di contatto",
+      "whatsappDescription": "Facoltativo - Usato solo se l'email non funziona",
+      "optional": "facoltativo, ma consigliato",
+      "guarantee30": "Garanzia soddisfatti o rimborsati 30 giorni",
+      "reviewSurvey": "Rivedi o modifica il questionario",
+      "reviewSurveyHint": "Modifica storia, ricordi e messaggio senza perdere l'ordine",
+      "changePlan": "Cambia piano",
+      "changePlanHint": "Attuale: {plan}. Tocca per cambiare",
+      "changePlanModalSubtitle": "Scegli il piano ideale. Puoi cambiarlo ora senza perdere nulla.",
+      "changeGenre": "Cambia genere musicale",
+      "changeGenreHint": "Tocca per cambiare e ascoltare esempi",
+      "orderSummary": {
+        "title": "Il tuo ordine di canzone personalizzata",
+        "songFor": "Canzone per:",
+        "delivery": "Consegna:",
+        "customSong": "Canzone personalizzata",
+        "discount": "-50%",
+        "total": "Totale",
+        "addExtras": "Aggiungi extra (opzionale)",
+        "editExtras": "Modifica extra",
+        "extrasHint": "Rivedi gli extra e il prezzo finale prima di pagare",
+        "noExtrasSelected": "Nessun extra selezionato"
+      },
+      "modal": {
+        "title": "Modifica la storia della canzone",
+        "honoree": "Per: {name}",
+        "subtitle": "Scrivi quanto vuoi (senza limiti). Tocca Salva quando hai finito.",
+        "cancel": "Indietro",
+        "save": "Salva"
+      },
+      "sampleSongs": {
+        "title": "Ascolta altre CanzioniDivine",
+        "subtitle": "Scopri le canzoni che abbiamo creato per altre famiglie"
+      },
+      "guarantee": {
+        "title": "Garanzia 100% soddisfatti o rimborsati",
+        "description": "Se non sei completamente soddisfatto della tua canzone, ti rimborsiamo. Senza domande.",
+        "refund": {
+          "title": "Non soddisfatto? Rimborso completo",
+          "description": "Senzadomande, senza problemi"
+        },
+        "time": {
+          "title": "Garanzia 30 giorni",
+          "description": "Tutto il tempo per ascoltare e decidere"
+        },
+        "riskFree": {
+          "title": "Acquisto senza rischi",
+          "description": "La tua soddisfazione è a nossa priorità"
+        }
+      },
+      "whatYouGet": {
+        "title": "Cosa riceverai",
+        "song": {
+          "title": "Canzone qualità radio",
+          "description": "Canzone di qualità radio, pronta da condividere"
+        },
+        "lyrics": {
+          "title": "Testi personalizzati",
+          "description": "Scritti appositamente per {name}"
+        },
+        "delivery": {
+          "title": "Consegna in 7 giorni",
+          "description": "Perfetto per i regali dell'ultimo minuto"
+        }
+      },
+      "whyChoose": {
+        "title": "Perché scegliere ApolloSong",
+        "personalized": {
+          "title": "100% personalizzata",
+          "description": "Ogni canzone è scritta unicamente dalla tua storia"
+        },
+        "professional": {
+          "title": "Qualità professionale",
+          "description": "Creata da artisti professionisti esperti"
+        },
+        "revisions": {
+          "title": "Revisioni gratuite",
+          "description": "Perfezioniamo fino alla tua completa soddisfazione"
+        }
+      }
+    }
+  },
+  "orderBump": {
+    "title": "Rendi il tuo regalo indimenticabile",
+    "subtitle": "Opzioni speciali scelte dal 67% dei nostri clienti",
+    "fastDelivery": {
+      "title": "Consegna express 24h",
+      "description": "Regalo dell'ultimo minuto? Ricevilo domani na tua casella email — perfetto per compleanni e date speciali",
+      "price": "+49€"
+    },
+    "genreVariant": {
+      "title": "Più stili musicali",
+      "badge": "STESSA PERSONA",
+      "description": "Vuoi la storia di {name} in un altro stile? Riscriviamo il testo da zero per adattarlo al genere",
+      "youWillReceive": "Riceverai già:",
+      "addMore": "Aggiungi altri stili:",
+      "selectWarning": "Seleziona almeno uno stile qui sotto per aggiungere",
+      "perGenre": "per stile",
+      "price": "+29€"
+    },
+    "certificate": {
+      "title": "Esperienza regalo",
+      "badge": "PIÙ EMOZIONANTE",
+      "description": "Creiamo una pagina web esclusiva per il tuo caro. Invia il link e guarda a sua reazione quando scopre che a canzone è stata fatta per lui/lei. Prepara i fazzoletti!",
+      "price": "+19€"
+    },
+    "lyrics": {
+      "title": "Testi della canzone",
+      "badge": "DA INCORNICIARE",
+      "description": "Immagina i testi incorniciati sul muro del tuo salotto. Ogni giorno, ti ricorderai di quell'amore. Li inviamo pronti da stampare.",
+      "price": "+9€"
+    },
+    "extraSong": {
+      "title": "Raddoppia la gioia",
+      "badge": "ALTRA PERSONA",
+      "description": "Regala a un'altra persona speciale una canzone esclusiva a un prezzo speciale",
+      "price": "+29€",
+      "forWho": "Per chi è questa canzone?",
+      "samePerson": "Stessa persona",
+      "samePersonDesc": "Crea un'altra canzone per {name}",
+      "anotherPerson": "Un'altra persona",
+      "anotherPersonDesc": "Crea una canzone per qualcun altro",
+      "form": {
+        "recipientName": "Nome del destinatario",
+        "recipientNamePlaceholder": "Inserisci il suo nome",
+        "relationship": "Relazione",
+        "relationshipPlaceholder": "Seleziona a relazione",
+        "qualities": "Raccontaci tutto su questa persona",
+        "qualitiesPlaceholder": "Condividi tutto ciò che sai su questa persona con dettagli specifici (scrivi liberamente)...",
+        "genre": "Genere preferito",
+        "vocals": "Voce preferita",
+        "vocalsFemale": "Femminile",
+        "vocalsMale": "Maschile",
+        "vocalsEither": "Indifferente"
+      }
+    },
+    "total": "Totale ordine",
+    "continueWithout": "Continua senza extra",
+    "addToOrder": "Aggiungi all'ordine",
+    "saveExtras": "Salva extra",
+    "clearExtras": "Rimuovi extra"
+  },
+  "pendingOrder": {
+    "title": "Abbiamo trovato un pagamento in sospeso",
+    "subtitle": "Le tue risposte sono salvate. Scegli come vuoi continuare:",
+    "summaryTitle": "Riepilogo",
+    "summaryFor": "Per",
+    "summaryGenre": "Genere",
+    "summaryPlan": "Piano",
+    "summaryTotal": "Totale",
+    "summaryExtras": "Extra",
+    "summaryExtrasNone": "Nessuno",
+    "continuePayment": "Continua il pagamento",
+    "continuePaymentHint": "Apri il link di pagamento precedente (riprendi da dove eri rimasto).",
+    "reviewPlan": "Rivedi prima di pagare",
+    "reviewPlanHint": "Controlla e modifica piano, genere ed extra senza perdere nulla.",
+    "startNew": "Creare una nuova canzone da zero",
+    "startNewHint": "Cancella tutto e ricomincia il questionario dall'inizio.",
+    "startedNewTitle": "Nuovo pagamento pronto",
+    "startedNewDescription": "Le tue risposte sono state salvate. Ora puoi continuare per creare un nuovo ordine.",
+    "note": "**Nessun addebito ora.** Sarai addebitato solo quando completi il pagamento. L'ordine precedente restera aperto fino alla scadenza.",
+    "close": "Chiudi"
+  },
+  "navigation": {
+    "back": "Indietro",
+    "next": "Avanti",
+    "nextSkipMemories": "Avanti, ho già condiviso tutto",
+    "submit": "Continua al Pagamento",
+    "submitting": "Creazione della tua canzone...",
+    "terms": "Continuando, accetti i nostri",
+    "termsLink": "Termini di utilizzo",
+    "and": "e",
+    "privacyLink": "Informativa sulla privacy"
+  },
+  "audio": {
+    "prompt": "Non vuoi scrivere? Registra un audio (max 5 min) raccontando la storia",
+    "transcriptionHint": "La tua voce sarà **convertita in testo** nel **campo qui sopra**. Parla lentamente, con **frasi brevi**, e **controlla** man mano.",
+    "stopToTranscribe": "Quando hai finito di parlare, clicca su **Ferma registrazione** per far apparire il testo nel campo qui sopra.",
+    "recordButton": "Registra audio",
+    "stopButton": "Ferma registrazione",
+    "statusRecording": "Registrazione...",
+    "statusUploading": "Invio audio...",
+    "statusQueued": "In coda di trascrizione...",
+    "statusProcessing": "Trascrizione del tuo audio...",
+    "statusCompleted": "Audio trascritto con successo!",
+    "statusError": "Errore di trascrizione",
+    "micError": "Errore nell'accesso al microfono. Verifica i permessi.",
+    "noSpokenAudio": "Non siamo riusciti a rilevare il parlato nell'audio. Prova a registrare di nuovo parlando più vicino al microfono.",
+    "timeWarning": "Meno di 1 minuto rimanente!",
+    "maxTimeReached": "Tempo massimo raggiunto (5 min). Audio inviato automaticamente."
+  },
+  "validation": {
+    "required": "Questo campo è obbligatorio",
+    "selectRecipient": "Seleziona per chi è questa canzone",
+    "enterName": "Inserisci il suo nome",
+    "selectGenre": "Seleziona uno stile musicale",
+    "selectSubgenre": "Per favore seleziona un sottogenere",
+    "enterQualities": "Descrivi cosa lo/la rende speciale",
+    "qualitiesMinLength": "Condividi qualcosa in più sulle sue qualità (almeno qualche parola)",
+    "enterMemories": "Condividi dei ricordi speciali",
+    "memoriesMinLength": "Condividi qualcosa in più sui tuoi ricordi (almeno qualche parola)",
+    "messageMinLength": "Per favore, scrivi qualcosa in più sul tuo messaggio (almeno qualche parola)",
+    "enterEmail": "Inserisci il tuo indirizzo email",
+    "invalidEmail": "Inserisci un indirizzo email valido",
+    "submitError": "Invio fallito. Riprova."
+  }
+}

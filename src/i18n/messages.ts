@@ -1,0 +1,227 @@
+import type { Locale } from "./config";
+import { setMessageNamespace, type Messages } from "./utils";
+
+type MessageLoader = () => Promise<{ default: Messages }>;
+
+const whitelist = [
+  "common",
+  "home",
+  "terms",
+  "privacy",
+  "about",
+  "contact",
+  "payment-methods",
+] as const;
+
+const enLoaders = {
+  common: () => import("../messages/en/common.json"),
+  contact: () => import("../messages/en/contact.json"),
+  "contact.page": () => import("../messages/en/contact/page.json"),
+  "contact.seo": () => import("../messages/en/contact/seo.json"),
+  "terms.page": () => import("../messages/en/terms/page.json"),
+  "terms.seo": () => import("../messages/en/terms/seo.json"),
+  "privacy.page": () => import("../messages/en/privacy/page.json"),
+  "privacy.seo": () => import("../messages/en/privacy/seo.json"),
+  "customSongs.seo": () => import("../messages/en/custom-songs/seo.json"),
+  "home.hero": () => import("../messages/en/home/hero.json"),
+  "home.seo": () => import("../messages/en/home/seo.json"),
+  "home.socialProof": () => import("../messages/en/home/social-proof.json"),
+  "home.howItWorks": () => import("../messages/en/home/how-it-works.json"),
+  "home.apolloStory": () => import("../messages/en/home/apollo-story.json"),
+  "home.genreAudio": () => import("../messages/en/home/genre-audio.json"),
+  "home.emotionalGallery": () => import("../messages/en/home/emotional-gallery.json"),
+  "home.videoTestimonials": () => import("../messages/en/home/video-testimonials.json"),
+  "home.productDetails": () => import("../messages/en/home/product-details.json"),
+  "home.guarantee": () => import("../messages/en/home/guarantee.json"),
+  "home.faq": () => import("../messages/en/home/faq.json"),
+  "home.finalCta": () => import("../messages/en/home/final-cta.json"),
+  "home.reviews": () => import("../messages/en/home/reviews.json"),
+  "home.whatYouGet": () => import("../messages/en/home/what-you-get.json"),
+  "home.giftOccasions": () => import("../messages/en/home/gift-occasions.json"),
+  "home.socialFollow": () => import("../messages/en/home/social-follow.json"),
+  "create.quiz": () => import("../messages/en/create/quiz.json"),
+  checkout: () => import("../messages/en/checkout.json"),
+  "track-order": () => import("../messages/en/track-order.json"),
+  "order-edit": () => import("../messages/en/order-edit.json"),
+  revision: () => import("../messages/en/revision.json"),
+  certificate: () => import("../messages/en/certificate.json"),
+  "payment-methods": () => import("../messages/en/payment-methods.json"),
+  about: () => import("../messages/en/about.json"),
+  unsubscribe: () => import("../messages/en/unsubscribe.json"),
+} satisfies Record<string, MessageLoader>;
+
+export type MessageNamespace = keyof typeof enLoaders;
+
+const ptLoaders: Record<MessageNamespace, MessageLoader> = {
+  common: () => import("../messages/pt/common.json"),
+  contact: () => import("../messages/pt/contact.json"),
+  "contact.page": () => import("../messages/pt/contact/page.json"),
+  "contact.seo": () => import("../messages/pt/contact/seo.json"),
+  "terms.page": () => import("../messages/pt/terms/page.json"),
+  "terms.seo": () => import("../messages/pt/terms/seo.json"),
+  "privacy.page": () => import("../messages/pt/privacy/page.json"),
+  "privacy.seo": () => import("../messages/pt/privacy/seo.json"),
+  "customSongs.seo": () => import("../messages/pt/custom-songs/seo.json"),
+  "home.hero": () => import("../messages/pt/home/hero.json"),
+  "home.seo": () => import("../messages/pt/home/seo.json"),
+  "home.socialProof": () => import("../messages/pt/home/social-proof.json"),
+  "home.howItWorks": () => import("../messages/pt/home/how-it-works.json"),
+  "home.apolloStory": () => import("../messages/pt/home/apollo-story.json"),
+  "home.genreAudio": () => import("../messages/pt/home/genre-audio.json"),
+  "home.emotionalGallery": () => import("../messages/pt/home/emotional-gallery.json"),
+  "home.videoTestimonials": () => import("../messages/pt/home/video-testimonials.json"),
+  "home.productDetails": () => import("../messages/pt/home/product-details.json"),
+  "home.guarantee": () => import("../messages/pt/home/guarantee.json"),
+  "home.faq": () => import("../messages/pt/home/faq.json"),
+  "home.finalCta": () => import("../messages/pt/home/final-cta.json"),
+  "home.reviews": () => import("../messages/pt/home/reviews.json"),
+  "home.whatYouGet": () => import("../messages/pt/home/what-you-get.json"),
+  "home.giftOccasions": () => import("../messages/pt/home/gift-occasions.json"),
+  "home.socialFollow": () => import("../messages/pt/home/social-follow.json"),
+  "create.quiz": () => import("../messages/pt/create/quiz.json"),
+  checkout: () => import("../messages/pt/checkout.json"),
+  "track-order": () => import("../messages/pt/track-order.json"),
+  "order-edit": () => import("../messages/pt/order-edit.json"),
+  revision: () => import("../messages/pt/revision.json"),
+  certificate: () => import("../messages/pt/certificate.json"),
+  "payment-methods": () => import("../messages/pt/payment-methods.json"),
+  about: () => import("../messages/pt/about.json"),
+  unsubscribe: () => import("../messages/pt/unsubscribe.json"),
+};
+
+const esLoaders: Record<MessageNamespace, MessageLoader> = {
+  common: () => import("../messages/es/common.json"),
+  contact: () => import("../messages/es/contact.json"),
+  "contact.page": () => import("../messages/es/contact/page.json"),
+  "contact.seo": () => import("../messages/es/contact/seo.json"),
+  "terms.page": () => import("../messages/es/terms/page.json"),
+  "terms.seo": () => import("../messages/es/terms/seo.json"),
+  "privacy.page": () => import("../messages/es/privacy/page.json"),
+  "privacy.seo": () => import("../messages/es/privacy/seo.json"),
+  "customSongs.seo": () => import("../messages/es/custom-songs/seo.json"),
+  "home.hero": () => import("../messages/es/home/hero.json"),
+  "home.seo": () => import("../messages/es/home/seo.json"),
+  "home.socialProof": () => import("../messages/es/home/social-proof.json"),
+  "home.howItWorks": () => import("../messages/es/home/how-it-works.json"),
+  "home.apolloStory": () => import("../messages/es/home/apollo-story.json"),
+  "home.genreAudio": () => import("../messages/es/home/genre-audio.json"),
+  "home.emotionalGallery": () => import("../messages/es/home/emotional-gallery.json"),
+  "home.videoTestimonials": () => import("../messages/es/home/video-testimonials.json"),
+  "home.productDetails": () => import("../messages/es/home/product-details.json"),
+  "home.guarantee": () => import("../messages/es/home/guarantee.json"),
+  "home.faq": () => import("../messages/es/home/faq.json"),
+  "home.finalCta": () => import("../messages/es/home/final-cta.json"),
+  "home.reviews": () => import("../messages/es/home/reviews.json"),
+  "home.whatYouGet": () => import("../messages/es/home/what-you-get.json"),
+  "home.giftOccasions": () => import("../messages/es/home/gift-occasions.json"),
+  "home.socialFollow": () => import("../messages/es/home/social-follow.json"),
+  "create.quiz": () => import("../messages/es/create/quiz.json"),
+  checkout: () => import("../messages/es/checkout.json"),
+  "track-order": () => import("../messages/es/track-order.json"),
+  "order-edit": () => import("../messages/es/order-edit.json"),
+  revision: () => import("../messages/es/revision.json"),
+  certificate: () => import("../messages/es/certificate.json"),
+  "payment-methods": () => import("../messages/es/payment-methods.json"),
+  about: () => import("../messages/es/about.json"),
+  unsubscribe: () => import("../messages/es/unsubscribe.json"),
+};
+
+const frLoaders: Record<MessageNamespace, MessageLoader> = {
+  common: () => import("../messages/fr/common.json"),
+  contact: () => import("../messages/fr/contact.json"),
+  "contact.page": () => import("../messages/fr/contact/page.json"),
+  "contact.seo": () => import("../messages/fr/contact/seo.json"),
+  "terms.page": () => import("../messages/fr/terms/page.json"),
+  "terms.seo": () => import("../messages/fr/terms/seo.json"),
+  "privacy.page": () => import("../messages/fr/privacy/page.json"),
+  "privacy.seo": () => import("../messages/fr/privacy/seo.json"),
+  "customSongs.seo": () => import("../messages/fr/custom-songs/seo.json"),
+  "home.hero": () => import("../messages/fr/home/hero.json"),
+  "home.seo": () => import("../messages/fr/home/seo.json"),
+  "home.socialProof": () => import("../messages/fr/home/social-proof.json"),
+  "home.howItWorks": () => import("../messages/fr/home/how-it-works.json"),
+  "home.apolloStory": () => import("../messages/fr/home/apollo-story.json"),
+  "home.genreAudio": () => import("../messages/fr/home/genre-audio.json"),
+  "home.emotionalGallery": () => import("../messages/fr/home/emotional-gallery.json"),
+  "home.videoTestimonials": () => import("../messages/fr/home/video-testimonials.json"),
+  "home.productDetails": () => import("../messages/fr/home/product-details.json"),
+  "home.guarantee": () => import("../messages/fr/home/guarantee.json"),
+  "home.faq": () => import("../messages/fr/home/faq.json"),
+  "home.finalCta": () => import("../messages/fr/home/final-cta.json"),
+  "home.reviews": () => import("../messages/fr/home/reviews.json"),
+  "home.whatYouGet": () => import("../messages/fr/home/what-you-get.json"),
+  "home.giftOccasions": () => import("../messages/fr/home/gift-occasions.json"),
+  "home.socialFollow": () => import("../messages/fr/home/social-follow.json"),
+  "create.quiz": () => import("../messages/fr/create/quiz.json"),
+  checkout: () => import("../messages/fr/checkout.json"),
+  "track-order": () => import("../messages/fr/track-order.json"),
+  "order-edit": () => import("../messages/fr/order-edit.json"),
+  revision: () => import("../messages/fr/revision.json"),
+  certificate: () => import("../messages/fr/certificate.json"),
+  "payment-methods": () => import("../messages/fr/payment-methods.json"),
+  about: () => import("../messages/fr/about.json"),
+  unsubscribe: () => import("../messages/fr/unsubscribe.json"),
+};
+
+const itLoaders: Record<MessageNamespace, MessageLoader> = {
+  common: () => import("../messages/it/common.json"),
+  contact: () => import("../messages/it/contact.json"),
+  "contact.page": () => import("../messages/it/contact/page.json"),
+  "contact.seo": () => import("../messages/it/contact/seo.json"),
+  "terms.page": () => import("../messages/it/terms/page.json"),
+  "terms.seo": () => import("../messages/it/terms/seo.json"),
+  "privacy.page": () => import("../messages/it/privacy/page.json"),
+  "privacy.seo": () => import("../messages/it/privacy/seo.json"),
+  "customSongs.seo": () => import("../messages/it/custom-songs/seo.json"),
+  "home.hero": () => import("../messages/it/home/hero.json"),
+  "home.seo": () => import("../messages/it/home/seo.json"),
+  "home.socialProof": () => import("../messages/it/home/social-proof.json"),
+  "home.howItWorks": () => import("../messages/it/home/how-it-works.json"),
+  "home.apolloStory": () => import("../messages/it/home/apollo-story.json"),
+  "home.genreAudio": () => import("../messages/it/home/genre-audio.json"),
+  "home.emotionalGallery": () => import("../messages/it/home/emotional-gallery.json"),
+  "home.videoTestimonials": () => import("../messages/it/home/video-testimonials.json"),
+  "home.productDetails": () => import("../messages/it/home/product-details.json"),
+  "home.guarantee": () => import("../messages/it/home/guarantee.json"),
+  "home.faq": () => import("../messages/it/home/faq.json"),
+  "home.finalCta": () => import("../messages/it/home/final-cta.json"),
+  "home.reviews": () => import("../messages/it/home/reviews.json"),
+  "home.whatYouGet": () => import("../messages/it/home/what-you-get.json"),
+  "home.giftOccasions": () => import("../messages/it/home/gift-occasions.json"),
+  "home.socialFollow": () => import("../messages/it/home/social-follow.json"),
+  "create.quiz": () => import("../messages/it/create/quiz.json"),
+  checkout: () => import("../messages/it/checkout.json"),
+  "track-order": () => import("../messages/it/track-order.json"),
+  "order-edit": () => import("../messages/it/order-edit.json"),
+  revision: () => import("../messages/it/revision.json"),
+  certificate: () => import("../messages/it/certificate.json"),
+  "payment-methods": () => import("../messages/it/payment-methods.json"),
+  about: () => import("../messages/it/about.json"),
+  unsubscribe: () => import("../messages/it/unsubscribe.json"),
+};
+
+const messageLoaders: Record<Locale, Record<MessageNamespace, MessageLoader>> = {
+  en: enLoaders,
+  pt: ptLoaders,
+  es: esLoaders,
+  fr: frLoaders,
+  it: itLoaders,
+};
+
+export async function loadMessages(
+  locale: Locale,
+  namespaces: readonly MessageNamespace[]
+): Promise<Messages> {
+  const loaders = messageLoaders[locale];
+  const messages: Messages = {};
+
+  await Promise.all(
+    Array.from(new Set(namespaces)).map(async (namespace) => {
+      const loader = loaders[namespace];
+      const data = await loader();
+      setMessageNamespace(messages, namespace, data.default);
+    })
+  );
+
+  return messages;
+}

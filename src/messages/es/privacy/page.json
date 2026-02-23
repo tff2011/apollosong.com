@@ -1,0 +1,296 @@
+{
+  "hero": {
+    "eyebrow": "Privacidad",
+    "title": "Política de Privacidad",
+    "subtitle": "Honramos las historias que compartes. Esta política explica qué recopilamos, cómo lo usamos y las opciones que tienes.",
+    "lastUpdatedLabel": "Última actualización",
+    "lastUpdated": "1 de febrero de 2025"
+  },
+  "summary": {
+    "title": "En resumen",
+    "items": [
+      {
+        "title": "Qué recopilamos",
+        "description": "Datos de contacto, información del pedido, detalles de tu historia y datos básicos del dispositivo."
+      },
+      {
+        "title": "Por qué lo usamos",
+        "description": "Para crear tu canción, entregarla de forma segura, brindarte soporte y mejorar la experiencia."
+      },
+      {
+        "title": "Cómo lo compartimos",
+        "description": "Con proveedores de confianza (pago, hosting, email) y cuando lo requiere la ley."
+      },
+      {
+        "title": "Tus opciones",
+        "description": "Solicita acceso, corrección o eliminación y cancela comunicaciones de marketing en cualquier momento."
+      }
+    ]
+  },
+  "tocTitle": "En esta página",
+  "toc": [
+    {
+      "id": "overview",
+      "label": "Descripción general"
+    },
+    {
+      "id": "information-we-collect",
+      "label": "Información que recopilamos"
+    },
+    {
+      "id": "how-we-use",
+      "label": "Cómo usamos la información"
+    },
+    {
+      "id": "legal-basis",
+      "label": "Bases legales (EEE/Reino Unido)"
+    },
+    {
+      "id": "how-we-share",
+      "label": "Cómo compartimos información"
+    },
+    {
+      "id": "cookies",
+      "label": "Cookies y análisis"
+    },
+    {
+      "id": "data-retention",
+      "label": "Retención de datos"
+    },
+    {
+      "id": "security",
+      "label": "Seguridad"
+    },
+    {
+      "id": "your-rights",
+      "label": "Tus derechos y opciones"
+    },
+    {
+      "id": "international-transfers",
+      "label": "Transferencias internacionales"
+    },
+    {
+      "id": "children",
+      "label": "Privacidad de menores"
+    },
+    {
+      "id": "third-party",
+      "label": "Enlaces de terceros"
+    },
+    {
+      "id": "changes",
+      "label": "Cambios a esta política"
+    },
+    {
+      "id": "contact",
+      "label": "Contáctanos"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Descripción general",
+      "paragraphs": [
+        "Esta Política de Privacidad explica cómo ApolloSong (\"nosotros\", \"nos\" y \"nuestro\") recopila, usa y protege la información cuando visitas nuestro sitio web, solicitas una canción personalizada o contactas a nuestro equipo.",
+        "Al usar nuestros servicios, aceptas las prácticas descritas aquí. Si no estás de acuerdo, por favor no uses el sitio ni envíes información personal."
+      ]
+    },
+    {
+      "id": "information-we-collect",
+      "title": "Información que recopilamos",
+      "paragraphs": [
+        "Recopilamos información que proporcionas directamente e información que se genera a través de tu uso de nuestros servicios. Solo recopilamos lo necesario para entregar y mejorar ApolloSong."
+      ],
+      "subsections": [
+        {
+          "title": "Información que proporcionas",
+          "paragraphs": [
+            "Cuando realizas un pedido o nos contactas, puedes proporcionar detalles como tu nombre, dirección de correo electrónico, nombre del destinatario, ocasión, estilo preferido, referencias bíblicas y otros detalles de la historia necesarios para crear tu canción."
+          ],
+          "bullets": [
+            "Datos de contacto (nombre, email, teléfono si lo proporcionas)",
+            "Detalles del pedido (nombre del destinatario, ocasión, preferencias de tiempo)",
+            "Entradas creativas (notas de la historia, temas, mensajes, referencias bíblicas)",
+            "Contenido de comunicaciones (consultas de soporte, comentarios, notas de revisión)"
+          ]
+        },
+        {
+          "title": "Información de pedido y pago",
+          "paragraphs": [
+            "Los pagos son procesados por proveedores de pago externos. Recibimos confirmación del pago, identificadores de pedido y detalles de facturación limitados necesarios para el registro. No almacenamos números completos de tarjetas de pago en nuestros servidores."
+          ],
+          "bullets": [
+            "IDs de transacción y estado del pago",
+            "Nombre de facturación y código postal (si se proporciona)",
+            "Registros de facturas y relacionados con impuestos"
+          ]
+        },
+        {
+          "title": "Datos de uso y dispositivo",
+          "paragraphs": [
+            "Cuando visitas nuestro sitio, podemos recopilar automáticamente información básica sobre tu dispositivo y uso para mantener el sitio seguro y realizar análisis."
+          ],
+          "bullets": [
+            "Dirección IP, tipo de navegador y sistema operativo",
+            "Páginas vistas y tiempo en el sitio",
+            "URLs de referencia y ubicación aproximada"
+          ]
+        },
+        {
+          "title": "Información sensible",
+          "paragraphs": [
+            "Tu historia puede incluir detalles personales sensibles. Por favor evita compartir información sensible innecesaria (como identificaciones gubernamentales, números de cuentas financieras o registros médicos). Si incluyes detalles sensibles, los trataremos con mayor cuidado y solo los usaremos para cumplir tu pedido."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-we-use",
+      "title": "Cómo usamos la información",
+      "paragraphs": [
+        "Usamos la información que recopilamos para proporcionar, mantener y mejorar ApolloSong."
+      ],
+      "bullets": [
+        "Crear tu canción personalizada y entregarla de forma segura",
+        "Comunicarnos sobre tu pedido, revisiones y solicitudes de soporte",
+        "Mejorar nuestro proceso creativo, rendimiento del sitio web y experiencia del usuario",
+        "Detectar y prevenir fraude, abuso o incidentes de seguridad",
+        "Cumplir con obligaciones legales y hacer cumplir nuestros términos"
+      ]
+    },
+    {
+      "id": "legal-basis",
+      "title": "Bases legales (EEE/Reino Unido)",
+      "paragraphs": [
+        "Si te encuentras en el Espacio Económico Europeo o el Reino Unido, procesamos tu información personal bajo las siguientes bases legales:"
+      ],
+      "bullets": [
+        "Necesidad contractual (para cumplir tu pedido)",
+        "Intereses legítimos (para mejorar servicios y proteger nuestra plataforma)",
+        "Consentimiento (para comunicaciones de marketing opcionales)",
+        "Obligaciones legales (requisitos fiscales, contables y de cumplimiento)"
+      ]
+    },
+    {
+      "id": "how-we-share",
+      "title": "Cómo compartimos información",
+      "paragraphs": [
+        "No vendemos tu información personal. Compartimos información solo cuando es necesario para operar ApolloSong."
+      ],
+      "subsections": [
+        {
+          "title": "Proveedores de servicios",
+          "paragraphs": [
+            "Utilizamos proveedores de confianza para pagos, hosting, análisis y comunicación. Estos proveedores solo pueden acceder a la información para realizar servicios en nuestro nombre y están obligados a protegerla."
+          ],
+          "bullets": [
+            "Procesamiento de pagos",
+            "Entrega de correo electrónico y soporte al cliente",
+            "Hosting del sitio web y análisis"
+          ]
+        },
+        {
+          "title": "Legal y seguridad",
+          "paragraphs": [
+            "Podemos divulgar información si lo requiere la ley, regulación, citación o proceso legal, o para proteger los derechos, propiedad o seguridad de ApolloSong, nuestros clientes o el público."
+          ]
+        },
+        {
+          "title": "Transferencias comerciales",
+          "paragraphs": [
+            "Si estamos involucrados en una fusión, adquisición o venta de activos, tu información puede ser transferida como parte de esa transacción. Te notificaremos de cualquier cambio material."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies y análisis",
+      "paragraphs": [
+        "Usamos cookies y tecnologías similares para recordar preferencias, medir el rendimiento y mejorar el sitio."
+      ],
+      "bullets": [
+        "Cookies esenciales para la funcionalidad principal del sitio",
+        "Cookies de preferencias para recordar idioma o configuraciones",
+        "Cookies de análisis para entender tendencias de uso del sitio"
+      ]
+    },
+    {
+      "id": "data-retention",
+      "title": "Retención de datos",
+      "paragraphs": [
+        "Conservamos la información personal solo mientras sea necesario para proporcionar nuestros servicios y cumplir con obligaciones legales."
+      ],
+      "bullets": [
+        "Los registros de pedidos se conservan para propósitos contables y de soporte al cliente",
+        "Los resúmenes creativos y comunicaciones se mantienen para cumplir tu pedido y manejar revisiones",
+        "Los datos de análisis se retienen en forma agregada cuando es posible"
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Seguridad",
+      "paragraphs": [
+        "Utilizamos salvaguardas administrativas, técnicas y físicas para proteger tu información. Esto incluye controles de acceso, conexiones encriptadas y acceso con privilegios mínimos para los miembros del equipo.",
+        "Ningún sistema puede ser 100% seguro. Por favor usa una contraseña de correo fuerte y contáctanos inmediatamente si crees que tu información ha sido comprometida."
+      ]
+    },
+    {
+      "id": "your-rights",
+      "title": "Tus derechos y opciones",
+      "paragraphs": [
+        "Dependiendo de dónde vivas, puedes tener derechos respecto a tu información personal."
+      ],
+      "bullets": [
+        "Acceder, corregir o eliminar tu información personal",
+        "Solicitar una copia de tus datos (portabilidad de datos)",
+        "Oponerte o restringir cierto procesamiento",
+        "Cancelar correos de marketing usando el enlace de cancelación o contactándonos"
+      ]
+    },
+    {
+      "id": "international-transfers",
+      "title": "Transferencias internacionales",
+      "paragraphs": [
+        "ApolloSong puede operar a través de fronteras. Tu información puede ser procesada en países distintos al tuyo. Cuando transferimos datos, usamos salvaguardas apropiadas para protegerlos."
+      ]
+    },
+    {
+      "id": "children",
+      "title": "Privacidad de menores",
+      "paragraphs": [
+        "ApolloSong no está dirigido a menores de 13 años, y no recopilamos conscientemente información personal de menores. Si crees que un menor nos ha proporcionado información personal, por favor contáctanos para que podamos eliminarla."
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "Enlaces de terceros",
+      "paragraphs": [
+        "Nuestro sitio web puede enlazar a sitios web de terceros. No somos responsables de las prácticas de privacidad de esos sitios, y te animamos a revisar sus políticas."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Cambios a esta política",
+      "paragraphs": [
+        "Podemos actualizar esta Política de Privacidad de vez en cuando. Si hacemos cambios materiales, publicaremos una versión actualizada y revisaremos la fecha de \"Última actualización\"."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contáctanos",
+      "paragraphs": [
+        "Si tienes preguntas sobre esta política o deseas ejercer tus derechos de privacidad, por favor comunícate usando los datos de contacto a continuación."
+      ]
+    }
+  ],
+  "contactCard": {
+    "title": "Preguntas o solicitudes de privacidad",
+    "description": "Respondemos a consultas de privacidad y solicitudes de datos lo más rápido posible.",
+    "emailLabel": "Correo electrónico",
+    "email": "contact@apollosong.com",
+    "responseLabel": "Tiempo de respuesta",
+    "responseTime": "Típicamente dentro de 2 días hábiles.",
+    "note": "Si estás solicitando datos en nombre de otra persona, incluye prueba de autoridad."
+  }
+}

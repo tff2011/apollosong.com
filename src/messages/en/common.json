@@ -1,0 +1,48 @@
+{
+  "brand": "ApolloSong",
+  "brandByline": "by ApolloSong",
+  "header": {
+    "announcement": "We don't create songs. We create unforgettable moments.",
+    "announcementCta": "Start my song",
+    "nav": {
+      "trackOrder": "Track Order",
+      "reviews": "Reviews",
+      "createSong": "Create Your Song",
+      "about": "About Us",
+      "contact": "Contact"
+    },
+    "mobile": {
+      "trackOrder": "Track Order",
+      "reviews": "Reviews",
+      "contact": "Contact",
+      "cta": "Create Your Song",
+      "terms": "Terms",
+      "payment": "Payment",
+      "privacy": "Privacy"
+    }
+  },
+  "footer": {
+    "tagline": "We don't create songs. We create unforgettable moments.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "payment": "Payment Methods",
+      "about": "About Us",
+      "contact": "Contact Us"
+    },
+    "hours": "Mon-Fri, 9am - 5pm EST",
+    "languageLabel": "Language",
+    "languages": {
+      "en": "English",
+      "pt": "Portuguese",
+      "es": "Spanish",
+      "fr": "French",
+      "it": "Italian"
+    },
+    "rights": "All rights reserved.",
+    "madeWith": "Made with",
+    "madeFor": "for families everywhere."
+  }
+}

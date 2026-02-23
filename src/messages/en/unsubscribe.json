@@ -1,0 +1,30 @@
+{
+  "success": {
+    "title": "Successfully Unsubscribed",
+    "message": "You have been removed from our marketing email list. You will no longer receive promotional emails from us.",
+    "note": "Note: You will still receive transactional emails related to your orders (purchase confirmations, song deliveries, etc.)."
+  },
+  "errors": {
+    "missing_params": {
+      "title": "Invalid Link",
+      "message": "The unsubscribe link is invalid or incomplete. Please use the link provided in the email."
+    },
+    "invalid_token": {
+      "title": "Invalid Link",
+      "message": "This unsubscribe link is invalid or has expired. Please use a link from a recent email."
+    },
+    "server_error": {
+      "title": "Something Went Wrong",
+      "message": "We were unable to process your request. Please try again or contact support."
+    },
+    "contactSupport": "Contact Support via WhatsApp"
+  },
+  "landing": {
+    "title": "Email Preferences",
+    "message": "Use the link in your email to manage your subscription preferences."
+  },
+  "seo": {
+    "title": "Unsubscribe | Apollo Song",
+    "description": "Manage your email subscription preferences for Apollo Song."
+  }
+}

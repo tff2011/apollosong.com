@@ -1,0 +1,27 @@
+{
+  "title": "Escucha las Lágrimas de Alegría",
+  "subtitle": "Familias reales compartiendo su reacción a ApolloSong.",
+  "items": [
+    {
+      "name": "Sarah M.",
+      "location": "Texas",
+      "quote": "Nunca había llorado así.",
+      "video": "/images/testimonial-sarah.webp",
+      "alt": "Sarah secándose lágrimas de alegría después de escuchar su canción"
+    },
+    {
+      "name": "David K.",
+      "location": "Tennessee",
+      "quote": "Esto se sintió como Dios hablando a través de la música.",
+      "video": "/images/testimonial-david.webp",
+      "alt": "David emocionado en su carro sosteniendo su teléfono"
+    },
+    {
+      "name": "Emily R.",
+      "location": "California",
+      "quote": "El mejor regalo que he dado.",
+      "video": "/images/testimonial-emily.webp",
+      "alt": "Emily llorando lágrimas de felicidad sosteniendo una caja de regalo"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Parlez à ApolloSong",
+    "subtitle": "Choisissez l'une des options ci-dessous pour joindre notre équipe."
+  },
+  "channels": {
+    "title": "Options de contact",
+    "items": [
+      {
+        "title": "Email",
+        "description": "Questions, commandes ou support.",
+        "detail": "contact@apollosong.com",
+        "cta": "Envoyer un email",
+        "href": "mailto:contact@apollosong.com"
+      },
+      {
+        "title": "Support WhatsApp",
+        "description": "Support rapide pour vos questions et commandes.",
+        "detail": "+55 61 99579-0193",
+        "cta": "Ouvrir WhatsApp",
+        "href": "https://wa.me/5561995790193"
+      },
+      {
+        "title": "Instagram",
+        "description": "Envoyez-nous un message privé sur notre profil officiel.",
+        "detail": "@apollosongbr",
+        "cta": "Ouvrir Instagram",
+        "href": "https://instagram.com/apollosongbr"
+      }
+    ]
+  }
+}

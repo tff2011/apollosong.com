@@ -1,0 +1,14 @@
+{
+  "title": "Fale Conosco",
+  "subtitle": "Tem uma pergunta ou uma história para compartilhar? Adoraríamos ouvir você.",
+  "form": {
+    "nameLabel": "Nome",
+    "namePlaceholder": "Seu nome",
+    "emailLabel": "Email",
+    "emailPlaceholder": "voce@exemplo.com",
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Como podemos ajudar?",
+    "sending": "Enviando...",
+    "submit": "Enviar mensagem"
+  }
+}

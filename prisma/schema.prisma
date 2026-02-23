@@ -1,0 +1,688 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider      = "prisma-client-js"
+    binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+    provider = "postgresql"
+    // NOTE: When using mysql or sqlserver, uncomment the @db.Text annotations in model Account below
+    // Further reading:
+    // https://next-auth.js.org/adapters/prisma#create-the-prisma-schema
+    // https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#string
+    url      = env("DATABASE_URL")
+}
+
+model Post {
+    id        Int      @id @default(autoincrement())
+    name      String
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    createdBy   User   @relation(fields: [createdById], references: [id])
+    createdById String
+
+    @@index([name])
+}
+
+// Necessary for Next auth
+model Account {
+    id                       String  @id @default(cuid())
+    userId                   String
+    type                     String
+    provider                 String
+    providerAccountId        String
+    refresh_token            String? // @db.Text
+    access_token             String? // @db.Text
+    expires_at               Int?
+    token_type               String?
+    scope                    String?
+    id_token                 String? // @db.Text
+    session_state            String?
+    user                     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+    refresh_token_expires_in Int?
+
+    @@unique([provider, providerAccountId])
+}
+
+model Session {
+    id           String   @id @default(cuid())
+    sessionToken String   @unique
+    userId       String
+    expires      DateTime
+    user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+enum AdminRole {
+    SUPER_ADMIN
+    STAFF
+}
+
+enum AdminPermission {
+    LEADS
+    STATS
+    CONVERSION
+    TICKETS
+    WHATSAPP
+    BOUNCES
+    KNOWLEDGE
+    PRONUNCIATION
+    GENRE_PROMPTS
+    AUDIO_SAMPLES
+    SUNO_EMAILS
+    CONTENT_CALENDAR
+}
+
+enum WorkSessionStatus {
+    PENDING_START
+    DECLINED
+    OPEN
+    PAUSED
+    CLOSED
+}
+
+model User {
+    id            String    @id @default(cuid())
+    name          String?
+    email         String?   @unique
+    emailVerified DateTime?
+    image         String?
+    adminUsername     String?           @unique
+    adminPasswordHash String?
+    adminRole         AdminRole         @default(STAFF)
+    adminPermissions  AdminPermission[] @default([])
+    adminEnabled      Boolean           @default(false)
+    pixKey            String?
+    accounts      Account[]
+    sessions      Session[]
+    posts         Post[]
+    workSessions  WorkSession[]
+}
+
+model WorkSession {
+    id              String            @id @default(cuid())
+    userId          String
+    dayKey          String
+    firstLoginAt    DateTime
+    promptAnsweredAt DateTime?
+    startedAt       DateTime?
+    pausedAt        DateTime?
+    totalPausedMs   Int               @default(0)
+    endedAt         DateTime?
+    status          WorkSessionStatus @default(PENDING_START)
+    createdAt       DateTime          @default(now())
+    updatedAt       DateTime          @updatedAt
+    user            User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+    @@unique([userId, dayKey])
+    @@index([dayKey])
+    @@index([userId, startedAt])
+}
+
+model VerificationToken {
+    identifier String
+    token      String   @unique
+    expires    DateTime
+
+    @@unique([identifier, token])
+}
+
+// Song Order Status
+enum SongOrderStatus {
+    PENDING
+    PAID
+    IN_PROGRESS
+    COMPLETED
+    REVISION    // Customer requested revision of completed song
+    CANCELLED
+    REFUNDED
+}
+
+enum RevisionType {
+    PRONUNCIATION   // Erro de pronúncia de nomes/palavras
+    LYRICS_ERROR    // Erro na letra (palavra errada, frase incorreta)
+    NAME_ERROR      // Nome do destinatário errado ou faltando
+    STYLE_CHANGE    // Cliente quer estilo/ritmo diferente
+    QUALITY_ISSUE   // Problema de qualidade do áudio
+    OTHER           // Outros motivos
+}
+
+enum RevisionFault {
+    OUR_FAULT       // Erro da IA ou do sistema - revisão gratuita
+    CLIENT_FAULT    // Erro/esquecimento do cliente - cobrar R$ 39,90
+    UNCLEAR         // Não foi possível determinar - análise manual
+}
+
+enum MelodyPreference {
+    KEEP_CURRENT    // Manter melodia atual
+    SUGGEST_NEW     // Sugerir 2 novas melodias
+}
+
+// ============= SUPPORT TICKET SYSTEM =============
+
+enum TicketStatus {
+    OPEN
+    WAITING_REPLY
+    RESOLVED
+    CLOSED
+}
+
+enum TicketPriority {
+    LOW
+    NORMAL
+    HIGH
+    URGENT
+}
+
+enum MessageDirection {
+    INBOUND
+    OUTBOUND
+}
+
+enum AiResponseStatus {
+    PENDING
+    GENERATED
+    ACCEPTED
+    MODIFIED
+    REJECTED
+}
+
+// Song Order - Stores all quiz data and analytics for lead generation
+model SongOrder {
+    id String @id @default(cuid())
+
+    // ============= QUIZ DATA =============
+    recipient             String // husband, wife, children, father, mother, sibling, friend, myself, other
+    recipientName         String // Name to include in the song
+    recipientRelationship String? // Custom relationship when recipient is "other" (e.g., godmother, teacher)
+    genre                 String // pop, country, rock, rnb, jazz, worship, hiphop
+    vocals        String  @default("either") // female, male, either
+    qualities     String  @db.Text // What makes them special
+    memories      String  @db.Text // Shared memories/stories
+    message       String? @db.Text // Optional personal message
+    email          String // Customer email
+    backupWhatsApp String? // Optional backup WhatsApp number (+55 11 99999-9999)
+
+    // ============= LOCALIZATION =============
+    locale       String @default("en") // en, pt
+    currency     String @default("USD") // USD, BRL
+    priceAtOrder Int    @default(9900) // Price in cents at time of order
+    planType     String? // BRL only: essencial, acelerado, express
+    couponId             String?
+    couponCode           String?
+    couponDiscountPercent Int?
+    couponDiscountAmount  Int?
+    coupon               DiscountCoupon? @relation(fields: [couponId], references: [id], onDelete: SetNull)
+
+    // ============= BROWSER/DEVICE INFO =============
+    userAgent      String?  @db.Text
+    userIp         String?
+    browserName    String?
+    browserVersion String?
+    osName         String?
+    osVersion      String?
+    deviceType     String? // desktop, mobile, tablet
+    screenWidth    Int?
+    screenHeight   Int?
+    viewportWidth  Int?
+    viewportHeight Int?
+    pixelRatio     Float?
+    touchSupport   Boolean?
+    language       String?
+    languages      String[]
+    timezone       String?
+    timezoneOffset Int?
+
+    // ============= TRAFFIC SOURCE =============
+    referrer       String? @db.Text
+    referrerDomain String?
+    utmSource      String?
+    utmMedium      String?
+    utmCampaign    String?
+    utmTerm        String?
+    utmContent     String?
+    fbc            String?
+    fbp            String?
+    landingPage    String?
+
+    // ============= SESSION ANALYTICS =============
+    sessionId       String?
+    pageViewCount   Int?
+    timeOnSiteMs    Int?
+    quizStartedAt   DateTime?
+    quizCompletedAt DateTime?
+    quizDurationMs  Int?
+
+    // ============= SUPABASE IMPORT (external signals) =============
+    supabaseOrderId        String?
+    supabaseTransactionId  String?
+    supabaseOrderStatus    String?
+    supabasePaidAt         DateTime?
+
+    // ============= ORDER STATUS & WORKFLOW =============
+    status                 SongOrderStatus @default(PENDING)
+    stripePaymentIntentId  String? // Stripe PaymentIntent ID (created before payment)
+    paymentId              String? // Stripe payment ID (after successful payment)
+    paymentCompletedAt     DateTime?
+    stripeFee              Int?    // Stripe fee in cents
+    stripeNetAmount        Int?    // Net amount after fees in cents (always in USD)
+    paymentMethod          String? // card, pix, boleto
+
+    // ============= ORDER BUMP FIELDS =============
+    orderType       String      @default("MAIN") // MAIN, FAST_DELIVERY, EXTRA_SONG
+    parentOrderId   String?
+    parentOrder     SongOrder?  @relation("OrderBumps", fields: [parentOrderId], references: [id])
+    childOrders     SongOrder[] @relation("OrderBumps")
+    hasFastDelivery  Boolean     @default(false) // Flag on main order if fast delivery was purchased
+    hasCertificate   Boolean     @default(false) // Flag if certificate of authorship was purchased
+    hasLyrics        Boolean     @default(false) // Flag if lyrics PDF was purchased
+    lyricsPdfSongName String?    // Custom song name for lyrics PDF (editable by customer)
+    lyricsPdfA4Url   String?     // Pre-generated lyrics PDF A4 URL in R2
+    lyricsPdfA3Url   String?     // Pre-generated lyrics PDF A3 URL in R2
+    lyricsPdfGeneratedAt DateTime? // When the PDF was last generated (for cache invalidation)
+    certificateToken String?     @unique          // Short token for public certificate URL
+    sentEmails       SentEmail[]
+    supportTickets   SupportTicket[]
+    emailBounces     EmailBounce[]
+
+    // ============= LYRICS GENERATION =============
+    lyrics            String?   @db.Text // Generated song lyrics
+    musicPrompt       String?   @db.Text // Music generation prompt for Suno AI (genre, beat, style)
+    lyricsStatus      String?   @default("pending") // pending, generating, completed, failed
+    lyricsGeneratedAt DateTime?
+    lyricsError       String?   @db.Text // Error message if generation failed
+    lyricsPrompt      String?   @db.Text // Saved prompt for debugging
+
+    // ============= SONG DELIVERY =============
+    // Option 1
+    songFileUrl     String?   // Public URL of the MP3 file in R2
+    songFileKey     String?   // R2 object key (for deletion)
+    songUploadedAt  DateTime? // When the MP3 was uploaded
+    // Option 2
+    songFileUrl2    String?   // Public URL of second MP3 option
+    songFileKey2    String?   // R2 object key for second option
+    songUploadedAt2 DateTime? // When second MP3 was uploaded
+    // ============= KIE TASK TRACKING =============
+    kieTaskId       String?   // Kie generation task ID (for vocal separation)
+    kieAudioId1     String?   // Kie audio ID for song option 1
+    kieAudioId2     String?   // Kie audio ID for song option 2
+    // ============= KARAOKE PLAYBACK =============
+    hasKaraokePlayback   Boolean   @default(false)
+    karaokeFileUrl       String?   // Instrumental MP3 URL in R2
+    karaokeFileKey       String?   // R2 object key
+    karaokeStatus        String?   // pending | processing | completed | failed
+    karaokeError         String?   @db.Text
+    karaokeGeneratedAt   DateTime?
+    karaokeKieTaskId     String?   // Kie vocal-removal task ID
+    // Delivery tracking
+    songDeliveredAt DateTime? // When the delivery email was sent
+    // Suno account tracking
+    sunoAccountEmail String?   // Email of the Suno account that generated this song
+
+    // ============= STREAMING DISTRIBUTION =============
+    spotifyUrl String? // Spotify link for Streaming VIP delivery
+    streamingSongName String? // Name of the song on streaming platforms
+    preferredSongForStreaming String? // URL of preferred song version for streaming (when parent has 2 options)
+    streamingCoverUrl String? // URL of cover art for streaming platforms (final art created by admin)
+    streamingCoverKey String? // R2 key for the cover art file
+    coverApproved     Boolean  @default(false) // Whether the customer approved the cover via WhatsApp
+    coverHumanReviewRequested   Boolean   @default(false) // Customer asked for human cover adjustments
+    coverHumanReviewRequestedAt DateTime? // When the customer requested human cover review
+    honoreePhotoUrl   String? // Photo of the honoree sent by customer (used to create cover)
+    honoreePhotoKey   String? // R2 key for the honoree photo
+
+    // ============= REVISION REQUEST =============
+    revisionRequestedAt DateTime?     // When customer requested revision
+    revisionNotes       String?       @db.Text // Customer's description of what needs fixing
+    revisionAudioUrl    String?       // Public URL of customer voice note attached to revision
+    revisionAudioKey    String?       // R2 key of customer voice note attached to revision
+    revisionCount       Int           @default(0) // How many revisions requested (max 2)
+    revisionType        RevisionType? // Auto-classified revision type (PRONUNCIATION, LYRICS_ERROR, etc)
+    revisionFault       RevisionFault? // Who is responsible: OUR_FAULT (free), CLIENT_FAULT (R$39.90), UNCLEAR (manual)
+    revisionFaultReason String?       @db.Text // LLM explanation for the fault classification
+    revisionHistory     Json?         // Array of previous revision requests [{requestedAt, notes, type, fault, faultReason, completedBy, completedAt}]
+    melodyPreference    MelodyPreference? // KEEP_CURRENT ou SUGGEST_NEW
+
+    // ============= REVISION LOCK =============
+    revisionLockedBy    String?       // Nome do admin que travou a revisão
+    revisionLockedAt    DateTime?     // Quando foi travado
+
+    // ============= REVISION COMPLETION =============
+    revisionCompletedBy String?       // Nome do admin que completou a revisão (permanente)
+    revisionCompletedAt DateTime?     // Quando a revisão foi completada
+
+    // ============= LYRICS CORRECTION =============
+    correctedLyrics     String?   @db.Text // AI-corrected lyrics for Suno (includes phonetic corrections)
+    displayLyrics       String?   @db.Text // Clean lyrics for display/PDF (factual corrections only, no phonetics)
+    correctedLyricsAt   DateTime? // When correction was generated/accepted
+
+    // ============= GENRE VARIANT LYRICS OPTIONS =============
+    keepParentLyrics       Boolean @default(false) // Copy lyrics from parent, only regenerate musicPrompt
+    adaptFromParentLyrics  Boolean @default(false) // Adapt lyrics from parent for new genre
+
+    // ============= TIMESTAMPS =============
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    @@index([email])
+    @@index([status])
+    @@index([createdAt])
+    @@index([utmSource, utmCampaign])
+    // Performance indexes for admin filtering
+    @@index([status, createdAt])
+    @@index([status, paymentCompletedAt])
+    @@index([recipientName])
+    @@index([genre])
+    @@index([vocals])
+    @@index([parentOrderId])
+    @@index([orderType])
+    @@index([couponId])
+    @@index([couponCode])
+    @@index([certificateToken])
+    @@index([supabaseOrderId])
+    @@index([supabaseTransactionId])
+    @@index([quizCompletedAt])
+}
+
+model SentEmail {
+    id        String   @id @default(cuid())
+    recipient String
+    subject   String
+    template  String
+    metadata  Json?
+    status    String // SENT, FAILED, SUPPRESSED
+    error     String?  @db.Text
+    
+    orderId   String?
+    order     SongOrder? @relation(fields: [orderId], references: [id])
+    
+    createdAt DateTime @default(now())
+    
+    @@index([orderId])
+    @@index([recipient])
+    @@index([template])
+    @@index([createdAt])
+    @@index([recipient, status, createdAt])
+}
+
+model PronunciationCorrection {
+    id          String   @id @default(cuid())
+    original    String   @unique
+    replacement String
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
+}
+
+model GenrePrompt {
+    id          String   @id @default(cuid())
+    genre       String   // ex: "pop", "rock", "sertanejo-universitario"
+    locale      String   // ex: "pt", "en", "es", "fr", "it" ou "all" para universal
+    prompt      String   @db.Text // prompt completo para o Suno
+    displayName String   // nome de exibição: "Pop", "Rock Clássico"
+    isActive    Boolean  @default(true)
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
+
+    @@unique([genre, locale]) // cada gênero só pode ter 1 prompt por idioma
+    @@index([locale])
+    @@index([isActive])
+}
+
+model GenreAudioSample {
+    id        String   @id @default(cuid())
+    locale    String
+    genre     String
+    vocals    String   @default("male") // "male" or "female"
+    audioUrl  String
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    @@unique([locale, genre, vocals])
+    @@index([locale])
+    @@index([locale, vocals])
+}
+
+model CheckoutCouponConfig {
+    id                 Int      @id @default(1)
+    couponFieldEnabled Boolean  @default(false)
+    createdAt          DateTime @default(now())
+    updatedAt          DateTime @updatedAt
+}
+
+model DiscountCoupon {
+    id              String    @id @default(cuid())
+    code            String    @unique
+    discountPercent Int
+    maxUses         Int?
+    usedCount       Int       @default(0)
+    isActive        Boolean   @default(true)
+    createdAt       DateTime  @default(now())
+    updatedAt       DateTime  @updatedAt
+    orders          SongOrder[]
+
+    @@index([isActive])
+    @@index([usedCount])
+}
+
+model EmailUnsubscribe {
+    id             String   @id @default(cuid())
+    email          String   @unique
+    unsubscribedAt DateTime @default(now())
+    reason         String?  // "user_request", "complaint", etc.
+    createdAt      DateTime @default(now())
+
+    @@index([email])
+}
+
+// ============= SUPPORT TICKET SYSTEM =============
+
+model SupportTicket {
+    id         String         @id @default(cuid())
+    email      String
+    subject    String
+    status     TicketStatus   @default(OPEN)
+    priority   TicketPriority @default(NORMAL)
+
+    orderId    String?
+    order      SongOrder?     @relation(fields: [orderId], references: [id])
+
+    locale     String?
+    assignedTo String?
+    closedAt   DateTime?
+
+    messages   TicketMessage[]
+
+    createdAt  DateTime @default(now())
+    updatedAt  DateTime @updatedAt
+
+    @@index([email])
+    @@index([status])
+    @@index([status, createdAt])
+    @@index([orderId])
+}
+
+model TicketMessage {
+    id                  String            @id @default(cuid())
+    ticketId            String
+    ticket              SupportTicket     @relation(fields: [ticketId], references: [id])
+
+    direction           MessageDirection
+    senderEmail         String
+    body                String            @db.Text
+    htmlBody            String?           @db.Text
+
+    emailMessageId      String?           @unique // Message-ID header for dedup
+    inReplyTo           String?
+    references          String?           @db.Text
+
+    aiSuggestedResponse String?           @db.Text
+    aiResponseStatus    AiResponseStatus?
+
+    sentAt              DateTime?
+    createdAt           DateTime          @default(now())
+
+    @@index([ticketId])
+    @@index([emailMessageId])
+}
+
+model EmailBounce {
+    id              String     @id @default(cuid())
+    bouncedEmail    String
+    bounceReason    String     @db.Text
+    bounceType      String     // "hard" | "soft" | "soft_escalated" | "unknown"
+    smtpCode        String?    // SMTP reply code (e.g. "550", "452")
+    enhancedCode    String?    // Enhanced status code (e.g. "5.1.1", "4.2.2")
+    originalSubject String?
+    rawSnippet      String?    @db.Text
+    emailMessageId  String?    @unique // Message-ID header for dedup
+
+    orderId         String?
+    order           SongOrder? @relation(fields: [orderId], references: [id])
+
+    orderStatus     String?
+    recipientName   String?
+    backupWhatsApp  String?
+    locale          String?
+
+    resolved        Boolean    @default(false)
+    resolvedAt      DateTime?
+    resolvedNote    String?
+
+    detectedAt      DateTime   @default(now())
+    createdAt       DateTime   @default(now())
+
+    @@index([bouncedEmail])
+    @@index([resolved])
+    @@index([detectedAt])
+    @@index([orderId])
+}
+
+model SupportKnowledge {
+    id        String   @id @default(cuid())
+    title     String
+    content   String   @db.Text
+    category  String
+    channel   SupportKnowledgeChannel @default(BOTH)
+    locale    String   @default("all")
+    isActive  Boolean  @default(true)
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    @@index([category])
+    @@index([isActive])
+    @@index([channel])
+    @@index([locale])
+}
+
+enum SupportKnowledgeChannel {
+    BOTH
+    EMAIL
+    WHATSAPP
+}
+
+// ============= CONTENT CALENDAR =============
+
+enum ContentPlatform {
+    TIKTOK
+    INSTAGRAM
+    YOUTUBE
+}
+
+enum ContentPostStatus {
+    DRAFT
+    APPROVED
+    PUBLISHED
+    OVERDUE
+}
+
+model ContentPost {
+    id           String            @id @default(cuid())
+    title        String
+    caption      String?           @db.Text
+    platform     ContentPlatform
+    status       ContentPostStatus @default(DRAFT)
+    scheduledAt  DateTime
+    publishedAt  DateTime?
+    publishedUrl String?
+    notes        String?           @db.Text
+    tags         String[]
+    assets       ContentPostAsset[]
+    createdAt    DateTime          @default(now())
+    updatedAt    DateTime          @updatedAt
+
+    @@index([scheduledAt])
+    @@index([status])
+    @@index([platform])
+    @@index([status, scheduledAt])
+}
+
+model ContentPostAsset {
+    id        String      @id @default(cuid())
+    postId    String
+    post      ContentPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+    fileUrl   String
+    fileKey   String
+    fileName  String
+    fileType  String
+    fileSize  Int?
+    sortOrder Int         @default(0)
+    createdAt DateTime    @default(now())
+
+    @@index([postId])
+}
+
+// ============= WHATSAPP BOT =============
+
+model WhatsAppLabel {
+    id           String   @id @default(cuid())
+    slug         String   @unique
+    name         String
+    color        String   // hex color e.g. "#ef4444"
+    emoji        String?
+    isPredefined Boolean  @default(false)
+    createdAt    DateTime @default(now())
+    updatedAt    DateTime @updatedAt
+
+    conversations WhatsAppConversation[]
+}
+
+model WhatsAppConversation {
+    id                    String   @id @default(cuid())
+    waId                  String   @unique // E.164 without +, e.g. "5511999999999"
+    customerName          String?
+    locale                String   @default("pt")
+    isBot                 Boolean  @default(true) // false = admin took over
+    assignedTo            String?
+    assignedAt            DateTime?
+    lockExpiresAt         DateTime?
+    lastCustomerMessageAt DateTime?
+    lastBotMessageAt      DateTime?
+    labelId               String?
+    label                 WhatsAppLabel? @relation(fields: [labelId], references: [id])
+    createdAt             DateTime @default(now())
+    updatedAt             DateTime @updatedAt
+    messages              WhatsAppMessage[]
+
+    @@index([lastCustomerMessageAt])
+    @@index([isBot])
+    @@index([assignedTo])
+    @@index([lockExpiresAt])
+    @@index([labelId])
+}
+
+model WhatsAppMessage {
+    id             String               @id @default(cuid())
+    conversationId String
+    conversation   WhatsAppConversation @relation(fields: [conversationId], references: [id])
+    waMessageId    String?              @unique // Idempotency
+    direction      String               // "inbound" | "outbound"
+    body           String               @db.Text
+    senderType     String               // "customer" | "bot" | "admin"
+    metadata       Json?
+    createdAt      DateTime             @default(now())
+
+    @@index([conversationId, createdAt])
+}

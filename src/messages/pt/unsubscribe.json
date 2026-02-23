@@ -1,0 +1,30 @@
+{
+  "success": {
+    "title": "Descadastrado com Sucesso",
+    "message": "Seu email foi removido da nossa lista de marketing. Voce nao recebera mais emails promocionais.",
+    "note": "Nota: Voce ainda recebera emails transacionais relacionados aos seus pedidos (confirmacoes de compra, entregas de musicas, etc.)."
+  },
+  "errors": {
+    "missing_params": {
+      "title": "Link Invalido",
+      "message": "O link de descadastramento esta invalido ou incompleto. Por favor, use o link fornecido no email."
+    },
+    "invalid_token": {
+      "title": "Link Invalido",
+      "message": "Este link de descadastramento e invalido ou expirou. Por favor, use um link de um email recente."
+    },
+    "server_error": {
+      "title": "Algo Deu Errado",
+      "message": "Nao foi possivel processar sua solicitacao. Por favor, tente novamente ou entre em contato com o suporte."
+    },
+    "contactSupport": "Contatar Suporte via WhatsApp"
+  },
+  "landing": {
+    "title": "Preferencias de Email",
+    "message": "Use o link no seu email para gerenciar suas preferencias de inscricao."
+  },
+  "seo": {
+    "title": "Descadastrar | Apollo Song",
+    "description": "Gerencie suas preferencias de inscricao de email para a Apollo Song."
+  }
+}

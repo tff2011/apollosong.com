@@ -1,0 +1,25 @@
+{
+    "title": "A Chi È Dedicata Questa Canzone?",
+    "swipeHint": "Scorri per esplorare →",
+    "cta": "Inizia a creare la tua canzone",
+    "items": {
+        "partner": "Per l'Amore della Tua Vita",
+        "children": "Per Tuo Figlio o Tua Figlia",
+        "proposal": "Per la Proposta Perfetta",
+        "wedding": "Per Celebrare la Vostra Unione",
+        "birthday": "Per Un Compleanno Indimenticabile",
+        "parents": "Per Tuo Padre o Tua Madre",
+        "grandparents": "Per i Tuoi Nonni",
+        "friends": "Per Quell'Amico Speciale",
+        "yourself": "Per Te Stesso(a)",
+        "baptism": "Per il Battesimo del Tuo Bebè",
+        "genderReveal": "Per la Rivelazione del Sesso",
+        "graduation": "Per Una Laurea Speciale",
+        "anniversary": "Per Celebrare l'Anniversario",
+        "loss": "Per Onorare Chi Non C'è Più",
+        "strength": "Per Dare Forza a Qualcuno",
+        "healing": "Per Chi Ha Bisogno di Guarigione",
+        "prayers": "Per Una Preghiera Speciale",
+        "breakthroughs": "Per Celebrare Una Vittoria"
+    }
+}

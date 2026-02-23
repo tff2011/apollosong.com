@@ -1,0 +1,20 @@
+{
+  "title": "Listen to our tributes by Music Genre",
+  "subtitle": "Our Styles",
+  "subgenreLabel": "Subgenre: {genre}",
+  "missingBadge": "Coming soon",
+  "missingAudio": "Audio coming soon",
+  "searchPlaceholder": "Search music genre...",
+  "noResults": "No genres found",
+  "showingAll": "Showing all {count} genres",
+  "showingFiltered": "Showing {count} of {total} genres",
+  "showMore": "Show more styles ({count} remaining)",
+  "showLess": "Show less",
+  "description": "Explore our library of music styles, from classical to modern.",
+  "totalGenres": "{count} music styles available",
+  "clearSearch": "View all genres",
+  "ctaButton": "Create my song",
+  "vocalsFilter": "I want to hear the examples with",
+  "vocalsMale": "Male",
+  "vocalsFemale": "Female"
+}

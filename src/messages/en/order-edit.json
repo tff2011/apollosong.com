@@ -1,0 +1,131 @@
+{
+  "title": "Edit your order",
+  "titleWithRecipient": "Improve {name}'s story and edit your order",
+  "subtitle": "The more details you share, the more exciting the lyrics our songwriters will create.",
+  "stages": {
+    "step1": {
+      "label": "Step 1",
+      "title": "Update the main details",
+      "subtitle": "Review name, relationship, genre, and voice."
+    },
+    "step2": {
+      "label": "Step 2",
+      "title": "Answer provocative questions about {name}",
+      "titleFallback": "Answer provocative questions about the honoree",
+      "subtitle": "These answers will enrich the final text automatically."
+    },
+    "step3": {
+      "label": "Step 3",
+      "title": "Review and save",
+      "subtitle": "Check the final fields and save your changes."
+    }
+  },
+  "email": {
+    "title": "Confirm your email",
+    "subtitle": "Use the same email you used at checkout.",
+    "label": "Email",
+    "placeholder": "you@email.com",
+    "button": "Continue",
+    "checking": "Checking...",
+    "invalid": "Please enter a valid email.",
+    "notFound": "We couldn't find this order with that email.",
+    "notEditable": "This order is no longer editable.",
+    "error": "We couldn't load your order. Try again.",
+    "confirmedLabel": "Email confirmed",
+    "change": "Change email"
+  },
+  "form": {
+    "title": "Update your story",
+    "subtitle": "The more details you include, the better the lyrics.",
+    "helper": "When you save, we will regenerate the lyrics from scratch.",
+    "writeTip": "Write as much as you want, there's no word limit! The more details, the better the song. Include important dates, special places, memorable moments, achievements, challenges overcome, nicknames... everything that makes this story unique.",
+    "guidedQuestions": {
+      "intro": "Hello! 😊 We are preparing the song for {name} with great care. To make the lyrics even more special and personal, we need a few more details:",
+      "sectionTitle": "Questions that inspire the lyrics",
+      "sectionSubtitle": "The more details, the more unique {name}'s song will be.",
+      "defaultRecipient": "this special person",
+      "items": [
+        {
+          "title": "🌍 Where does the story begin?",
+          "description": "Where was {name} born and raised? What is their birth date? Is there any childhood or hometown detail that really stands out?"
+        },
+        {
+          "title": "💼 The path they built",
+          "description": "What is {name}'s profession or career? Was there any major achievement, struggle, or turning point?"
+        },
+        {
+          "title": "✈️ Journeys and adventures",
+          "description": "Was there a trip or adventure you lived together that you will never forget? Where was it, what happened, and why was it so meaningful?"
+        },
+        {
+          "title": "💎 The moment that changed everything",
+          "description": "What was the strongest moment between you? The one you would relive if you could. Where did it happen and what did you feel?"
+        },
+        {
+          "title": "🗣️ Signature traits",
+          "description": "Does {name} have a loving nickname? Any phrase, habit, or expression they always say?"
+        },
+        {
+          "title": "📸 The scene that says it all",
+          "description": "If you could freeze {name} in one image, what would it be? Example: dancing in the kitchen, praying at dawn, fixing everything at home."
+        },
+        {
+          "title": "🏠 Your sacred place",
+          "description": "Is there a place that is sacred to you both? A street, a city, a corner of the house, a beach..."
+        },
+        {
+          "title": "💬 What you never said",
+          "description": "What would you like to say to {name} but never had the courage? That word that got stuck in your throat..."
+        }
+      ],
+      "footer": "The more details you share, the more unique and emotional the song will be! 🎵",
+      "answerHint": "Your answers are automatically applied to the final fields below (qualities, memories, and message).",
+      "answerPlaceholder": "Write your answer with as much detail as possible...",
+      "autoAddedLabel": "Automatically added from guided answers",
+      "toneLabel": "What tone should the tribute have?",
+      "toneHint": "Choose one or more that match the feeling you want to convey.",
+      "toneOptions": {
+        "joyful": "Joyful",
+        "emotional": "Emotional",
+        "nostalgic": "Nostalgic",
+        "grateful": "Grateful",
+        "romantic": "Romantic",
+        "hopeful": "Hopeful",
+        "reflective": "Reflective",
+        "playful": "Playful"
+      }
+    },
+    "save": "Save changes",
+    "saving": "Saving...",
+    "saved": "Saved! We are regenerating the lyrics.",
+    "error": "We couldn't save your changes. Try again.",
+    "cooldown": "Please wait a few minutes before editing again.",
+    "required": "Please fill out all required fields.",
+    "backToTrack": "Track my order",
+    "savedDialog": {
+      "title": "Changes saved!",
+      "subtitle": "We are recreating the lyrics for your song.",
+      "changed": "What was updated:",
+      "close": "Got it",
+      "fields": {
+        "recipientName": "Name",
+        "recipient": "Recipient",
+        "genre": "Genre",
+        "vocals": "Vocals",
+        "qualities": "Qualities",
+        "memories": "Memories",
+        "message": "Message"
+      }
+    }
+  },
+  "validation": {
+    "required": "This field is required.",
+    "minChars": "Please write at least {count} characters."
+  },
+  "unsaved": {
+    "title": "You have unsaved changes",
+    "description": "To update your song, click \"Save changes\" before leaving.",
+    "stay": "Go back and save",
+    "leave": "Leave without saving"
+  }
+}

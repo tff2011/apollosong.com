@@ -1,0 +1,36 @@
+{
+  "envelope": {
+    "teaser": "Quelqu'un vous a prepare quelque chose de special...",
+    "openButton": "Ouvrir le cadeau"
+  },
+  "reveal": {
+    "subtitle": "Une chanson a ete creee exclusivement pour",
+    "playButton": "Ecouter votre chanson"
+  },
+  "title": "Chanson du coeur",
+  "subtitle": "Cette chanson a ete creee exclusivement pour",
+  "createdOn": "Creee le",
+  "genre": "Genre",
+  "listenNow": "Ecouter votre chanson",
+  "option1": "Option 1",
+  "option2": "Option 2",
+  "share": {
+    "title": "Partager",
+    "copied": "Lien copie !"
+  },
+  "lyrics": {
+    "title": "Paroles de la chanson",
+    "downloadPdf": "Telecharger les paroles en PDF"
+  },
+  "download": {
+    "certificate": "Telecharger le certificat PDF",
+    "downloading": "Generation du PDF..."
+  },
+  "footer": "Cree avec amour par ChansonDivine",
+  "notFound": {
+    "title": "Certificat introuvable",
+    "description": "Le certificat que vous recherchez n'existe pas ou n'est pas encore disponible.",
+    "goHome": "Retour a l'accueil"
+  },
+  "loading": "Chargement du certificat..."
+}

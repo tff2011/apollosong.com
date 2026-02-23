@@ -1,0 +1,50 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Install dependencies for native modules and healthcheck
+RUN apk add --no-cache libc6-compat openssl procps
+
+# Install Chromium and dependencies for Playwright (Suno automation)
+RUN apk add --no-cache \
+    chromium \
+    nss \
+    freetype \
+    harfbuzz \
+    ca-certificates \
+    ttf-freefont \
+    font-noto-emoji
+
+# Ensure a stable Chromium path for Playwright
+RUN if [ ! -f /usr/bin/chromium ] && [ -f /usr/bin/chromium-browser ]; then ln -s /usr/bin/chromium-browser /usr/bin/chromium; fi
+
+# Copy package files and prisma schema
+COPY package*.json ./
+COPY prisma ./prisma/
+
+# Avoid downloading browsers during install; the worker image uses system Chromium.
+ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
+
+# Install ALL dependencies (including dev for tsx)
+RUN npm ci
+
+# Copy source files
+COPY src/server ./src/server
+COPY src/lib ./src/lib
+COPY src/env.js ./src/env.js
+COPY tsconfig.json ./
+
+# Set environment
+ENV NODE_ENV=production
+ENV SKIP_ENV_VALIDATION=true
+
+# Playwright/Patchright configuration - use system Chromium
+ENV PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium
+
+# Basic healthcheck: ensure the worker process is running
+# Redis connectivity is checked internally by the workers with retries
+HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=5 \
+    CMD pgrep -f "tsx" > /dev/null || exit 1
+
+# Run all workers (lyrics generation, Suno song generation, reminders, auto-delivery)
+CMD ["npx", "tsx", "src/server/workers/all-workers.ts"]

@@ -1,0 +1,270 @@
+{
+  "hero": {
+    "eyebrow": "Termos",
+    "title": "Termos de Serviço",
+    "subtitle": "Leia estes termos com atenção antes de solicitar ou usar a Apollo Song.",
+    "lastUpdatedLabel": "Última atualização",
+    "lastUpdated": "1 de fevereiro de 2025"
+  },
+  "summary": {
+    "title": "Pontos principais",
+    "items": [
+      {
+        "title": "Pedidos personalizados",
+        "description": "Cada canção é criada sob medida com base nas informações que você envia."
+      },
+      {
+        "title": "Entrega e revisões",
+        "description": "A entrega padrão é de até 7 dias, com opção prioritária de 24 horas. Revisões são avaliadas caso a caso dentro do briefing original."
+      },
+      {
+        "title": "Pagamentos e reembolsos",
+        "description": "O pagamento é feito no checkout. Oferecemos garantia de reembolso em 7 dias se sua canção não estiver certa."
+      },
+      {
+        "title": "Licença de uso",
+        "description": "Você recebe uma licença pessoal e não exclusiva para compartilhar sua canção em contextos privados."
+      }
+    ]
+  },
+  "tocTitle": "Nesta página",
+  "toc": [
+    {
+      "id": "overview",
+      "label": "Visão geral"
+    },
+    {
+      "id": "eligibility",
+      "label": "Elegibilidade e contas"
+    },
+    {
+      "id": "orders",
+      "label": "Pedidos e processo criativo"
+    },
+    {
+      "id": "your-content",
+      "label": "Seu conteúdo e permissões"
+    },
+    {
+      "id": "revisions",
+      "label": "Revisões e aprovações"
+    },
+    {
+      "id": "delivery",
+      "label": "Entrega e acesso"
+    },
+    {
+      "id": "payments",
+      "label": "Preços e pagamentos"
+    },
+    {
+      "id": "refunds",
+      "label": "Reembolsos e garantia"
+    },
+    {
+      "id": "license",
+      "label": "Licença para você"
+    },
+    {
+      "id": "ip",
+      "label": "Propriedade intelectual"
+    },
+    {
+      "id": "prohibited",
+      "label": "Uso proibido"
+    },
+    {
+      "id": "third-party",
+      "label": "Serviços de terceiros"
+    },
+    {
+      "id": "disclaimers",
+      "label": "Isenções"
+    },
+    {
+      "id": "liability",
+      "label": "Limitação de responsabilidade"
+    },
+    {
+      "id": "indemnification",
+      "label": "Indenização"
+    },
+    {
+      "id": "termination",
+      "label": "Rescisão"
+    },
+    {
+      "id": "changes",
+      "label": "Alterações nestes termos"
+    },
+    {
+      "id": "contact",
+      "label": "Fale conosco"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Visão geral",
+      "paragraphs": [
+        "Estes Termos de Serviço (\"Termos\") regem seu acesso e uso da Apollo Song, incluindo pedidos, comunicações e conteúdo digital entregue a você.",
+        "Ao acessar o site ou fazer um pedido, você concorda com estes Termos. Se não concordar, não utilize os serviços."
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "Elegibilidade e contas",
+      "paragraphs": [
+        "Você deve ter pelo menos 18 anos, ou a maioridade em sua jurisdição, para fazer um pedido. Se você estiver fazendo um pedido em nome de outra pessoa, declara ter autorização para isso.",
+        "Se oferecermos recursos de conta, você é responsável por manter a confidencialidade das suas credenciais e por toda atividade associada à sua conta."
+      ]
+    },
+    {
+      "id": "orders",
+      "title": "Pedidos e processo criativo",
+      "paragraphs": [
+        "A Apollo Song cria canções personalizadas sob medida com base nos detalhes que você fornece. A qualidade e precisão do seu envio influenciam diretamente o resultado.",
+        "Podemos entrar em contato com perguntas para garantir que a canção reflita sua visão. Reservamo-nos o direito de recusar ou cancelar pedidos que violem estes Termos ou nossos padrões de conteúdo."
+      ],
+      "bullets": [
+        "Você é responsável por enviar informações corretas e o email de entrega",
+        "Interpretamos sua história e preferências em letras e arranjos",
+        "Os prazos de entrega dependem do volume e do tipo de entrega escolhido"
+      ]
+    },
+    {
+      "id": "your-content",
+      "title": "Seu conteúdo e permissões",
+      "paragraphs": [
+        "Você mantém a propriedade da história e do conteúdo enviados. Ao fazer um pedido, você concede à Apollo Song uma licença limitada, mundial e livre de royalties para usar seu conteúdo apenas para criar e entregar sua canção e oferecer suporte.",
+        "Você declara que possui os direitos e permissões necessários para enviar nomes, histórias ou materiais incluídos no pedido e que seu envio não infringe direitos de terceiros."
+      ],
+      "bullets": [
+        "Não inclua informações confidenciais sem autorização",
+        "Não envie conteúdo ilegal, difamatório ou de ódio",
+        "Podemos remover ou recusar conteúdo que viole estes Termos"
+      ]
+    },
+    {
+      "id": "revisions",
+      "title": "Revisões e aprovações",
+      "paragraphs": [
+        "Queremos que você ame sua Apollo Song. Se a canção entregue não estiver alinhada ao briefing original, poderemos oferecer revisões razoáveis dentro do escopo inicial.",
+        "Mudanças grandes, novos temas ou histórias completamente diferentes podem exigir um novo pedido."
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": "Entrega e acesso",
+      "paragraphs": [
+        "Sua canção é entregue digitalmente por um link seguro enviado ao email informado. Você é responsável por garantir que o email esteja correto e que consiga acessar o link.",
+        "A entrega padrão é de até 7 dias. A opção prioritária de 24 horas pode estar disponível no checkout. Os prazos são estimativas e podem variar conforme a complexidade ou o volume."
+      ]
+    },
+    {
+      "id": "payments",
+      "title": "Preços e pagamentos",
+      "paragraphs": [
+        "Os preços são informados no checkout e o pagamento é realizado antes do início da produção. Impostos podem ser aplicáveis conforme sua localização.",
+        "Os pagamentos são processados por provedores terceirizados. Não armazenamos números completos de cartões em nossos servidores."
+      ]
+    },
+    {
+      "id": "refunds",
+      "title": "Reembolsos e garantia",
+      "paragraphs": [
+        "Oferecemos garantia de reembolso em 7 dias. Se sua canção não capturar sua história, trabalharemos com você para revisar ou reembolsar o pedido.",
+        "Solicitações de reembolso devem ser feitas em até 7 dias após a entrega, entrando em contato com nosso suporte."
+      ]
+    },
+    {
+      "id": "license",
+      "title": "Licença para você",
+      "paragraphs": [
+        "Após o pagamento completo, a Apollo Song concede a você uma licença pessoal, não exclusiva e intransferível para usar e compartilhar sua canção em contextos privados (como presente, encontros familiares ou eventos na igreja).",
+        "Uso comercial, revenda ou distribuição em plataformas de streaming requer autorização prévia por escrito da Apollo Song."
+      ]
+    },
+    {
+      "id": "ip",
+      "title": "Propriedade intelectual",
+      "paragraphs": [
+        "A Apollo Song mantém todos os direitos de propriedade intelectual sobre composição, arranjo e gravação, exceto pela licença limitada concedida a você.",
+        "Feedback fornecido por você pode ser usado para melhorar nossos serviços sem obrigação de compensação."
+      ]
+    },
+    {
+      "id": "prohibited",
+      "title": "Uso proibido",
+      "paragraphs": [
+        "Você concorda em não usar indevidamente o site ou os serviços. Atividades proibidas incluem:"
+      ],
+      "bullets": [
+        "Violar leis ou regulamentos",
+        "Infringir direitos de propriedade intelectual",
+        "Enviar código malicioso ou tentar interromper o site",
+        "Usar o serviço para criar conteúdo prejudicial, de ódio ou abusivo"
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "Serviços de terceiros",
+      "paragraphs": [
+        "Podemos utilizar ou linkar serviços de terceiros (como processadores de pagamento). Os termos e políticas desses serviços se aplicam a eles, e não somos responsáveis por suas ações."
+      ]
+    },
+    {
+      "id": "disclaimers",
+      "title": "Isenções",
+      "paragraphs": [
+        "A Apollo Song é fornecida \"no estado em que se encontra\" e \"conforme disponível\". Não garantimos acesso ininterrupto ou ausência de erros.",
+        "Não fornecemos aconselhamento jurídico, médico ou financeiro. Qualquer decisão tomada com base no conteúdo é de sua responsabilidade."
+      ]
+    },
+    {
+      "id": "liability",
+      "title": "Limitação de responsabilidade",
+      "paragraphs": [
+        "Na máxima extensão permitida por lei, a Apollo Song não será responsável por danos indiretos, incidentais, especiais ou consequentes decorrentes do uso dos serviços.",
+        "Nossa responsabilidade total por qualquer reclamação é limitada ao valor pago pelo pedido relacionado."
+      ]
+    },
+    {
+      "id": "indemnification",
+      "title": "Indenização",
+      "paragraphs": [
+        "Você concorda em indenizar e isentar a Apollo Song, seus colaboradores e prestadores de serviço de quaisquer reclamações, danos ou despesas decorrentes do seu uso dos serviços ou violação destes Termos."
+      ]
+    },
+    {
+      "id": "termination",
+      "title": "Rescisão",
+      "paragraphs": [
+        "Podemos suspender ou encerrar o acesso aos serviços se você violar estes Termos ou praticar conduta ilegal. A rescisão não afeta direitos ou obrigações que já tenham se acumulado."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Alterações nestes termos",
+      "paragraphs": [
+        "Podemos atualizar estes Termos periodicamente. Se houver mudanças relevantes, publicaremos a versão atualizada e revisaremos a data de \"Última atualização\"."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Fale conosco",
+      "paragraphs": [
+        "Dúvidas sobre estes Termos? Entre em contato pelo email abaixo e ajudaremos você."
+      ]
+    }
+  ],
+  "contactCard": {
+    "title": "Precisa de ajuda com um pedido?",
+    "description": "Nossa equipe de suporte está pronta para ajudar com dúvidas, revisões ou atualizações de entrega.",
+    "emailLabel": "Email",
+    "email": "contact@apollosong.com",
+    "responseLabel": "Tempo de resposta",
+    "responseTime": "Normalmente em até 2 dias úteis.",
+    "note": "Inclua o email do pedido e o nome do destinatário para agilizar o atendimento."
+  }
+}

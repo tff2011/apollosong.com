@@ -1,0 +1,34 @@
+{
+  "title": "Every Story Deserves a Song",
+  "subtitle": "From joyful celebrations to moments of deep healing, we turn your emotions into music.",
+  "items": [
+    {
+      "id": "spouse",
+      "title": "For A Spouse",
+      "description": "Celebrate your love story with a melody that speaks your heart.",
+      "image": "/images/gallery-spouse.webp",
+      "alt": "For a spouse"
+    },
+    {
+      "id": "children",
+      "title": "For Your Children",
+      "description": "A timeless lullaby or blessing they will carry for life.",
+      "image": "/images/gallery-children.webp",
+      "alt": "For your children"
+    },
+    {
+      "id": "healing",
+      "title": "For Healing & Loss",
+      "description": "Find comfort and peace in a song that honors a memory.",
+      "image": "/images/gallery-healing.webp",
+      "alt": "For healing and loss"
+    },
+    {
+      "id": "faith",
+      "title": "For Strength & Faith",
+      "description": "Powerful lyrics to lift the spirit in difficult times.",
+      "image": "/images/gallery-faith.webp",
+      "alt": "For strength and faith"
+    }
+  ]
+}

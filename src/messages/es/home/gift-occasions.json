@@ -1,0 +1,25 @@
+{
+    "title": "¿Para Quién Es Esta Canción?",
+    "swipeHint": "Desliza para explorar →",
+    "cta": "Comienza a Crear tu Canción",
+    "items": {
+        "partner": "Para el Amor de Tu Vida",
+        "children": "Para Tu Hijo(a)",
+        "proposal": "Para la Propuesta Perfecta",
+        "wedding": "Para Celebrar la Unión",
+        "birthday": "Para Un Cumpleaños Inolvidable",
+        "parents": "Para Tu Papá o Tu Mamá",
+        "grandparents": "Para Tus Abuelos",
+        "friends": "Para Ese Amigo Especial",
+        "yourself": "Para Ti Mismo(a)",
+        "baptism": "Para el Bautizo de Tu Bebé",
+        "genderReveal": "Para la Revelación de Género",
+        "graduation": "Para Una Graduación Especial",
+        "anniversary": "Para Celebrar Su Aniversario",
+        "loss": "Para Honrar a Quien Partió",
+        "strength": "Para Darle Fuerza a Alguien",
+        "healing": "Para Quien Necesita Sanación",
+        "prayers": "Para Una Oración Especial",
+        "breakthroughs": "Para Celebrar Una Victoria"
+    }
+}

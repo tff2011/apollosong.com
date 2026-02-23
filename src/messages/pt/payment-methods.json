@@ -1,0 +1,32 @@
+{
+    "hero": {
+        "eyebrow": "Pagamento",
+        "title": "Formas de Pagamento",
+        "subtitle": "Conheça as opções seguras para adquirir sua canção personalizada.",
+        "lastUpdatedLabel": "Última atualização",
+        "lastUpdated": "11 de janeiro de 2026"
+    },
+    "intro": "Na Apollo Song, priorizamos a segurança e a transparência em cada transação. Utilizamos os padrões mais rigorosos de criptografia para garantir que seus dados estejam sempre protegidos.",
+    "methods": {
+        "pix": {
+            "title": "PIX",
+            "description": "Pagamentos via PIX são processados instantaneamente. No seu extrato ou aplicativo bancário, a transação aparecerá em nome de **EBANX**, nosso parceiro de processamento para pagamentos locais."
+        },
+        "creditCard": {
+            "title": "Cartão de Crédito",
+            "description": "Aceitamos as principais bandeiras (Visa, Mastercard, American Express, Elo, Hipercard). Na sua fatura, a cobrança aparecerá com o identificador **APOLLOSONG**."
+        },
+        "digitalWallets": {
+            "title": "Carteiras Digitais",
+            "description": "Para sua conveniência, aceitamos **Apple Pay** e **Google Pay**, permitindo um checkout rápido e seguro diretamente do seu dispositivo."
+        },
+        "security": {
+            "title": "Segurança e Stripe",
+            "description": "Nossos pagamentos globais são processados pela **Stripe**, uma das maiores e mais seguras plataformas de pagamento do mundo. Não armazenamos os dados do seu cartão em nossos servidores."
+        }
+    },
+    "seo": {
+        "title": "Formas de Pagamento | Apollo Song",
+        "description": "Saiba quais são as formas de pagamento aceitas na Apollo Song, incluindo PIX, Cartão de Crédito e Carteiras Digitais via Stripe."
+    }
+}

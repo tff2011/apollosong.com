@@ -1,0 +1,3 @@
+ALTER TABLE "SongOrder"
+ADD COLUMN IF NOT EXISTS "coverHumanReviewRequested" BOOLEAN NOT NULL DEFAULT false,
+ADD COLUMN IF NOT EXISTS "coverHumanReviewRequestedAt" TIMESTAMP(3);

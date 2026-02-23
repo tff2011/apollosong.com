@@ -1,0 +1,254 @@
+{
+  "hero": {
+    "eyebrow": "Confidentialite",
+    "title": "Politique de confidentialite",
+    "subtitle": "Nous honorons les histoires que vous partagez. Cette politique explique ce que nous collectons, comment nous l'utilisons et les choix qui s'offrent a vous.",
+    "lastUpdatedLabel": "Derniere mise a jour",
+    "lastUpdated": "1er fevrier 2025"
+  },
+  "summary": {
+    "title": "En bref",
+    "items": [
+      {
+        "title": "Ce que nous collectons",
+        "description": "Coordonnees, informations de commande, details de l'histoire que vous fournissez et donnees basiques de l'appareil."
+      },
+      {
+        "title": "Pourquoi nous les utilisons",
+        "description": "Pour creer votre chanson, la livrer en securite, fournir un support et ameliorer l'experience."
+      },
+      {
+        "title": "Comment nous les partageons",
+        "description": "Avec des prestataires de confiance (paiement, hebergement, email) et lorsque la loi l'exige."
+      },
+      {
+        "title": "Vos choix",
+        "description": "Demandez l'acces, la correction ou la suppression et desabonnez-vous du marketing a tout moment."
+      }
+    ]
+  },
+  "tocTitle": "Sur cette page",
+  "toc": [
+    {"id": "overview", "label": "Apercu"},
+    {"id": "information-we-collect", "label": "Informations collectees"},
+    {"id": "how-we-use", "label": "Utilisation des informations"},
+    {"id": "legal-basis", "label": "Bases legales (EEE/UK)"},
+    {"id": "how-we-share", "label": "Partage des informations"},
+    {"id": "cookies", "label": "Cookies et analytics"},
+    {"id": "data-retention", "label": "Conservation des donnees"},
+    {"id": "security", "label": "Securite"},
+    {"id": "your-rights", "label": "Vos droits et choix"},
+    {"id": "international-transfers", "label": "Transferts internationaux"},
+    {"id": "children", "label": "Vie privee des enfants"},
+    {"id": "third-party", "label": "Liens tiers"},
+    {"id": "changes", "label": "Modifications de cette politique"},
+    {"id": "contact", "label": "Nous contacter"}
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Apercu",
+      "paragraphs": [
+        "Cette Politique de confidentialite explique comment ChansonDivine (\"nous\", \"notre\") collecte, utilise et protege les informations lorsque vous visitez notre site web, demandez une chanson personnalisee ou contactez notre equipe.",
+        "En utilisant nos services, vous acceptez les pratiques decrites ici. Si vous n'etes pas d'accord, veuillez ne pas utiliser le site ni soumettre d'informations personnelles."
+      ]
+    },
+    {
+      "id": "information-we-collect",
+      "title": "Informations collectees",
+      "paragraphs": [
+        "Nous collectons les informations que vous fournissez directement et les informations generees par votre utilisation de nos services. Nous ne collectons que ce dont nous avons besoin pour livrer et ameliorer ChansonDivine."
+      ],
+      "subsections": [
+        {
+          "title": "Informations que vous fournissez",
+          "paragraphs": [
+            "Lorsque vous passez une commande ou nous contactez, vous pouvez fournir des details tels que votre nom, adresse email, nom du destinataire, occasion, style prefere, references bibliques et autres details de l'histoire necessaires pour creer votre chanson."
+          ],
+          "bullets": [
+            "Coordonnees (nom, email, telephone si fourni)",
+            "Details de commande (nom du destinataire, occasion, preferences de delai)",
+            "Apports creatifs (notes d'histoire, themes, messages, references bibliques)",
+            "Contenu des communications (demandes de support, commentaires, notes de revision)"
+          ]
+        },
+        {
+          "title": "Informations de commande et paiement",
+          "paragraphs": [
+            "Les paiements sont traites par des prestataires de paiement tiers. Nous recevons la confirmation de paiement, les identifiants de commande et les details de facturation limites necessaires pour la tenue des registres. Nous ne stockons pas les numeros complets de cartes de paiement sur nos serveurs."
+          ],
+          "bullets": [
+            "IDs de transaction et statut de paiement",
+            "Nom de facturation et code postal (si fourni)",
+            "Registres de facturation et fiscaux"
+          ]
+        },
+        {
+          "title": "Donnees d'utilisation et d'appareil",
+          "paragraphs": [
+            "Lorsque vous visitez notre site, nous pouvons automatiquement collecter des informations basiques sur votre appareil et votre utilisation pour securiser le site et effectuer des analyses."
+          ],
+          "bullets": [
+            "Adresse IP, type de navigateur et systeme d'exploitation",
+            "Pages consultees et temps passe sur le site",
+            "URLs de provenance et localisation approximative"
+          ]
+        },
+        {
+          "title": "Informations sensibles",
+          "paragraphs": [
+            "Votre histoire peut inclure des details personnels sensibles. Veuillez eviter de partager des informations sensibles inutiles (telles que documents d'identite, numeros de comptes financiers ou dossiers medicaux). Si vous incluez des details sensibles, nous les traiterons avec un soin accru et les utiliserons uniquement pour executer votre commande."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-we-use",
+      "title": "Utilisation des informations",
+      "paragraphs": [
+        "Nous utilisons les informations collectees pour fournir, maintenir et ameliorer ChansonDivine."
+      ],
+      "bullets": [
+        "Creer votre chanson personnalisee et vous la livrer en securite",
+        "Communiquer sur votre commande, revisions et demandes de support",
+        "Ameliorer notre processus creatif, les performances du site et l'experience utilisateur",
+        "Detecter et prevenir la fraude, les abus ou les incidents de securite",
+        "Respecter les obligations legales et faire respecter nos conditions"
+      ]
+    },
+    {
+      "id": "legal-basis",
+      "title": "Bases legales (EEE/UK)",
+      "paragraphs": [
+        "Si vous etes situe dans l'Espace economique europeen ou au Royaume-Uni, nous traitons vos informations personnelles selon les bases legales suivantes :"
+      ],
+      "bullets": [
+        "Necessite contractuelle (pour executer votre commande)",
+        "Interets legitimes (pour ameliorer les services et proteger notre plateforme)",
+        "Consentement (pour les communications marketing optionnelles)",
+        "Obligations legales (exigences fiscales, comptables et de conformite)"
+      ]
+    },
+    {
+      "id": "how-we-share",
+      "title": "Partage des informations",
+      "paragraphs": [
+        "Nous ne vendons pas vos informations personnelles. Nous partageons les informations uniquement selon les besoins pour exploiter ChansonDivine."
+      ],
+      "subsections": [
+        {
+          "title": "Prestataires de services",
+          "paragraphs": [
+            "Nous utilisons des fournisseurs de confiance pour les paiements, l'hebergement, les analyses et la communication. Ces prestataires ne peuvent acceder aux informations que pour effectuer des services en notre nom et sont tenus de les proteger."
+          ],
+          "bullets": [
+            "Traitement des paiements",
+            "Livraison d'emails et support client",
+            "Hebergement du site et analyses"
+          ]
+        },
+        {
+          "title": "Legal et securite",
+          "paragraphs": [
+            "Nous pouvons divulguer des informations si la loi, la reglementation, une assignation ou une procedure judiciaire l'exige, ou pour proteger les droits, la propriete ou la securite de ChansonDivine, de nos clients ou du public."
+          ]
+        },
+        {
+          "title": "Transferts d'entreprise",
+          "paragraphs": [
+            "Si nous sommes impliques dans une fusion, acquisition ou vente d'actifs, vos informations peuvent etre transferees dans le cadre de cette transaction. Nous vous informerons de tout changement important."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies et analytics",
+      "paragraphs": [
+        "Nous utilisons des cookies et technologies similaires pour memoriser les preferences, mesurer les performances et ameliorer le site."
+      ],
+      "bullets": [
+        "Cookies essentiels pour les fonctionnalites de base du site",
+        "Cookies de preference pour memoriser la langue ou les parametres",
+        "Cookies d'analyse pour comprendre les tendances d'utilisation du site"
+      ]
+    },
+    {
+      "id": "data-retention",
+      "title": "Conservation des donnees",
+      "paragraphs": [
+        "Nous conservons les informations personnelles uniquement aussi longtemps que necessaire pour fournir nos services et respecter les obligations legales."
+      ],
+      "bullets": [
+        "Les registres de commandes sont conserves a des fins comptables et de support client",
+        "Les briefs creatifs et communications sont conserves pour executer votre commande et gerer les revisions",
+        "Les donnees d'analyse sont conservees sous forme agregee lorsque possible"
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Securite",
+      "paragraphs": [
+        "Nous utilisons des mesures de protection administratives, techniques et physiques pour proteger vos informations. Cela inclut les controles d'acces, les connexions chiffrees et l'acces au moindre privilege pour les membres de l'equipe.",
+        "Aucun systeme ne peut etre securise a 100%. Veuillez utiliser un mot de passe email fort et nous contacter immediatement si vous pensez que vos informations ont ete compromises."
+      ]
+    },
+    {
+      "id": "your-rights",
+      "title": "Vos droits et choix",
+      "paragraphs": [
+        "Selon votre lieu de residence, vous pouvez avoir des droits concernant vos informations personnelles."
+      ],
+      "bullets": [
+        "Acceder, corriger ou supprimer vos informations personnelles",
+        "Demander une copie de vos donnees (portabilite des donnees)",
+        "Vous opposer ou restreindre certains traitements",
+        "Vous desabonner des emails marketing en utilisant le lien de desabonnement ou en nous contactant"
+      ]
+    },
+    {
+      "id": "international-transfers",
+      "title": "Transferts internationaux",
+      "paragraphs": [
+        "ChansonDivine peut operer au-dela des frontieres. Vos informations peuvent etre traitees dans des pays autres que le votre. Lorsque nous transferons des donnees, nous utilisons des garanties appropriees pour les proteger."
+      ]
+    },
+    {
+      "id": "children",
+      "title": "Vie privee des enfants",
+      "paragraphs": [
+        "ChansonDivine ne s'adresse pas aux enfants de moins de 13 ans, et nous ne collectons pas sciemment d'informations personnelles aupres d'enfants. Si vous pensez qu'un enfant nous a fourni des informations personnelles, veuillez nous contacter afin que nous puissions les supprimer."
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "Liens tiers",
+      "paragraphs": [
+        "Notre site web peut contenir des liens vers des sites web tiers. Nous ne sommes pas responsables des pratiques de confidentialite de ces sites, et nous vous encourageons a consulter leurs politiques."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Modifications de cette politique",
+      "paragraphs": [
+        "Nous pouvons mettre a jour cette Politique de confidentialite de temps en temps. Si nous apportons des modifications importantes, nous publierons une version mise a jour et reviserons la date de \"Derniere mise a jour\"."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Nous contacter",
+      "paragraphs": [
+        "Si vous avez des questions sur cette politique ou souhaitez exercer vos droits en matiere de confidentialite, veuillez nous contacter aux coordonnees ci-dessous."
+      ]
+    }
+  ],
+  "contactCard": {
+    "title": "Questions ou demandes de confidentialite",
+    "description": "Nous repondons aux demandes de confidentialite et aux demandes de donnees aussi rapidement que possible.",
+    "emailLabel": "Email",
+    "email": "contact@chansondivine.com",
+    "responseLabel": "Delai de reponse",
+    "responseTime": "Generalement sous 2 jours ouvrables.",
+    "note": "Si vous faites une demande au nom de quelqu'un d'autre, incluez une preuve d'autorisation."
+  }
+}

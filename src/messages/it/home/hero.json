@@ -1,0 +1,30 @@
+{
+  "platformTagline": "La Piattaforma #1 di Canzoni Personalizzate",
+  "badge": "Oltre 10.000+ lacrime di gioia versate",
+  "title": "Trasforma la Vostra Storia nella Canzone Più Emozionante",
+  "titleHighlight": "della Loro Vita.",
+  "description": "Dimentica i regali scontati che finiscono in un cassetto. I nostri pluripremiati cantautori trasformano i tuoi sentimenti più profondi in una canzone originale con qualità radiofonica. Garantiamo: trattenere le lacrime sarà impossibile.",
+  "primaryCta": "Inizia a Emozionare",
+  "urgency": {
+    "timer": "L'offerta scade tra"
+  },
+  "meta": [
+    "Pronta in massimo 7 giorni",
+    "Qualità Studio",
+    "100% Personalizzata"
+  ],
+  "player": {
+    "label": "In riproduzione: \"Três Apertos\"",
+    "quote": "\"Non avevo mai pianto così prima...\""
+  },
+  "video": {
+    "listenButton": "Ascolta l'Estratto",
+    "muteButton": "Muto",
+    "audioUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/tres-apertos.mp3"
+  },
+  "socialProof": {
+    "text": "Amato da",
+    "highlight": "10.000+ famiglie"
+  },
+  "backgroundAlt": "Donna che piange di gioia ascoltando musica"
+}

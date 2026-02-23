@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8a6132" />
+      <stop offset="25%" stop-color="#ceab71" />
+      <stop offset="50%" stop-color="#f8e5a7" />
+      <stop offset="75%" stop-color="#d1af76" />
+      <stop offset="100%" stop-color="#8a6132" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="256" cy="256" r="256" fill="#ffffff" />
+  
+  <g fill="url(#gold)">
+    <!-- Base and Curves of the Harp -->
+    <path d="
+      M 256,430 
+      C 176,430 116,360 116,280 
+      C 116,210 156,160 196,160 
+      C 216,160 226,175 206,195 
+      C 186,215 156,240 156,280 
+      C 156,320 216,370 256,370 
+      C 296,370 356,320 356,280 
+      C 356,240 326,215 306,195 
+      C 286,175 296,160 316,160 
+      C 356,160 396,210 396,280 
+      C 396,360 336,430 256,430 Z
+    " />
+    <!-- Crossbar -->
+    <rect x="204" y="193" width="104" height="6" rx="3" />
+    <!-- 5 Strings -->
+    <rect x="215" y="196" width="2" height="159" />
+    <rect x="235" y="196" width="2" height="170" />
+    <rect x="255" y="196" width="2" height="174" />
+    <rect x="275" y="196" width="2" height="170" />
+    <rect x="295" y="196" width="2" height="159" />
+  </g>
+</svg>

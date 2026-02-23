@@ -1,0 +1,319 @@
+{
+  "title": "Suivre vos chansons",
+  "subtitle": "<b>Entrez votre email ou téléphone</b> pour voir le statut de votre ChansonDivine et sa date de livraison.",
+  "guarantee": {
+    "title": "Nous completons chaque commande - vous etes protege !",
+    "description": "Nous avons un taux de completion de 100%. Si vous ne trouvez pas votre chanson, c'est generalement du a une faute de frappe dans l'email ou un filtrage des emails. Ecrivez-nous simplement a {email} et nous vous renverrons votre chanson immediatement. Nous repondons sous 3-5 jours pendant les vacances, souvent plus rapidement."
+  },
+  "form": {
+    "placeholder": "votre@email.com",
+    "phonePlaceholder": "+33 6 12 34 56 78",
+    "submit": "Suivre votre chanson",
+    "searching": "Recherche en cours...",
+    "searchAnother": "Chercher un autre",
+    "searchByEmail": "Email",
+    "searchByPhone": "Téléphone",
+    "searchHint": "<b>Essayez d'abord par email.</b> Si introuvable, cherchez par téléphone."
+  },
+  "notFound": {
+    "icon": "🎵",
+    "title": "Vous ne trouvez pas votre commande ?",
+    "paragraph1": "C'est peut-etre parce que vous avez fait une faute de frappe dans votre email lors de la commande. De nombreux clients font accidentellement une erreur dans leur adresse email lors de la commande, et ce n'est pas grave - nous vous aiderons a la retrouver.",
+    "paragraph2": "D'abord, verifiez que vous utilisez la meme adresse email que lors de votre commande. Les confusions frequentes incluent @gmail.com au lieu de @icloud.com, ou @hotmail.com au lieu de @outlook.com, et vice versa. Il peut aussi s'agir d'une simple faute de frappe.",
+    "paragraph3": "Si vous ne la trouvez toujours pas, contactez-nous a {email} avec les informations suivantes et nous localiserons votre commande immediatement. Nous repondons sous 3-5 jours pendant les vacances, souvent plus rapidement.",
+    "helpList": [
+      "La date de votre commande",
+      "Le nom de votre commande",
+      "Un apercu general du questionnaire que vous avez rempli"
+    ],
+    "supportNote": "Nous sommes la pour vous accompagner a chaque etape. N'hesitez pas a nous contacter si vous avez des problemes et nous ferons de notre mieux pour les resoudre rapidement.",
+    "contactSupport": "Contacter le support",
+    "createSong": "Creer votre premiere chanson"
+  },
+  "results": {
+    "title": "Vos commandes",
+    "titleWithCount": "Vos commandes ({count})",
+    "nowViewing": "En vue",
+    "ofTotal": "sur {total}",
+    "labelMainOrder": "Commande principale",
+    "labelGenreExtra": "Genre extra",
+    "orderFor": "Chanson pour {name}",
+    "ordered": "Commandee",
+    "pricePaid": "Total :",
+    "deliveryEstimate": {
+      "label": "Livraison estimee",
+      "planExpress": "Express 24h",
+      "planStandard": "Standard 7 jours",
+      "ready": "Avant le {date} • {plan}",
+      "pending": "{plan} apres paiement"
+    },
+    "status": {
+      "PENDING": "Paiement en attente",
+      "PAID": "Paiement recu",
+      "IN_PROGRESS": "En cours de creation",
+      "COMPLETED": "Terminee",
+      "REVISION": "En revision"
+    },
+    "statusShort": {
+      "PENDING": "En attente",
+      "PAID": "Payé",
+      "IN_PROGRESS": "Création",
+      "COMPLETED": "Prête",
+      "REVISION": "Révision"
+    },
+    "pendingPayment": {
+      "title": "Paiement en attente",
+      "description": "Votre commande n'a pas encore ete payee. Finalisez le paiement pour debloquer votre chanson.",
+      "cta": "Payer et finaliser"
+    },
+    "editOrder": {
+      "title": "Vous avez oublie quelque chose ou besoin de corriger ?",
+      "description": "Ajoutez ou ajustez des details tranquillement.",
+      "cta": "Modifier les infos"
+    },
+    "reviewInfo": {
+      "title": "Informations soumises",
+      "description": "Verifiez les details que vous avez fournis",
+      "cta": "Voir les details",
+      "hide": "Masquer",
+      "recipient": "Destinataire",
+      "genre": "Style musical",
+      "vocals": "Type de voix",
+      "vocalsFemale": "Feminine",
+      "vocalsMale": "Masculine",
+      "vocalsEither": "Peu importe",
+      "qualities": "Qualites",
+      "memories": "Souvenirs speciaux",
+      "message": "Message personnel",
+      "noQualities": "Aucune qualite selectionnee",
+      "noMemories": "Aucun souvenir ajoute",
+      "noMessage": "Aucun message ajoute",
+      "edit": "Modifier",
+      "save": "Enregistrer",
+      "saving": "Enregistrement...",
+      "cancel": "Annuler",
+      "saved": "Enregistre avec succes !",
+      "qualitiesPlaceholder": "Decrivez les qualites...",
+      "memoriesPlaceholder": "Decrivez des souvenirs speciaux...",
+      "messagePlaceholder": "Ajoutez un message personnel..."
+    },
+    "fastDelivery": "Livraison 24h",
+    "extraSong": "Chanson supplementaire",
+    "extraSongFor": "Chanson supplementaire pour {name}",
+    "songReady": "Votre chanson est prete !",
+    "songsReady": "Vos chansons sont pretes !",
+    "listenNow": "Ecoutez votre chanson personnalisee ci-dessous",
+    "chooseFavorite": "Nous avons cree deux versions - ecoutez et choisissez votre preferee !",
+    "option1": "Option 1",
+    "option2": "Option 2",
+    "genreVariant": "Style : {genre}",
+    "genreVariantFor": "Version {genre} pour {name}",
+    "shareSongMessage": "🎵 Ecoute cette chanson speciale que j'ai creee pour {name} !",
+    "shareButton": "Envoyer",
+    "downloadButton": "Télécharger",
+    "revisionButton": "Révision",
+    "streamingButton": "Publier sur Spotify",
+    "orderBumps": {
+      "title": "Services déjà achetés",
+      "certificate": "Experience cadeau",
+      "certificateDesc": "Partagez la magie - envoyez ce lien a {name}",
+      "openCertificate": "Ouvrir",
+      "copyLink": "Copier le lien",
+      "copiedLink": "Copie !",
+      "shareWhatsApp": "Envoyer sur WhatsApp",
+      "whatsAppMessage": "🎁 Bonjour {name} ! J'ai une surprise speciale pour toi - une chanson creee rien que pour toi ! Clique ici pour voir :",
+      "lyrics": "Paroles de la chanson",
+      "lyricsDesc": "Telechargez le PDF stylise avec les paroles de la chanson de {name} en style {genre}",
+      "downloadLyrics": "Telecharger le PDF",
+      "streamingVip": "Distribution VIP (Spotify/Instagram/TikTok)",
+      "streamingVipDesc": "Deja demandee. Statut : {status}",
+      "streamingVipListen": "Ecouter {songName} sur Spotify",
+      "streamingVipListenFallback": "Ecouter sur Spotify",
+      "streamingShare": "Partager",
+      "streamingShareSuccess": "Lien copie!",
+      "pendingDesc": "Disponible quand votre chanson sera prete",
+      "pending": "En attente",
+      "songNameLabel": "Nom de la chanson sur le PDF",
+      "songNamePlaceholder": "Entrez un nom pour cette chanson",
+      "songNameSave": "Enregistrer",
+      "songNameSaving": "Enregistrement...",
+      "songNameSaved": "Enregistré ! Le PDF sera mis à jour sous peu.",
+      "songNameError": "Impossible d'enregistrer.",
+      "karaoke": "Votre Moment sur Scène",
+      "karaokeProcessing": "Préparation de votre version karaoké...",
+      "karaokeReady": "Votre version karaoké est prête !",
+      "downloadKaraoke": "Télécharger le Karaoké"
+    }
+  },
+  "upsellSection": {
+    "title": "Services disponibles",
+    "description": "Services que vous n'avez pas encore achetés et que vous pouvez ajouter maintenant"
+  },
+  "genreVariantUpsell": {
+    "title": "Vous voulez la chanson de {name} dans un **autre style** ?",
+    "description": "Meme histoire, **nouvelles paroles ecrites de zero** - parfait pour {name} a differents moments",
+    "selectStyles": "Selectionnez des styles supplementaires :",
+    "perStyle": "par style",
+    "buyNow": "Acheter maintenant",
+    "adding": "Ajout en cours...",
+    "total": "Total :",
+    "alreadyHave": "Vous avez deja :",
+    "currentGenre": "Style actuel",
+    "selectVoice": "Choisissez le type de voix :",
+    "voiceFemale": "Feminine",
+    "voiceMale": "Masculine",
+    "voiceEither": "Peu importe",
+    "lyricsOptionLabel": "Que faire avec les paroles ?",
+    "lyricsOptionSame": "Garder les memes paroles",
+    "lyricsOptionSameDesc": "Utilise les paroles originales, parfaites pour le nouveau style",
+    "lyricsOptionAdapt": "Adapter au nouveau rythme",
+    "lyricsOptionAdaptDesc": "Notre équipe ajuste les paroles pour mieux correspondre au style"
+  },
+  "lyricsUpsell": {
+    "title": "Vous voulez le **PDF des paroles** de la chanson de {name} ?",
+    "description": "Obtenez un PDF magnifiquement concu avec les paroles de la chanson de {name} a **imprimer, encadrer ou partager**",
+    "price": "$9.90",
+    "buyNow": "Ajouter les paroles",
+    "adding": "Ajout en cours..."
+  },
+  "streamingVipUpsell": {
+    "badge": "VIP",
+    "title": "Mettez la chanson de {name} sur **Spotify, Instagram, TikTok, WhatsApp et Deezer**",
+    "description": "Transformez votre cadeau en **sortie officielle** et rendez la chanson **publique pour que tout le monde l'écoute**.",
+    "bullets": [
+      "Distribution sur **Spotify, Instagram, TikTok, Apple Music, YouTube Music, Amazon Music, Deezer et plus**",
+      "Votre chanson devient **publique et partageable**",
+      "**Pochette professionnelle** faite avec la photo de la personne"
+    ],
+    "buyNow": "Oui, je veux la publier",
+    "adding": "Activation...",
+    "quantity1": "1 chanson",
+    "quantity2": "2 chansons",
+    "selectQuantity": "Combien de chansons sur Spotify?",
+    "bothDiscount": "Économisez {discount} !",
+    "purchaseRemaining": "Ajouter l'autre chanson",
+    "confirmPurchase": "Continuer vers le Paiement"
+  },
+  "karaokeUpsell": {
+    "title": "**Votre Moment sur Scène** — chantez la chanson de {name} !",
+    "description": "Recevez la version karaoké et vivez l'émotion de chanter la chanson que vous avez créée, lors de fêtes, réunions ou karaoké en famille",
+    "price": "€19",
+    "buyNow": "Je Veux Chanter !",
+    "adding": "Préparation..."
+  },
+  "createAnotherUpsell": {
+    "title": "Vous avez aimé le **résultat** ?",
+    "description": "Créez une autre chanson pour **quelqu'un de spécial**",
+    "cta": "Créer une nouvelle chanson"
+  },
+  "musicianTip": {
+    "title": "Notre chanson vous a touché le cœur ?",
+    "subtitle": "Votre soutien fait la différence",
+    "description": "Nous facturons un **prix symbolique** pour nos chansons afin de toucher le plus grand nombre de personnes possible. Mais nous connaissons la **vraie valeur et le dévouement** que chaque chanson exige pour atteindre ce niveau de qualité. Si notre musique a touché votre cœur, votre contribution va **directement aux musiciens talentueux** qui l'ont créée.",
+    "placeholder": "Montant",
+    "minValue": "Minimum 10€",
+    "maxValue": "Maximum 2 950€",
+    "button": "Soutenir avec amour",
+    "processing": "Préparation...",
+    "optional": "100% optionnel",
+    "thankYou": "Merci de valoriser notre travail !"
+  },
+  "needHelp": {
+    "title": "Besoin d'aide ?",
+    "description": "Si vous avez du mal a trouver votre commande ou si vous avez des questions, contactez-nous sur WhatsApp. Nous repondons rapidement !",
+    "contactSupport": "Contacter sur WhatsApp",
+    "whatsAppMessage": "Bonjour ! J'ai besoin d'aide avec ma commande de chanson personnalisée.",
+    "followInstagram": "Suivre sur Instagram",
+    "createNewSongTitle": "Vous voulez créer une chanson pour quelqu'un de spécial ?",
+    "createNewSongCta": "Créer ma chanson maintenant"
+  },
+  "revision": {
+    "button": "Demander une revision",
+    "cardTitle": "Révision de la chanson de {name}",
+    "cardSubtitle": "Style : {genre}",
+    "cardDescription": "Quelque chose n'était pas parfait ? Gratuit si c'est notre erreur, 9,90€ si informations incorrectes.",
+    "modalTitle": "Demander une revision de la chanson",
+    "modalWarning": "Cette action est irreversible",
+    "modalDescription": "Votre chanson entrera en revision et nous l'analyserons sous 48 heures, en vous envoyant une version corrigee.",
+    "modalFee": "Si c'est notre erreur, la révision est **gratuite**. Si due à des **informations incorrectes** fournies par vous, des frais de **9,90€** seront facturés uniquement après la livraison de la nouvelle version.",
+    "modalCancel": "Annuler",
+    "modalConfirm": "J'ai compris, Demander une revision",
+    "statusInRevision": "Revision demandee",
+    "statusDescription": "Votre demande est en cours d'analyse. Vous recevrez une nouvelle version sous 48 heures.",
+    "queuePosition": "#{position} dans la file",
+    "queueProcessing": "En cours d'analyse",
+    "cancelButton": "Annuler la revision",
+    "cancelConfirmTitle": "Annuler la revision ?",
+    "cancelConfirmDescription": "Vous garderez la chanson telle quelle. Cette action utilise 1 de vos 2 revisions disponibles.",
+    "cancelConfirmButton": "Oui, garder la chanson actuelle",
+    "cancelling": "Annulation...",
+    "cancelHelperText": "Vous ne voulez plus attendre ?",
+    "finalVersionTitle": "Version Finale",
+    "finalVersionDescription": "Ceci est la version finale de la chanson de {name}. Vous avez utilise vos 2 revisions disponibles.",
+    "addNotesButton": "Ajouter des informations",
+    "addNotesTitle": "Ajouter plus d'informations",
+    "addNotesDescription": "Vous avez oublie de mentionner quelque chose ? Ajoutez plus de details sur ce qui doit etre corrige.",
+    "addNotesPlaceholder": "Ecrivez ici ce que vous avez oublie de mentionner...",
+    "addNotesSend": "Envoyer",
+    "addNotesSending": "Envoi en cours...",
+    "existingNotesLabel": "Ce que vous avez déjà écrit :",
+    "preferredVersionLabel": "Version préférée",
+    "melodyPreferenceLabel": "Préférence de mélodie",
+    "melodyKeepCurrent": "Garder la mélodie actuelle",
+    "melodySuggestNew": "Je veux 2 nouvelles options de mélodie",
+    "revisionCompletedBadge": "Révision #{number} terminée"
+  },
+  "timeline": {
+    "pendingPayment": "En attente de paiement",
+    "ordered": "Commandé",
+    "processing": "En cours",
+    "ready": "Prêt"
+  },
+  "tabs": {
+    "orders": "Commandes",
+    "listen": "Écouter",
+    "extras": "Extras",
+    "help": "Aide",
+    "ordersTitle": "Vos Commandes ({count})",
+    "listenTitle": "Écoutez la Chanson de {name} 🎧",
+    "extrasTitle": "Extras pour {name} ✨",
+    "helpTitle": "Besoin d'Aide ?"
+  },
+  "sidebar": {
+    "title": "Vos Commandes",
+    "selectOrder": "Sélectionnez une commande"
+  },
+  "listen": {
+    "noSongYet": "Chanson pas encore prête",
+    "noSongDescription": "Votre chanson est en cours de création",
+    "nowPlaying": "Vous écoutez",
+    "songFor": "La chanson exclusive de {name}"
+  },
+  "extras": {
+    "purchased": "Services Achetés",
+    "available": "Services Disponibles",
+    "noPurchased": "Aucun achat encore",
+    "noAvailable": "Aucun extra disponible"
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "items": [
+      {
+        "question": "Comment télécharger ma chanson sur mon téléphone ou ordinateur ?",
+        "answer": "<strong>Sur mobile (iPhone/Android) :</strong><br/>1. Appuyez sur le bouton <strong>Télécharger</strong> sous le lecteur<br/>2. Le fichier MP3 sera enregistré dans votre dossier Téléchargements ou Fichiers<br/>3. Sur iPhone, vous pouvez l'ouvrir dans l'app Fichiers et l'enregistrer sur iCloud<br/><br/><strong>Sur ordinateur :</strong><br/>1. Cliquez sur le bouton <strong>Télécharger</strong><br/>2. Le fichier sera enregistré dans votre dossier Téléchargements<br/>3. Vous pouvez le déplacer où vous voulez ou l'importer dans iTunes/Spotify local"
+      },
+      {
+        "question": "Comment demander une révision de ma chanson ?",
+        "answer": "Si quelque chose ne correspond pas à vos attentes, vous pouvez demander une révision :<br/><br/>1. Allez dans l'onglet <strong>Commandes</strong> et sélectionnez votre chanson<br/>2. Faites défiler jusqu'à trouver la carte <strong>Demander une révision</strong><br/>3. Cliquez et décrivez ce qui doit être ajusté<br/>4. Nous révisons sous 48h et envoyons la version corrigée<br/><br/><strong>Important :</strong> Si c'était notre erreur, la révision est gratuite. Si c'était dû à des informations incorrectes, il y a des frais de 9,90€."
+      },
+      {
+        "question": "Comment mettre ma chanson sur Spotify ?",
+        "answer": "Avec notre service <strong>Distribution VIP</strong>, votre chanson devient disponible sur toutes les plateformes :<br/><br/>• Spotify, Apple Music, YouTube Music<br/>• Instagram, TikTok, Facebook<br/>• Deezer, Amazon Music et plus<br/><br/><strong>Comment l'obtenir :</strong><br/>1. Allez dans l'onglet <strong>Extras</strong><br/>2. Trouvez la carte \"Distribution VIP\"<br/>3. Cliquez sur \"Oui, rendre publique\"<br/><br/>Nous créons une pochette professionnelle avec la photo de la personne et votre chanson devient publique pour que tout le monde puisse l'écouter !"
+      }
+    ]
+  },
+  "seo": {
+    "title": "Suivre votre commande de chanson | ChansonDivine",
+    "description": "Verifiez le statut de votre commande de chanson personnalisee. Entrez votre email pour voir quand votre ChansonDivine sera livree."
+  }
+}

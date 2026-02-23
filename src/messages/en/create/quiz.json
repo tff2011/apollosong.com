@@ -1,0 +1,380 @@
+{
+  "progress": {
+    "stepOf": "of",
+    "step": "Step",
+    "complete": "Complete",
+    "saved": "Saved",
+    "optional": "(optional)",
+    "storyProgress": "Question {current} of 3"
+  },
+  "steps": {
+    "basics": {
+      "title": "Let's start with the basics",
+      "subtitle": "Tell us about the special person in your life",
+      "recipient": {
+        "label": "Who's this for?",
+        "options": {
+          "husband": "Husband",
+          "wife": "Wife",
+          "boyfriend": "Boyfriend",
+          "girlfriend": "Girlfriend",
+          "children": "Children",
+          "father": "Father",
+          "mother": "Mother",
+          "sibling": "Sibling",
+          "friend": "Friend",
+          "myself": "Myself",
+          "group": "Group of people",
+          "other": "Other"
+        }
+      },
+      "name": {
+        "label": "What's their name?",
+        "labelSelf": "What's your name?",
+        "labelGroup": "Group Name / Members",
+        "placeholder": "Enter their first name",
+        "placeholderSelf": "Enter your first name",
+        "placeholderGroup": "No names required",
+        "tip": "Tip: add pronunciation for clarity (e.g. Alicia: ah-lee-sha)"
+      },
+      "relationship": {
+        "label": "What is your relationship with this person?",
+        "placeholder": "e.g., godmother, grandmother, teacher, pastor..."
+      }
+    },
+    "occasion": {
+      "title": "What's the occasion?",
+      "subtitle": "Help us understand the moment this song will celebrate",
+      "occasion": {
+        "label": "Select an occasion",
+        "options": {
+          "birthday": "Birthday",
+          "wedding": "Wedding",
+          "anniversary": "Anniversary",
+          "memorial": "Memorial / In Loving Memory",
+          "graduation": "Graduation",
+          "baptism": "Baptism",
+          "mothersDay": "Mother's Day",
+          "fathersDay": "Father's Day",
+          "christmas": "Christmas",
+          "justBecause": "Just Because",
+          "other": "Other"
+        }
+      },
+      "date": {
+        "label": "When is the special date?",
+        "placeholder": "Select a date (optional)"
+      }
+    },
+    "story": {
+      "title": "Share their story",
+      "subtitle": "The details you share will become the heart of the song",
+      "story": {
+        "label": "Tell us about them",
+        "placeholder": "Share memories, qualities, life journey, inside jokes, or anything that makes them special...",
+        "tip": "The more details you share, the more personal your song will be"
+      },
+      "verses": {
+        "label": "Any quotes or verses to include?",
+        "placeholder": "e.g. a favorite quote, poem, or verse (optional)"
+      }
+    },
+    "genre": {
+      "title": "Choose a Genre",
+      "subtitle": "Select the sound that best matches your loved one",
+      "genre": {
+        "label": "Preferred Genre",
+        "options": {
+          "pop": "Pop",
+          "country": "Country",
+          "rock": "Rock",
+          "rnb": "R&B",
+          "jazz": "Jazz",
+          "blues": "American Blues",
+          "blues-melancholic": "American Blues (Melancholic)",
+          "blues-upbeat": "American Blues (Upbeat)",
+          "mpb": "MPB",
+          "bossa": "Bossa Nova",
+          "worship": "Worship",
+          "hiphop": "Rap / Hip-Hop"
+        },
+        "subgenres": {
+          "blues": {
+            "label": "Blues Subgenres",
+            "subtitle": "Choose the style that best fits the song"
+          },
+          "options": {
+            "blues-melancholic": "American blues with a more melancholic, soulful feel, expressive vocals, and crying guitars. Intimate and reflective. In the style of: **B.B. King, John Lee Hooker, Gary Moore**.",
+            "blues-upbeat": "American blues with an upbeat shuffle groove, bright guitar riffs, and feel-good energy. Lively and uplifting. In the style of: **Muddy Waters, Chuck Berry, Stevie Ray Vaughan**."
+          }
+        }
+      },
+      "vocals": {
+        "label": "Preferred Voice Gender",
+        "tip": "We recommend choosing your own gender so the vocals feel personal.",
+        "options": {
+          "female": "Female Voice",
+          "male": "Male Voice",
+          "either": "No Preference"
+        }
+      }
+    },
+    "qualities": {
+      "title": "What makes them special?",
+      "titleSelf": "Share your heart",
+      "subtitle": "Describe their character and the qualities you love most",
+      "subtitleSelf": "What do you want to convey in your song?",
+      "savedLabel": "Qualities saved",
+      "qualities": {
+        "label": "Their beautiful qualities",
+        "labelSelf": "What's been on your heart lately?",
+        "placeholder": "Are they patient, wise, funny, encouraging, inspiring? What makes them an incredible person to you?",
+        "placeholderSelf": "Are you in a reflective season? Facing something heavy? Or have you already come through something you want to remember?"
+      }
+    },
+    "memories": {
+      "title": "Share your favorite memories",
+      "titleSelf": "Special moments in your life",
+      "subtitle": "**The more specific details, the better the lyrics we'll create!** Don't worry, you can add more information after completing your order.",
+      "subtitleSelf": "Do you have any moments and key events that shaped who you are today?",
+      "savedLabel": "Memories saved",
+      "memories": {
+        "label": "Special moments together",
+        "labelSelf": "Special moments in your life",
+        "placeholder": "What memories do you always come back to? A moment you laugh about every time? Something you went through together that brought you closer?",
+        "placeholderSelf": "What defining moments have shaped your life? What challenges did you overcome? What experiences do you want to hold on to forever?"
+      }
+    },
+    "message": {
+      "title": "A message from your heart",
+      "titleSelf": "What do you want to feel every time you hear this song?",
+      "subtitle": "Write anything else that you feel would be relevant to include in your song, and we'll do our best to include it!",
+      "subtitleSelf": "Imagine playing this song back on a hard day. What do you want it to remind you of?",
+      "message": {
+        "label": "Special message",
+        "labelSelf": "Special message",
+        "placeholder": "What do you want them to know, that you've never said enough? What do you want to thank them for? What is that one thing from your heart you want to say to them?",
+        "placeholderSelf": "Do you need reassurance, hope, peace, trust, identity, or strength? What truth do you want to hold on to when everything feels uncertain?"
+      }
+    },
+    "plans": {
+      "popular": "MOST POPULAR"
+    },
+    "checkout": {
+      "limitedOffer": "Limited Time Offer",
+      "title": "You're Almost There!",
+      "someone": "your loved one",
+      "subtitle": "One step away from gifting {name} a song they'll treasure forever",
+      "oneTime": "One-time payment, no hidden fees",
+      "expectedDelivery": "Expected song delivery date:",
+      "selectedGenre": "Genre",
+      "emailLabel": "Enter your best email address",
+      "emailPlaceholder": "you@email.com",
+      "emailRequired": "Required",
+      "whatsappLabel": "WhatsApp for contact",
+      "whatsappDescription": "Optional - Used only if email delivery fails",
+      "optional": "optional, but recommended",
+      "guarantee30": "30-Day Money Back Guarantee",
+      "reviewSurvey": "Review or Edit Survey",
+      "reviewSurveyHint": "Edit story, memories, and message without losing your order",
+      "changePlan": "Change plan",
+      "changePlanHint": "Current: {plan}. Tap to change",
+      "changePlanModalSubtitle": "Choose the best plan. You can change it now without losing any info.",
+      "changeGenre": "Change music genre",
+      "changeGenreHint": "Tap to change and listen to samples",
+      "orderSummary": {
+        "title": "Your Custom Song Order",
+        "songFor": "Song for:",
+        "delivery": "Delivery:",
+        "customSong": "Custom Song",
+        "discount": "50% OFF",
+        "total": "Total",
+        "addExtras": "Add extras (optional)",
+        "editExtras": "Edit extras",
+        "extrasHint": "Review extras and the final price before paying",
+        "noExtrasSelected": "No extras selected"
+      },
+      "modal": {
+        "title": "Edit the song story",
+        "honoree": "For: {name}",
+        "subtitle": "Write as much as you want (no limit). Tap Save when you're done.",
+        "cancel": "Back",
+        "save": "Save"
+      },
+      "sampleSongs": {
+        "title": "Hear Other ApolloSongs",
+        "subtitle": "Listen to songs we've created for other families"
+      },
+      "guarantee": {
+        "title": "100% Money Back Guarantee",
+        "description": "If you're not completely satisfied with your song, we'll refund your purchase. No questions asked.",
+        "refund": {
+          "title": "Not satisfied? Get a full refund",
+          "description": "No questions asked, no hassle"
+        },
+        "time": {
+          "title": "30-day guarantee",
+          "description": "Plenty of time to listen and decide"
+        },
+        "riskFree": {
+          "title": "Risk-free purchase",
+          "description": "Your satisfaction is our priority"
+        }
+      },
+      "whatYouGet": {
+        "title": "What You'll Get",
+        "song": {
+          "title": "Radio-Quality Song",
+          "description": "Radio-quality song, ready to share"
+        },
+        "lyrics": {
+          "title": "Personalized Lyrics",
+          "description": "Custom written just for {name}"
+        },
+        "delivery": {
+          "title": "7-Day Delivery",
+          "description": "Perfect for last-minute gifts"
+        }
+      },
+      "whyChoose": {
+        "title": "Why Choose ApolloSong",
+        "personalized": {
+          "title": "100% Personalized",
+          "description": "Every song is uniquely written based on your story"
+        },
+        "professional": {
+          "title": "Professional Quality",
+          "description": "Created by experienced professional artists"
+        },
+        "revisions": {
+          "title": "Free Revisions",
+          "description": "We'll refine until you're completely happy"
+        }
+      }
+    }
+  },
+  "orderBump": {
+    "title": "Make Your Gift Unforgettable",
+    "subtitle": "Special options chosen by 67% of our customers",
+    "fastDelivery": {
+      "title": "Rush Delivery 24h",
+      "description": "Last-minute gift? Get it tomorrow in your inbox — perfect for birthdays and special dates",
+      "price": "+$49"
+    },
+    "genreVariant": {
+      "title": "More Music Styles",
+      "badge": "SAME PERSON",
+      "description": "Want {name}'s story in another style? We rewrite the lyrics from scratch to match the genre",
+      "youWillReceive": "You'll already receive:",
+      "addMore": "Add more styles:",
+      "selectWarning": "Select at least one style below to add",
+      "perGenre": "per style",
+      "price": "+$39.90"
+    },
+    "certificate": {
+      "title": "Gift Experience",
+      "badge": "MOST EMOTIONAL",
+      "description": "We create an exclusive webpage just for your loved one. Send the link and watch their reaction when they discover the song was made for them. Get the tissues ready!",
+      "price": "+$19.90"
+    },
+    "lyrics": {
+      "title": "Song Lyrics",
+      "badge": "FRAMEABLE",
+      "description": "Picture the lyrics framed on your living room wall. Every day, you'll be reminded of this love. We send it ready to print.",
+      "price": "+$9.90"
+    },
+    "extraSong": {
+      "title": "Double the Joy",
+      "badge": "ANOTHER PERSON",
+      "description": "Gift another special person with an exclusive song at a special price",
+      "price": "+$49.50",
+      "forWho": "Who is this song for?",
+      "samePerson": "Same person",
+      "samePersonDesc": "Create another song for {name}",
+      "anotherPerson": "Another person",
+      "anotherPersonDesc": "Create a song for someone else",
+      "form": {
+        "recipientName": "Recipient's Name",
+        "recipientNamePlaceholder": "Enter their first name",
+        "relationship": "Relationship",
+        "relationshipPlaceholder": "Select relationship",
+        "qualities": "Tell us everything about this person",
+        "qualitiesPlaceholder": "Share everything you know about this person with specific details (write freely)...",
+        "genre": "Preferred Genre",
+        "vocals": "Preferred Voice",
+        "vocalsFemale": "Female",
+        "vocalsMale": "Male",
+        "vocalsEither": "Either"
+      }
+    },
+    "total": "Order Total",
+    "continueWithout": "Continue Without Extras",
+    "addToOrder": "Add to Order",
+    "saveExtras": "Save extras",
+    "clearExtras": "Clear extras"
+  },
+  "pendingOrder": {
+    "title": "We found an open checkout",
+    "subtitle": "Your answers are saved. Choose how you want to continue:",
+    "summaryTitle": "Summary",
+    "summaryFor": "For",
+    "summaryGenre": "Genre",
+    "summaryPlan": "Plan",
+    "summaryTotal": "Total",
+    "summaryExtras": "Extras",
+    "summaryExtrasNone": "None",
+    "continuePayment": "Continue payment",
+    "continuePaymentHint": "Open your previous payment link (pick up where you left off).",
+    "reviewPlan": "Review before paying",
+    "reviewPlanHint": "Check and edit plan, genre, and extras without losing anything.",
+    "startNew": "Start a brand-new song",
+    "startNewHint": "Clears everything and restarts the quiz from scratch.",
+    "startedNewTitle": "New checkout ready",
+    "startedNewDescription": "Your answers were kept. You can continue to create a new order.",
+    "note": "**No charges happen now.** You'll only be charged when you complete payment. The previous order will stay open until it expires.",
+    "close": "Close"
+  },
+  "navigation": {
+    "back": "Back",
+    "next": "Next",
+    "nextSkipMemories": "Next, I've already shared everything",
+    "submit": "Continue to Payment",
+    "submitting": "Creating your song...",
+    "terms": "By continuing, you agree to our",
+    "termsLink": "Terms of Service",
+    "and": "and",
+    "privacyLink": "Privacy Policy"
+  },
+  "audio": {
+    "prompt": "Don't want to type? Record an audio (up to 5 min) telling the story",
+    "transcriptionHint": "Your voice will be **converted to text** in the **field above**. Speak slowly, in **short phrases**, and **check** as you go.",
+    "stopToTranscribe": "When you're done speaking, click **Stop recording** for the text to appear in the field above.",
+    "recordButton": "Record audio",
+    "stopButton": "Stop recording",
+    "statusRecording": "Recording...",
+    "statusUploading": "Uploading audio...",
+    "statusQueued": "In transcription queue...",
+    "statusProcessing": "Transcribing your audio...",
+    "statusCompleted": "Audio transcribed successfully!",
+    "statusError": "Transcription error",
+    "micError": "Error accessing microphone. Check permissions.",
+    "noSpokenAudio": "We couldn't detect speech in the audio. Try recording again speaking closer to the microphone.",
+    "timeWarning": "Less than 1 minute remaining!",
+    "maxTimeReached": "Maximum time reached (5 min). Audio sent automatically."
+  },
+  "validation": {
+    "required": "This field is required",
+    "selectRecipient": "Please select who this song is for",
+    "enterName": "Please enter their name",
+    "selectGenre": "Please select a musical style",
+    "selectSubgenre": "Please select a subgenre",
+    "enterQualities": "Please describe what makes them special",
+    "qualitiesMinLength": "Please share a bit more about their qualities (at least a few words)",
+    "enterMemories": "Please share some special memories",
+    "memoriesMinLength": "Please share a bit more about your memories (at least a few words)",
+    "messageMinLength": "Please share a bit more about your message (at least a few words)",
+    "enterEmail": "Please enter your email address",
+    "invalidEmail": "Please enter a valid email address",
+    "submitError": "Failed to submit. Please try again."
+  }
+}

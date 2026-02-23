@@ -1,0 +1,22 @@
+{
+    "hero": {
+        "title": "Our Mission",
+        "subtitle": "Turning your stories into eternal melodies."
+    },
+    "nameMeaning": {
+        "title": "Why Apollo Song?",
+        "content": "In Greek mythology, Apollo was the god of music, poetry, and the arts — the divine force behind every melody that moves the soul. We chose his name because we believe music has the power to capture what words alone cannot. Apollo Song carries that same spirit — turning your stories, your love, and your deepest emotions into a song that will be treasured forever."
+    },
+    "musicians": {
+        "title": "Our Story",
+        "content": "We are a collective of professional artists, producers, and songwriters who believe that every life has a unique story worth telling. We've spent years in recording studios and concert stages, and our greatest joy is now dedicated to you. We take your personal narratives and weave them into radio-quality music, ensuring each note carries the sincerity of your heart."
+    },
+    "love": {
+        "title": "Made with Love",
+        "content": "This isn't just an automated process. Our team treats every order with deep care and dedication. We carefully craft the lyrics, thoughtfully shape the melodies, and deliver your song as if it were for our own family."
+    },
+    "seo": {
+        "title": "About Us | Apollo Song",
+        "description": "Learn about the history of Apollo Song, the meaning behind our name, and the collective of professional artists dedicated to turning your story into music."
+    }
+}

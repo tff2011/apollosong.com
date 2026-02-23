@@ -1,0 +1,34 @@
+{
+  "title": "Cada Historia Merece una Canción",
+  "subtitle": "Desde celebraciones alegres hasta momentos de profunda sanación, convertimos tus emociones en música.",
+  "items": [
+    {
+      "id": "spouse",
+      "title": "Para tu Pareja",
+      "description": "Celebra tu historia de amor con una melodía que hable desde tu corazón.",
+      "image": "/images/gallery-spouse.webp",
+      "alt": "Para tu pareja"
+    },
+    {
+      "id": "children",
+      "title": "Para tus Hijos",
+      "description": "Una canción de cuna o bendición eterna que llevarán toda la vida.",
+      "image": "/images/gallery-children.webp",
+      "alt": "Para tus hijos"
+    },
+    {
+      "id": "healing",
+      "title": "Para Sanación y Pérdida",
+      "description": "Encuentra consuelo y paz en una canción que honra un recuerdo.",
+      "image": "/images/gallery-healing.webp",
+      "alt": "Para sanación y pérdida"
+    },
+    {
+      "id": "faith",
+      "title": "Para Fortaleza y Fe",
+      "description": "Letras poderosas para elevar el espíritu en tiempos difíciles.",
+      "image": "/images/gallery-faith.webp",
+      "alt": "Para fortaleza y fe"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Ogni storia merita una canzone",
+  "subtitle": "Dalle celebrazioni gioiose ai momenti di profonda guarigione, trasformiamo le tue emozioni in musica.",
+  "items": [
+    {
+      "id": "spouse",
+      "title": "Per il coniuge",
+      "description": "Celebra la vostra storia d'amore con una melodia che parla al tuo cuore.",
+      "image": "/images/gallery-spouse.webp",
+      "alt": "Per il coniuge"
+    },
+    {
+      "id": "children",
+      "title": "Per i tuoi figli",
+      "description": "Una ninna nanna o benedizione senza tempo che porteranno con se per tutta la vita.",
+      "image": "/images/gallery-children.webp",
+      "alt": "Per i tuoi figli"
+    },
+    {
+      "id": "healing",
+      "title": "Per la guarigione e il lutto",
+      "description": "Trova conforto e pace in una canzone che onora un ricordo.",
+      "image": "/images/gallery-healing.webp",
+      "alt": "Per la guarigione e il lutto"
+    },
+    {
+      "id": "faith",
+      "title": "Per la forza e la fede",
+      "description": "Parole potenti per elevare lo spirito nei momenti difficili.",
+      "image": "/images/gallery-faith.webp",
+      "alt": "Per la forza e la fede"
+    }
+  ]
+}

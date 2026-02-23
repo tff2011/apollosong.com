@@ -1,0 +1,34 @@
+{
+  "title": "Chaque histoire merite une chanson",
+  "subtitle": "Des celebrations joyeuses aux moments de guerison profonde, nous transformons vos emotions en musique.",
+  "items": [
+    {
+      "id": "spouse",
+      "title": "Pour un conjoint",
+      "description": "Celebrez votre histoire d'amour avec une melodie qui parle de votre coeur.",
+      "image": "/images/gallery-spouse.webp",
+      "alt": "Pour un conjoint"
+    },
+    {
+      "id": "children",
+      "title": "Pour vos enfants",
+      "description": "Une berceuse ou benediction intemporelle qu'ils porteront toute leur vie.",
+      "image": "/images/gallery-children.webp",
+      "alt": "Pour vos enfants"
+    },
+    {
+      "id": "healing",
+      "title": "Pour la guerison et le deuil",
+      "description": "Trouvez reconfort et paix dans une chanson qui honore un souvenir.",
+      "image": "/images/gallery-healing.webp",
+      "alt": "Pour la guerison et le deuil"
+    },
+    {
+      "id": "faith",
+      "title": "Pour la force et la foi",
+      "description": "Des paroles puissantes pour elever l'esprit dans les moments difficiles.",
+      "image": "/images/gallery-faith.webp",
+      "alt": "Pour la force et la foi"
+    }
+  ]
+}

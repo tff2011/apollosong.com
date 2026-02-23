@@ -1,0 +1,320 @@
+{
+  "title": "Track Your Songs",
+  "subtitle": "<b>Enter your email or phone</b> to see the status of your ApolloSong and when it'll be delivered.",
+  "guarantee": {
+    "title": "We complete every order—you're covered!",
+    "description": "We have a 100% song completion rate. If you can't find your song, it's usually due to a mistyped email or email filtering. Just email us at {email} and we'll resend your song right away. We reply within 3-5 days during holidays, often sooner."
+  },
+  "form": {
+    "placeholder": "your@email.com",
+    "phonePlaceholder": "+1 (555) 123-4567",
+    "submit": "Track Your Song",
+    "searching": "Searching...",
+    "searchAnother": "Search another",
+    "searchByEmail": "Email",
+    "searchByPhone": "Phone",
+    "searchHint": "<b>Try email first.</b> If you can't find it, search by phone."
+  },
+  "notFound": {
+    "icon": "🎵",
+    "title": "Can't Find Your Order?",
+    "paragraph1": "It might be because you mistyped your email when ordering. Many customers accidentally mistype their email address when placing their order, and that's totally fine – we'll help you find it.",
+    "paragraph2": "First, please double-check that you're using the same email address you used when placing your order. Common mix-ups include using @gmail.com when your actual email is @icloud.com, or @hotmail.com instead of @outlook.com, and vice versa. Or it can be a typo on the email address itself.",
+    "paragraph3": "If you're still not finding it, just reach out to us at {email} with the following information and we'll locate your order right away. We reply within 3-5 days during holidays, often sooner.",
+    "helpList": [
+      "The date you placed your order",
+      "The name of your order",
+      "A general overview of the survey you filled out"
+    ],
+    "supportNote": "We're here to support you every step of the way. Please reach out if you have any issues and we'll do our best to fix them right away.",
+    "contactSupport": "Contact Support",
+    "createSong": "Create Your First Song"
+  },
+  "results": {
+    "title": "Your Orders",
+    "titleWithCount": "Your Orders ({count})",
+    "nowViewing": "Now viewing",
+    "ofTotal": "of {total}",
+    "labelMainOrder": "Main order",
+    "labelGenreExtra": "Extra style",
+    "orderFor": "Song for {name}",
+    "ordered": "Ordered",
+    "pricePaid": "Total:",
+    "deliveryEstimate": {
+      "label": "Delivery estimate",
+      "planExpress": "Priority 24h",
+      "planStandard": "Standard 7 days",
+      "ready": "By {date} • {plan}",
+      "pending": "{plan} after payment"
+    },
+    "status": {
+      "PENDING": "Payment pending",
+      "PAID": "Payment Received",
+      "IN_PROGRESS": "Being Created",
+      "COMPLETED": "Completed",
+      "REVISION": "In Revision"
+    },
+    "statusShort": {
+      "PENDING": "Pending",
+      "PAID": "Paid",
+      "IN_PROGRESS": "Creating",
+      "COMPLETED": "Ready",
+      "REVISION": "Revision"
+    },
+    "pendingPayment": {
+      "title": "Payment pending",
+      "description": "Your order has not been paid yet. Complete payment to unlock your song.",
+      "cta": "Pay and complete"
+    },
+    "editOrder": {
+      "title": "Forgot something or need to fix it?",
+      "description": "Add or adjust details so everything feels just right.",
+      "cta": "Edit details"
+    },
+    "reviewInfo": {
+      "title": "Information submitted",
+      "description": "Review the details you provided",
+      "cta": "View details",
+      "hide": "Hide",
+      "recipient": "Honoree",
+      "genre": "Music style",
+      "vocals": "Voice type",
+      "vocalsFemale": "Female",
+      "vocalsMale": "Male",
+      "vocalsEither": "Either",
+      "qualities": "Qualities",
+      "memories": "Special memories",
+      "message": "Personal message",
+      "noQualities": "No qualities selected",
+      "noMemories": "No memories added",
+      "noMessage": "No message added",
+      "edit": "Edit",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "saved": "Saved successfully!",
+      "qualitiesPlaceholder": "Describe the qualities...",
+      "memoriesPlaceholder": "Describe special memories...",
+      "messagePlaceholder": "Add a personal message..."
+    },
+    "fastDelivery": "24h Delivery",
+    "extraSong": "Extra Song",
+    "extraSongFor": "Extra song for {name}",
+    "songReady": "Your song is ready!",
+    "songsReady": "Your songs are ready!",
+    "listenNow": "Listen to your personalized song below",
+    "chooseFavorite": "We created two versions - listen and choose your favorite!",
+    "option1": "Option 1",
+    "option2": "Option 2",
+    "genreVariant": "Style: {genre}",
+    "genreVariantFor": "{genre} version for {name}",
+    "shareSongMessage": "🎵 Listen to this special song I created for {name}!",
+    "shareButton": "Share",
+    "downloadButton": "Download",
+    "revisionButton": "Revision",
+    "streamingButton": "Release on Spotify",
+    "orderBumps": {
+      "title": "Services you already purchased",
+      "certificate": "Gift Experience",
+      "chooseOption": "Choose which version to send as a gift:",
+      "certificateDesc": "Share the magic - send this link to {name}",
+      "openCertificate": "Open",
+      "copyLink": "Copy Link",
+      "copiedLink": "Copied!",
+      "shareWhatsApp": "Send on WhatsApp",
+      "whatsAppMessage": "🎁 Hi {name}! I have a special surprise for you - a song made just for you! Click here to see:",
+      "lyrics": "Song Lyrics",
+      "lyricsDesc": "Download the stylized PDF with the lyrics for {name}'s {genre} song",
+      "downloadLyrics": "Download PDF",
+      "streamingVip": "VIP Distribution (Spotify/Instagram/TikTok)",
+      "streamingVipDesc": "Already requested. Status: {status}",
+      "streamingVipListen": "Listen to {songName} on Spotify",
+      "streamingVipListenFallback": "Listen on Spotify",
+      "streamingShare": "Share",
+      "streamingShareSuccess": "Link copied!",
+      "pendingDesc": "Available when your song is ready",
+      "pending": "Pending",
+      "songNameLabel": "Song name on PDF",
+      "songNamePlaceholder": "Enter a name for this song",
+      "songNameSave": "Save",
+      "songNameSaving": "Saving...",
+      "songNameSaved": "Saved! PDF will be updated shortly.",
+      "songNameError": "Could not save.",
+      "karaoke": "Your Moment on Stage",
+      "karaokeProcessing": "Preparing your karaoke version...",
+      "karaokeReady": "Your karaoke version is ready!",
+      "downloadKaraoke": "Download Karaoke"
+    }
+  },
+  "upsellSection": {
+    "title": "Services available",
+    "description": "Services you haven’t purchased yet and can add now"
+  },
+  "genreVariantUpsell": {
+    "title": "Want {name}'s song in **another style**?",
+    "description": "Same story, **brand-new lyrics** — written from scratch to match the style",
+    "selectStyles": "Select additional styles:",
+    "perStyle": "per style",
+    "buyNow": "Buy Now",
+    "adding": "Adding...",
+    "total": "Total:",
+    "alreadyHave": "You already have:",
+    "currentGenre": "Current style",
+    "selectVoice": "Choose voice type:",
+    "voiceFemale": "Female",
+    "voiceMale": "Male",
+    "voiceEither": "Either",
+    "lyricsOptionLabel": "What to do with the lyrics?",
+    "lyricsOptionSame": "Keep the same lyrics",
+    "lyricsOptionSameDesc": "Uses the original lyrics, perfect for the new style",
+    "lyricsOptionAdapt": "Adapt for the new rhythm",
+    "lyricsOptionAdaptDesc": "Our team adjusts the lyrics to better match the style"
+  },
+  "lyricsUpsell": {
+    "title": "Want the **lyrics PDF** for {name}'s song?",
+    "description": "Get a beautifully designed PDF with the lyrics for {name}'s song to **print, frame, or share**",
+    "price": "$9.90",
+    "buyNow": "Add Lyrics",
+    "adding": "Adding..."
+  },
+  "streamingVipUpsell": {
+    "badge": "VIP",
+    "title": "Get {name}'s song on **Spotify, Instagram, TikTok, WhatsApp & Deezer**",
+    "description": "Turn your gift into an **official release** and make the song **public for everyone to hear**.",
+    "bullets": [
+      "Distribution to **Spotify, Instagram, TikTok, Apple Music, YouTube Music, Amazon Music, Deezer & more**",
+      "Your song becomes **public and shareable worldwide**",
+      "**Beautiful cover art** made from the person's photo"
+    ],
+    "buyNow": "Yes, make it public",
+    "adding": "Activating...",
+    "quantity1": "1 song",
+    "quantity2": "2 songs",
+    "selectQuantity": "How many songs to put on Spotify?",
+    "bothDiscount": "Save {discount}!",
+    "purchaseRemaining": "Add the other song",
+    "confirmPurchase": "Continue to Payment"
+  },
+  "karaokeUpsell": {
+    "title": "**Your Moment on Stage** — sing {name}'s song!",
+    "description": "Get the karaoke version and experience the thrill of singing the song you created, at parties, gatherings, or family karaoke",
+    "price": "$19.90",
+    "buyNow": "I Want to Sing!",
+    "adding": "Preparing..."
+  },
+  "createAnotherUpsell": {
+    "title": "Loved the **result**?",
+    "description": "Create another song for **someone special**",
+    "cta": "Create new song"
+  },
+  "musicianTip": {
+    "title": "Did our song touch your heart?",
+    "subtitle": "Your support makes a difference",
+    "description": "We charge a **symbolic price** for our songs so we can reach as many people as possible. But we know the **true value and dedication** each song requires to achieve this level of quality. If our music touched your heart, your contribution goes **directly to the talented musicians** who created it.",
+    "placeholder": "Amount",
+    "minValue": "Minimum $10",
+    "maxValue": "Maximum $2,950",
+    "button": "Support with love",
+    "processing": "Preparing...",
+    "optional": "100% optional",
+    "thankYou": "Thank you for valuing our work!"
+  },
+  "needHelp": {
+    "title": "Need Help?",
+    "description": "If you're having trouble finding your order or have any questions, chat with us on WhatsApp. We reply quickly!",
+    "contactSupport": "Chat on WhatsApp",
+    "whatsAppMessage": "Hi! I need help with my custom song order.",
+    "followInstagram": "Follow on Instagram",
+    "createNewSongTitle": "Want to create a song for someone special?",
+    "createNewSongCta": "Create my song now"
+  },
+  "revision": {
+    "button": "Request Revision",
+    "cardTitle": "Revision for {name}'s song",
+    "cardSubtitle": "Style: {genre}",
+    "cardDescription": "Something wasn't quite right? Free if it's our mistake, $9.90 if incorrect info was provided.",
+    "modalTitle": "Request Song Revision",
+    "modalWarning": "This action is irreversible",
+    "modalDescription": "Your song will enter revision and we'll analyze it within 48 hours, sending you a corrected version.",
+    "modalFee": "If it's our mistake, the revision is **free**. If due to **incorrect information** you provided, a fee of **$9.90** will be charged only after delivering the new version.",
+    "modalCancel": "Cancel",
+    "modalConfirm": "I Understand, Request Revision",
+    "statusInRevision": "Revision Requested",
+    "statusDescription": "Your request is being analyzed. You'll receive a new version within 48 hours.",
+    "queuePosition": "#{position} in queue",
+    "queueProcessing": "Being analyzed",
+    "cancelButton": "Cancel revision",
+    "cancelConfirmTitle": "Cancel revision?",
+    "cancelConfirmDescription": "You'll keep the song as is. This action uses 1 of your 2 available revisions.",
+    "cancelConfirmButton": "Yes, keep current song",
+    "cancelling": "Cancelling...",
+    "cancelHelperText": "Prefer not to wait?",
+    "finalVersionTitle": "Final Version",
+    "finalVersionDescription": "This is the final version of {name}'s song. You have used all 2 available revisions.",
+    "addNotesButton": "Add information",
+    "addNotesTitle": "Add more information",
+    "addNotesDescription": "Forgot to mention something? Add more details about what needs to be corrected.",
+    "addNotesPlaceholder": "Write here what you forgot to mention...",
+    "addNotesSend": "Send",
+    "addNotesSending": "Sending...",
+    "existingNotesLabel": "What you already wrote:",
+    "preferredVersionLabel": "Preferred version",
+    "melodyPreferenceLabel": "Melody preference",
+    "melodyKeepCurrent": "Keep the current melody",
+    "melodySuggestNew": "I want 2 new melody options",
+    "revisionCompletedBadge": "Revision #{number} completed"
+  },
+  "timeline": {
+    "pendingPayment": "Awaiting Payment",
+    "ordered": "Ordered",
+    "processing": "Processing",
+    "ready": "Ready"
+  },
+  "tabs": {
+    "orders": "Orders",
+    "listen": "Listen",
+    "extras": "Extras",
+    "help": "Help",
+    "ordersTitle": "Your Orders ({count})",
+    "listenTitle": "Listen to {name}'s Song 🎧",
+    "extrasTitle": "Extras for {name} ✨",
+    "helpTitle": "Need Help?"
+  },
+  "sidebar": {
+    "title": "Your Orders",
+    "selectOrder": "Select an order"
+  },
+  "listen": {
+    "noSongYet": "No song yet",
+    "noSongDescription": "Your song is being created",
+    "nowPlaying": "You're listening to",
+    "songFor": "{name}'s exclusive song"
+  },
+  "extras": {
+    "purchased": "Purchased Services",
+    "available": "Available Services",
+    "noPurchased": "No purchases yet",
+    "noAvailable": "No extras available"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "How do I download my song to my phone or computer?",
+        "answer": "<strong>On mobile (iPhone/Android):</strong><br/>1. Tap the <strong>Download</strong> button below the player<br/>2. The MP3 file will be saved to your Downloads or Files folder<br/>3. On iPhone, you can open it in the Files app and save to iCloud<br/><br/><strong>On computer:</strong><br/>1. Click the <strong>Download</strong> button<br/>2. The file will be saved to your Downloads folder<br/>3. You can move it anywhere or import it to iTunes/local Spotify"
+      },
+      {
+        "question": "How do I request a revision of my song?",
+        "answer": "If something wasn't quite right, you can request a revision:<br/><br/>1. Go to the <strong>Orders</strong> tab and select your song<br/>2. Scroll down to find the <strong>Request Revision</strong> card<br/>3. Click and describe what needs to be adjusted<br/>4. We'll review within 48h and send the corrected version<br/><br/><strong>Important:</strong> If it was our mistake, the revision is free. If it was due to incorrect information, there's a $9.90 fee."
+      },
+      {
+        "question": "How do I put my song on Spotify?",
+        "answer": "With our <strong>VIP Distribution</strong> service, your song becomes available on all platforms:<br/><br/>• Spotify, Apple Music, YouTube Music<br/>• Instagram, TikTok, Facebook<br/>• Deezer, Amazon Music and more<br/><br/><strong>How to get it:</strong><br/>1. Go to the <strong>Extras</strong> tab<br/>2. Find the \"VIP Distribution\" card<br/>3. Click \"Yes, make it public\"<br/><br/>We create a professional cover with the person's photo and your song becomes public for anyone to listen!"
+      }
+    ]
+  },
+  "seo": {
+    "title": "Track Your Song Order | ApolloSong",
+    "description": "Check the status of your personalized custom song order. Enter your email to see when your ApolloSong will be delivered."
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "hero": {
+        "title": "Notre Mission",
+        "subtitle": "Transformer vos histoires en mélodies éternelles."
+    },
+    "nameMeaning": {
+        "title": "Pourquoi Apollo Song ?",
+        "content": "Notre nom s'inspire d'Apollon, le dieu grec de la musique, de la poésie et de l'art. Depuis l'Antiquité, Apollon symbolise le pouvoir de la musique à émouvoir, guérir et connecter les êtres humains. Pour nous, Apollo Song représente cette mission intemporelle : transformer vos histoires, vos souvenirs et vos émotions les plus profondes en un chant unique qui résonnera pour toujours."
+    },
+    "musicians": {
+        "title": "Notre Histoire",
+        "content": "Nous sommes un collectif d'artistes professionnels, producteurs et compositeurs qui croient que chaque vie est une histoire unique. Nous avons passé des années dans des studios d'enregistrement et sur les plus grandes scènes, mais notre plus grande joie est aujourd'hui de nous consacrer à vous. Nous prenons vos récits personnels et les transformons en musique de qualité radio, en veillant à ce que chaque note porte la sincérité de votre cœur."
+    },
+    "love": {
+        "title": "Fait avec Amour",
+        "content": "Il ne s'agit pas seulement d'un processus automatisé. Notre équipe traite chaque commande avec le plus grand soin et dévouement. Nous créons les paroles avec attention, nous composons les mélodies avec passion et nous livrons votre chanson comme si elle était destinée à notre propre famille."
+    },
+    "seo": {
+        "title": "Qui Sommes-Nous | Apollo Song",
+        "description": "Découvrez l'histoire de Apollo Song, la signification de notre nom et le collectif d'artistes professionnels dédié à transformer votre histoire en musique."
+    }
+}

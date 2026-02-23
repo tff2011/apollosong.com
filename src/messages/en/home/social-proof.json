@@ -1,0 +1,38 @@
+{
+  "title": "Loved by 10,000+ families worldwide",
+  "logos": [
+    "Music Weekly",
+    "Gift Guide",
+    "Family Circle"
+  ],
+  "badge": "Real Testimonials",
+  "subtitle": "Real stories of unforgettable connections.",
+  "customerLoveTitle": "Why 10,000+ Families Love",
+  "items": {
+    "godGaveMeYou": {
+      "title": "God Gave Me You",
+      "subtitle": "ApolloSong"
+    },
+    "wendyB": {
+      "quote": "Oh praise God! This is absolutely breathtaking. I can't believe it... I am going to have a hard time keeping this a secret until Sunday. We will listen to it on our way to church! God bless this work you are doing.",
+      "author": "Wendy B.",
+      "verified": "Verified Customer"
+    },
+    "threeSqueezes": {
+      "title": "Three Squeezes",
+      "subtitle": "ApolloSong"
+    },
+    "myHeartIsYours": {
+      "title": "My Heart is Yours",
+      "subtitle": "ApolloSong"
+    },
+    "mommysLove": {
+      "title": "Mommy's Love",
+      "subtitle": "ApolloSong"
+    },
+    "chosenHearts": {
+      "title": "Chosen Hearts",
+      "subtitle": "ApolloSong"
+    }
+  }
+}

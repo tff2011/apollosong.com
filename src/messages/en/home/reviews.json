@@ -1,0 +1,306 @@
+{
+  "title": "ApolloSong Reviews",
+  "subtitle": "See why 1000+ families trust ApolloSong to create meaningful, personalized songs that touch hearts and create lasting memories.",
+  "stats": {
+    "rating": "4.99/5",
+    "customers": "1000+ Happy Customers",
+    "verified": "Verified Reviews"
+  },
+  "cta": "Create Your Custom Song",
+  "brand": "ApolloSong",
+  "verified": "Verified Customer",
+  "items": [
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-1.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-1.mp4",
+      "title": "His Love Story For Me Is You",
+      "alt": "Customer reaction video"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-2.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-2.mp4",
+      "title": "Chosen Hearts",
+      "alt": "Customer reaction video"
+    },
+    {
+      "type": "text",
+      "quote": "Oh praise God! This is absolutely breathtaking. I can't believe it... I am going to have a hard time keeping this a secret until Sunday. We will listen to it on our way to church! God bless the work you are doing.",
+      "name": "Wendy B.",
+      "avatar": "/images/reviews/avatar-1.webp"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-3.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-3.mp4",
+      "title": "My Heart is Yours",
+      "alt": "Customer reaction video"
+    },
+    {
+      "type": "text",
+      "quote": "Very very wonderful song. I absolutely loved it and so did Dave! I put it on my FB, I sent it too his boys so they could hear it... I will be singing your praises and telling everyone about your beautiful work. God Bless you all....",
+      "name": "Markeeta B.",
+      "avatar": "/images/reviews/avatar-2.webp"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-4.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-4.mp4",
+      "title": "Three Squeezes and a Miracle",
+      "alt": "Customer reaction video"
+    },
+    {
+      "type": "text",
+      "quote": "Absolutely beautiful, you captured such special moments... we both were crying. Can not asked for a more beautiful song. Thank you so much for this amazing gift.",
+      "name": "Pamela S.",
+      "avatar": "/images/reviews/avatar-3.webp"
+    },
+    {
+      "type": "text",
+      "quote": "This song brought tears to my eyes. The way you captured our story and turned it into such a beautiful melody is truly a gift from God. Thank you for this precious memory.",
+      "name": "Rachel M.",
+      "avatar": "/images/reviews/avatar-4.webp"
+    },
+    {
+      "type": "text",
+      "quote": "This song was so beautiful and heartwarming, it brought tears to my eyes as I listened. Everyday I try to keep my nieces memories alive and this was just so beautiful. I wanted to express my gratitude to you.",
+      "name": "Linda K.",
+      "avatar": "/images/reviews/avatar-5.webp"
+    },
+    {
+      "type": "text",
+      "quote": "This is the BEST, MOST THOUGHTFUL gift I've ever received. I am going to play it for him tonight and I will for sure send you the reaction video! Thank you so so so so much. I'm ugly crying right now.",
+      "name": "Jessica T.",
+      "avatar": "/images/reviews/avatar-6.webp"
+    },
+    {
+      "type": "text",
+      "quote": "I am beyond words! This is absolutely beautiful and we cannot thank you enough for such beautiful words. Thank you for making my husbands birthday so incredibly special.",
+      "name": "Maria G.",
+      "avatar": "/images/reviews/avatar-7.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My mom passed away last month and this song captured her spirit perfectly. Every time I listen, I feel her presence. Thank you for this eternal gift.",
+      "name": "Sarah Johnson",
+      "avatar": "/images/reviews/avatar-8.webp"
+    },
+    {
+      "type": "text",
+      "quote": "We played this at our 25th anniversary party. There wasn't a dry eye in the room. Our kids were sobbing. Best money I've ever spent.",
+      "name": "David Thompson",
+      "avatar": "/images/reviews/avatar-9.webp"
+    },
+    {
+      "type": "text",
+      "quote": "I ordered this for my daughter's baptism. The lyrics about her journey to faith were so personal and beautiful. She'll treasure this forever.",
+      "name": "Emily Davis",
+      "avatar": "/images/reviews/avatar-10.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Gave this to my wife on our wedding day as a surprise. She couldn't stop crying. The pastor even asked to use it in future ceremonies!",
+      "name": "Michael Roberts",
+      "avatar": "/images/reviews/avatar-11.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My father served in the military for 30 years. This song honored his service and faith in a way I never could have expressed myself.",
+      "name": "Jennifer Wilson",
+      "avatar": "/images/reviews/avatar-12.webp"
+    },
+    {
+      "type": "text",
+      "quote": "How do you put 50 years of marriage into a song? Somehow you did it. My parents were speechless.",
+      "name": "Robert Anderson",
+      "avatar": "/images/reviews/avatar-13.webp"
+    },
+    {
+      "type": "text",
+      "quote": "I'm a worship leader and I've never heard anything so genuine. You captured my grandmother's legacy in the most beautiful way.",
+      "name": "Amanda Martinez",
+      "avatar": "/images/reviews/avatar-14.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My son has autism and this song celebrated his unique journey. He listens to it every night before bed now. You gave us a treasure.",
+      "name": "Christina Taylor",
+      "avatar": "/images/reviews/avatar-15.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ordered for my husband's 60th birthday. He's a tough guy who never cries. He broke down completely. Worth every penny.",
+      "name": "Patricia Brown",
+      "avatar": "/images/reviews/avatar-16.webp"
+    },
+    {
+      "type": "text",
+      "quote": "This was for my best friend's cancer recovery celebration. The song gave words to emotions we couldn't express. God bless your team.",
+      "name": "Michelle Lee",
+      "avatar": "/images/reviews/avatar-17.webp"
+    },
+    {
+      "type": "text",
+      "quote": "I surprised my parents for their golden anniversary. Mom said it was like hearing their love story told by angels.",
+      "name": "Kevin Garcia",
+      "avatar": "/images/reviews/avatar-18.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My daughter got married last weekend. We played this during the father-daughter dance. Most emotional moment of my life.",
+      "name": "William Clark",
+      "avatar": "/images/reviews/avatar-19.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Lost my brother unexpectedly. This song helped our family grieve and celebrate his life. It plays at every family gathering now.",
+      "name": "Stephanie Moore",
+      "avatar": "/images/reviews/avatar-20.webp"
+    },
+    {
+      "type": "text",
+      "quote": "The harmonies gave me chills! You somehow knew exactly what my heart wanted to say to my wife. She plays it daily.",
+      "name": "James Miller",
+      "avatar": "/images/reviews/avatar-21.webp"
+    },
+    {
+      "type": "text",
+      "quote": "I'm a pastor and I've seen many touching moments. But hearing my own story in song form? Absolutely overwhelming.",
+      "name": "Daniel White",
+      "avatar": "/images/reviews/avatar-22.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My twins turned 18 and this song captured their bond perfectly. They both got matching tattoos of a lyric from it!",
+      "name": "Rebecca Harris",
+      "avatar": "/images/reviews/avatar-23.webp"
+    },
+    {
+      "type": "text",
+      "quote": "For my mom's 80th birthday. Four generations of our family were crying together. This is now our family anthem.",
+      "name": "Christopher Martin",
+      "avatar": "/images/reviews/avatar-24.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My husband and I renewed our vows after 20 years. This song was the centerpiece. Not a single person stayed dry-eyed.",
+      "name": "Laura Thompson",
+      "avatar": "/images/reviews/avatar-25.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ordered this for my grandmother's memorial service. It was so personal that people asked if she had written it herself.",
+      "name": "Brian Jackson",
+      "avatar": "/images/reviews/avatar-26.webp"
+    },
+    {
+      "type": "text",
+      "quote": "I gave this to my wife after her miscarriage. It helped us both heal and remember our angel baby. Forever grateful.",
+      "name": "Andrew Walker",
+      "avatar": "/images/reviews/avatar-27.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My daughter survived a car accident. This song tells her testimony of God's protection. She shares it everywhere.",
+      "name": "Nicole Robinson",
+      "avatar": "/images/reviews/avatar-28.webp"
+    },
+    {
+      "type": "text",
+      "quote": "For our church's 100th anniversary. You captured a century of faith, community, and love. Standing ovation from everyone.",
+      "name": "Timothy Young",
+      "avatar": "/images/reviews/avatar-29.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My dad has Alzheimer's. When he heard this song about our memories, he smiled and called my name. Priceless moment.",
+      "name": "Kimberly King",
+      "avatar": "/images/reviews/avatar-30.webp"
+    },
+    {
+      "type": "text",
+      "quote": "I'm a foster mom. This song celebrated my journey with my kids. They finally feel like they have a family anthem.",
+      "name": "Ashley Wright",
+      "avatar": "/images/reviews/avatar-31.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Got this for my fiancée on our engagement. She said yes before I even finished the song! Best proposal ever.",
+      "name": "Joshua Lopez",
+      "avatar": "/images/reviews/avatar-32.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My wife is a nurse who worked through COVID. This song honored her sacrifice. Her whole unit cried when they heard it.",
+      "name": "Matthew Hill",
+      "avatar": "/images/reviews/avatar-33.webp"
+    },
+    {
+      "type": "text",
+      "quote": "For my son's graduation. From his first steps to his diploma - all in one beautiful song. He's taking it to college.",
+      "name": "Elizabeth Scott",
+      "avatar": "/images/reviews/avatar-34.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My husband passed after 45 years together. This song is my comfort. I listen to it every morning with my coffee.",
+      "name": "Dorothy Adams",
+      "avatar": "/images/reviews/avatar-35.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Surprised my mentor who led me to Christ 20 years ago. He was completely overwhelmed. Best way to say thank you.",
+      "name": "Ryan Mitchell",
+      "avatar": "/images/reviews/avatar-36.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My daughter overcame addiction. This song celebrates her 5 years of sobriety. It's her reminder of God's grace.",
+      "name": "Catherine Baker",
+      "avatar": "/images/reviews/avatar-37.webp"
+    },
+    {
+      "type": "text",
+      "quote": "We adopted our son from overseas. This song tells his journey home to us. He asks to hear 'his song' every night.",
+      "name": "Mark Nelson",
+      "avatar": "/images/reviews/avatar-38.webp"
+    },
+    {
+      "type": "text",
+      "quote": "For my parents' 40th anniversary. They slow danced in the kitchen crying. Haven't seen them that happy in years.",
+      "name": "Heather Carter",
+      "avatar": "/images/reviews/avatar-39.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My sister beat breast cancer. This song was her victory anthem. She plays it at every check-up appointment.",
+      "name": "Steven Phillips",
+      "avatar": "/images/reviews/avatar-40.webp"
+    },
+    {
+      "type": "text",
+      "quote": "I'm 85 and got this for my great-grandchildren. Now they'll always have a piece of me when I'm gone. Beautiful.",
+      "name": "Margaret Evans",
+      "avatar": "/images/reviews/avatar-41.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Our small group at church has been together 15 years. This song captured our bond. We play it at every meeting now.",
+      "name": "Jason Turner",
+      "avatar": "/images/reviews/avatar-42.webp"
+    },
+    {
+      "type": "text",
+      "quote": "My son came back from deployment safely. This song thanks God for bringing him home. His whole platoon loved it.",
+      "name": "Diane Collins",
+      "avatar": "/images/reviews/avatar-43.webp"
+    },
+    {
+      "type": "text",
+      "quote": "For my husband's retirement after 35 years of teaching. His former students chipped in. There were so many tears.",
+      "name": "Susan Edwards",
+      "avatar": "/images/reviews/avatar-44.webp"
+    }
+  ]
+}

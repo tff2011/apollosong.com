@@ -1,0 +1,270 @@
+{
+  "hero": {
+    "eyebrow": "Terms",
+    "title": "Terms of Service",
+    "subtitle": "Please read these terms carefully before ordering or using ApolloSong.",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdated": "February 1, 2025"
+  },
+  "summary": {
+    "title": "Key points",
+    "items": [
+      {
+        "title": "Custom orders",
+        "description": "Each song is created to order based on the story and details you submit."
+      },
+      {
+        "title": "Delivery and revisions",
+        "description": "Standard delivery is up to 7 days, with a 24-hour priority option. Revisions are handled case-by-case within the original brief."
+      },
+      {
+        "title": "Payments and refunds",
+        "description": "Payment is due at checkout. We offer a 30-day money-back guarantee if your song is not right."
+      },
+      {
+        "title": "License to use",
+        "description": "You receive a personal, non-exclusive license to share your song privately."
+      }
+    ]
+  },
+  "tocTitle": "On this page",
+  "toc": [
+    {
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "id": "eligibility",
+      "label": "Eligibility and accounts"
+    },
+    {
+      "id": "orders",
+      "label": "Orders and creative process"
+    },
+    {
+      "id": "your-content",
+      "label": "Your content and permissions"
+    },
+    {
+      "id": "revisions",
+      "label": "Revisions and approvals"
+    },
+    {
+      "id": "delivery",
+      "label": "Delivery and access"
+    },
+    {
+      "id": "payments",
+      "label": "Pricing and payments"
+    },
+    {
+      "id": "refunds",
+      "label": "Refunds and guarantee"
+    },
+    {
+      "id": "license",
+      "label": "License to you"
+    },
+    {
+      "id": "ip",
+      "label": "Intellectual property"
+    },
+    {
+      "id": "prohibited",
+      "label": "Prohibited use"
+    },
+    {
+      "id": "third-party",
+      "label": "Third-party services"
+    },
+    {
+      "id": "disclaimers",
+      "label": "Disclaimers"
+    },
+    {
+      "id": "liability",
+      "label": "Limitation of liability"
+    },
+    {
+      "id": "indemnification",
+      "label": "Indemnification"
+    },
+    {
+      "id": "termination",
+      "label": "Termination"
+    },
+    {
+      "id": "changes",
+      "label": "Changes to these terms"
+    },
+    {
+      "id": "contact",
+      "label": "Contact us"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "paragraphs": [
+        "These Terms of Service (\"Terms\") govern your access to and use of ApolloSong, including any orders, communications, and digital content delivered to you.",
+        "By accessing our website or placing an order, you agree to these Terms. If you do not agree, you may not use the services."
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "Eligibility and accounts",
+      "paragraphs": [
+        "You must be at least 18 years old, or the age of majority in your jurisdiction, to place an order. If you are placing an order on behalf of someone else, you represent that you have authority to do so.",
+        "If we offer account features, you are responsible for maintaining the confidentiality of your login credentials and for all activity under your account."
+      ]
+    },
+    {
+      "id": "orders",
+      "title": "Orders and creative process",
+      "paragraphs": [
+        "ApolloSong creates custom, made-to-order songs based on the details you provide. The quality and accuracy of your submission directly affects the final output.",
+        "We may contact you with clarifying questions to ensure the song aligns with your vision. We reserve the right to refuse or cancel any order that violates these Terms or our content standards."
+      ],
+      "bullets": [
+        "You are responsible for providing accurate order details and preferred delivery email",
+        "We interpret your story and preferences into lyrics and musical arrangements",
+        "Delivery timelines depend on order volume and chosen delivery speed"
+      ]
+    },
+    {
+      "id": "your-content",
+      "title": "Your content and permissions",
+      "paragraphs": [
+        "You retain ownership of the story and content you submit. By placing an order, you grant ApolloSong a limited, worldwide, royalty-free license to use your submitted content solely to create and deliver your custom song and to provide customer support.",
+        "You represent that you have the rights and permissions to submit any names, stories, or materials included in your order, and that your submission does not infringe any third-party rights."
+      ],
+      "bullets": [
+        "Do not include confidential information you are not authorized to share",
+        "Do not submit content that is unlawful, defamatory, or hateful",
+        "We may remove or refuse content that violates these Terms"
+      ]
+    },
+    {
+      "id": "revisions",
+      "title": "Revisions and approvals",
+      "paragraphs": [
+        "We want you to love your ApolloSong. If the delivered song does not align with the original brief, we may offer reasonable revisions within the scope of your initial request.",
+        "Major changes, new themes, or entirely new stories may require a new order."
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": "Delivery and access",
+      "paragraphs": [
+        "Your song is delivered digitally via a secure link sent to the email address you provide. You are responsible for ensuring your email is accurate and that you can access the link.",
+        "Standard delivery is up to 7 days. A 24-hour priority option may be available at checkout. Delivery times are estimates and can vary due to complexity or volume."
+      ]
+    },
+    {
+      "id": "payments",
+      "title": "Pricing and payments",
+      "paragraphs": [
+        "Prices are displayed at checkout and are payable in full before production begins. Taxes may apply depending on your location.",
+        "Payments are processed by third-party providers. We do not store full payment card details on our servers."
+      ]
+    },
+    {
+      "id": "refunds",
+      "title": "Refunds and guarantee",
+      "paragraphs": [
+        "We stand behind our work with a 30-day money-back guarantee. If your song does not capture your story, we will work with you to revise it or refund your order.",
+        "Refund requests should be submitted within 30 days of delivery by contacting our support team."
+      ]
+    },
+    {
+      "id": "license",
+      "title": "License to you",
+      "paragraphs": [
+        "Upon full payment, ApolloSong grants you a personal, non-exclusive, non-transferable license to use and share your custom song for private purposes (such as gifting, family gatherings, or church events).",
+        "Commercial use, resale, or distribution on streaming platforms requires prior written permission from ApolloSong."
+      ]
+    },
+    {
+      "id": "ip",
+      "title": "Intellectual property",
+      "paragraphs": [
+        "ApolloSong retains all intellectual property rights in the composition, arrangement, and recording of the song, except for the limited license granted to you above.",
+        "Feedback you provide may be used to improve our services without obligation to you."
+      ]
+    },
+    {
+      "id": "prohibited",
+      "title": "Prohibited use",
+      "paragraphs": [
+        "You agree not to misuse the website or services. Prohibited activities include:"
+      ],
+      "bullets": [
+        "Violating laws or regulations",
+        "Infringing intellectual property rights",
+        "Submitting malicious code or attempting to disrupt the site",
+        "Using the service to create harmful, hateful, or abusive content"
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "Third-party services",
+      "paragraphs": [
+        "We may link to or rely on third-party services (such as payment processors). Their terms and privacy policies govern their services, and we are not responsible for their actions."
+      ]
+    },
+    {
+      "id": "disclaimers",
+      "title": "Disclaimers",
+      "paragraphs": [
+        "ApolloSong is provided on an \"as is\" and \"as available\" basis. We do not guarantee uninterrupted access or that the service will be error-free.",
+        "We do not provide legal, medical, or financial advice. Any decisions you make based on the content are your responsibility."
+      ]
+    },
+    {
+      "id": "liability",
+      "title": "Limitation of liability",
+      "paragraphs": [
+        "To the maximum extent permitted by law, ApolloSong will not be liable for indirect, incidental, special, or consequential damages arising from your use of the services.",
+        "Our total liability for any claim is limited to the amount you paid for the order giving rise to the claim."
+      ]
+    },
+    {
+      "id": "indemnification",
+      "title": "Indemnification",
+      "paragraphs": [
+        "You agree to indemnify and hold harmless ApolloSong, its employees, and contractors from any claims, damages, or expenses arising from your use of the services or violation of these Terms."
+      ]
+    },
+    {
+      "id": "termination",
+      "title": "Termination",
+      "paragraphs": [
+        "We may suspend or terminate access to the services if you violate these Terms or engage in unlawful conduct. Termination does not affect any rights or obligations that accrued before the termination date."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "Changes to these terms",
+      "paragraphs": [
+        "We may update these Terms from time to time. If we make material changes, we will post an updated version and revise the \"Last updated\" date."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact us",
+      "paragraphs": [
+        "Questions about these Terms? Contact us at the email below and we will help you."
+      ]
+    }
+  ],
+  "contactCard": {
+    "title": "Need help with an order?",
+    "description": "Our support team is ready to assist with questions, revisions, or delivery updates.",
+    "emailLabel": "Email",
+    "email": "contact@apollosong.com",
+    "responseLabel": "Response time",
+    "responseTime": "Typically within 2 business days.",
+    "note": "Include your order email and recipient name so we can help faster."
+  }
+}

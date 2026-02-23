@@ -1,0 +1,31 @@
+{
+    "title": "What You Get",
+    "subtitle": "More Than A Song. A Relentless Experience.",
+    "description": "We meticulously designed every step to ensure the delivery moment surpasses all expectations and takes their breath away.",
+    "deliveryLink": "Official Song Page",
+    "deliveryEmail": "VIP Delivery Email",
+    "vinylLabel": "Apollo Song",
+    "features": {
+        "radio": {
+            "title": "Unquestionable Professional Sound",
+            "description": "Real music produced by real artists. The audio and vocal quality capture attention and emotion in the first 5 seconds."
+        },
+        "lyrics": {
+            "title": "Custom-Made Lyrics & Soul",
+            "description": "Every verse unmistakably tells your story. Upon listening, they will instantly know it was made, especially for them."
+        },
+        "versions": {
+            "title": "You Choose The Perfect One",
+            "description": "In our system, we always deliver 2 versions of the song for you to listen to. You choose the one that best captures your feelings."
+        },
+        "plans": {
+            "title": "Deadlines For Every Urgency",
+            "description": "Forgot the gift? We have a 24-hour Express route. And our Classic route, comfortably delivered in up to 7 days."
+        },
+        "streaming": {
+            "title": "Eternalize on Spotify & Apple Music",
+            "description": "They will be able to add the song to their own playlist and play it in the car, right alongside their most listened-to artists."
+        }
+    },
+    "cta": "Create My Song"
+}

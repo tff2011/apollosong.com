@@ -1,0 +1,30 @@
+{
+  "success": {
+    "title": "Desuscrito Exitosamente",
+    "message": "Tu correo ha sido eliminado de nuestra lista de marketing. Ya no recibiras correos promocionales.",
+    "note": "Nota: Seguiras recibiendo correos transaccionales relacionados con tus pedidos (confirmaciones de compra, entregas de canciones, etc.)."
+  },
+  "errors": {
+    "missing_params": {
+      "title": "Enlace Invalido",
+      "message": "El enlace de desuscripcion es invalido o esta incompleto. Por favor, usa el enlace proporcionado en el correo."
+    },
+    "invalid_token": {
+      "title": "Enlace Invalido",
+      "message": "Este enlace de desuscripcion es invalido o ha expirado. Por favor, usa un enlace de un correo reciente."
+    },
+    "server_error": {
+      "title": "Algo Salio Mal",
+      "message": "No pudimos procesar tu solicitud. Por favor, intentalo de nuevo o contacta al soporte."
+    },
+    "contactSupport": "Contactar Soporte via WhatsApp"
+  },
+  "landing": {
+    "title": "Preferencias de Correo",
+    "message": "Usa el enlace en tu correo para administrar tus preferencias de suscripcion."
+  },
+  "seo": {
+    "title": "Desuscribirse | Apollo Song",
+    "description": "Administra tus preferencias de suscripcion de correo para Apollo Song."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "headline": "It's not just a song.",
+  "headlineEmphasis": "It's your emotional signature.",
+  "player": {
+    "title": "Your custom song",
+    "duration": "Duration: 3:45"
+  },
+  "label": {
+    "lines": [
+      "Apollo",
+      "Song"
+    ],
+    "subline": "Since 2024"
+  },
+  "features": [
+    {
+      "id": "radio",
+      "title": "Sound That Impresses",
+      "description": "Professionally produced with studio vocals and instrumentation, ready for the radio."
+    },
+    {
+      "id": "lyrics",
+      "title": "Your Exact Words",
+      "description": "Every line and verse is directly woven with the smallest intimate details you share with us."
+    },
+    {
+      "id": "delivery",
+      "title": "Ready on Your Deadline",
+      "description": "We understand the extreme importance of dates. We deliver your 100% finished song in up to 7 days."
+    },
+    {
+      "id": "replay",
+      "title": "Official Soundtrack of Life",
+      "description": "The file is yours forever. Save it on a flash drive, play it during the party, and mark the most special occasion."
+    }
+  ]
+}

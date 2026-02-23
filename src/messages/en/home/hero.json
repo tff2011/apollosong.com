@@ -1,0 +1,30 @@
+{
+  "platformTagline": "The #1 Custom Song Platform",
+  "badge": "Over 10,000+ tears of joy shed",
+  "title": "Turn Your Story Into the Most Emotional Song",
+  "titleHighlight": "Of Their Life.",
+  "description": "Forget obvious gifts that end up in a drawer. Our award-winning songwriters transform your deepest feelings into an original, radio-quality song. We guarantee: holding back tears will be impossible.",
+  "primaryCta": "Start Inspiring Emotion",
+  "urgency": {
+    "timer": "Offer expires in"
+  },
+  "meta": [
+    "Ready in up to 7 days",
+    "Studio Quality",
+    "100% Personalized"
+  ],
+  "player": {
+    "label": "Playing: \"Três Apertos\"",
+    "quote": "\"I've never cried like this before...\""
+  },
+  "video": {
+    "listenButton": "Listen to Sample",
+    "muteButton": "Mute",
+    "audioUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/tres-apertos.mp3"
+  },
+  "socialProof": {
+    "text": "Loved by",
+    "highlight": "10,000+ families"
+  },
+  "backgroundAlt": "Woman crying tears of joy listening to music"
+}

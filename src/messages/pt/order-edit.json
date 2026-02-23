@@ -1,0 +1,132 @@
+{
+  "title": "Editar informações do pedido",
+  "titleWithRecipient": "Melhore a história de {name} e edite seu pedido",
+  "subtitle": "Quanto mais detalhes você compartilhar, mais emocionante será a letra que nossos compositores vão criar.",
+  "stages": {
+    "step1": {
+      "label": "Etapa 1",
+      "title": "Atualize os dados principais",
+      "subtitle": "Revise nome, relação, estilo e voz para personalizar a música."
+    },
+    "step2": {
+      "label": "Etapa 2",
+      "title": "Responda as perguntas provocativas sobre {name}",
+      "titleFallback": "Responda as perguntas provocativas sobre o homenageado",
+      "subtitle": "Essas respostas vão enriquecer automaticamente o texto final."
+    },
+    "step3": {
+      "label": "Etapa 3",
+      "title": "Revise o texto final e salve",
+      "subtitle": "Confira os campos finais antes de salvar as alterações."
+    }
+  },
+  "email": {
+    "title": "Confirme seu email",
+    "subtitle": "Use o mesmo email usado na compra.",
+    "label": "Email",
+    "placeholder": "voce@email.com",
+    "button": "Continuar",
+    "checking": "Verificando...",
+    "invalid": "Digite um email válido.",
+    "notFound": "Não encontramos esse pedido com esse email.",
+    "notEditable": "Este pedido não pode mais ser editado.",
+    "error": "Não foi possível carregar seu pedido. Tente novamente.",
+    "confirmedLabel": "Email confirmado",
+    "change": "Trocar email"
+  },
+  "form": {
+    "title": "Melhore a história e revise as informações",
+    "titleWithName": "Melhore a história de {name} e revise as informações",
+    "subtitle": "Quanto mais detalhes você incluir, melhor fica a letra.",
+    "helper": "Ao salvar, vamos recriar a letra do zero.",
+    "writeTip": "Escreva à vontade, não existe limite de palavras! Quanto mais detalhes, melhor fica a música. Inclua datas importantes, lugares especiais, momentos marcantes, conquistas, desafios superados, apelidos carinhosos... tudo que torna essa história única.",
+    "guidedQuestions": {
+      "intro": "Cada resposta ajuda a criar uma letra mais autêntica e emocionante.",
+      "sectionTitle": "Perguntas que inspiram a letra",
+      "sectionSubtitle": "Quanto mais detalhes, mais única fica a canção de {name}.",
+      "defaultRecipient": "essa pessoa especial",
+      "items": [
+        {
+          "title": "🌍 De onde vem a história?",
+          "description": "Onde {name} nasceu e cresceu? Qual a data de nascimento? Tem algum detalhe da infância ou da cidade que marcou vocês?"
+        },
+        {
+          "title": "💼 O caminho que trilhou",
+          "description": "Qual a profissão ou carreira de {name}? Teve alguma conquista, luta ou virada profissional marcante?"
+        },
+        {
+          "title": "✈️ Caminhos e aventuras",
+          "description": "Tem alguma viagem ou aventura inesquecível que vocês viveram juntos? Onde foi, o que aconteceu e por que foi tão especial?"
+        },
+        {
+          "title": "💎 O momento que mudou tudo",
+          "description": "Qual foi o momento mais forte entre vocês? Aquele que, se pudesse voltar no tempo, viveria de novo. Onde foi e o que sentiram?"
+        },
+        {
+          "title": "🗣️ A marca registrada",
+          "description": "{name} tem algum apelido carinhoso? Tem alguma frase, mania ou expressão que sempre fala?"
+        },
+        {
+          "title": "📸 A cena que resume tudo",
+          "description": "Se pudesse congelar {name} em uma única imagem, qual seria? Exemplo: dançando na cozinha, rezando de madrugada ou consertando tudo em casa."
+        },
+        {
+          "title": "🏠 O lugar de vocês",
+          "description": "Existe algum lugar que é sagrado para vocês? Uma rua, uma cidade, um cantinho da casa, uma praia..."
+        },
+        {
+          "title": "💬 O que você nunca disse",
+          "description": "O que você gostaria de dizer para {name} mas nunca teve coragem? Aquela palavra que ficou presa na garganta..."
+        }
+      ],
+      "footer": "Quanto mais detalhes, mais única e emocionante a música vai ficar! 🎵",
+      "answerHint": "As respostas são aplicadas automaticamente nos campos finais abaixo (qualidades, memórias e mensagem).",
+      "answerPlaceholder": "Escreva sua resposta com detalhes...",
+      "autoAddedLabel": "Adicionado automaticamente das respostas guiadas",
+      "toneLabel": "Qual o tom da homenagem?",
+      "toneHint": "Escolha um ou mais que combinam com o sentimento que quer transmitir.",
+      "toneOptions": {
+        "joyful": "Alegre",
+        "emotional": "Emocionante",
+        "nostalgic": "Nostálgica",
+        "grateful": "Grata",
+        "romantic": "Romântica",
+        "hopeful": "Esperançosa",
+        "reflective": "Reflexiva",
+        "playful": "Divertida"
+      }
+    },
+    "save": "Salvar alterações",
+    "saving": "Salvando...",
+    "saved": "Salvo! Estamos recriando a letra.",
+    "error": "Não foi possível salvar suas alterações. Tente novamente.",
+    "cooldown": "Aguarde alguns minutos antes de editar novamente.",
+    "required": "Preencha todos os campos obrigatórios.",
+    "backToTrack": "Acompanhar pedido",
+    "savedDialog": {
+      "title": "Alterações salvas!",
+      "subtitle": "Estamos recriando a letra da sua música.",
+      "changed": "O que foi atualizado:",
+      "close": "Entendido",
+      "fields": {
+        "recipientName": "Nome",
+        "recipient": "Destinatário",
+        "genre": "Gênero musical",
+        "vocals": "Voz",
+        "qualities": "Qualidades",
+        "memories": "Memórias",
+        "message": "Mensagem"
+      }
+    }
+  },
+  "validation": {
+    "required": "Este campo é obrigatório.",
+    "minChars": "Escreva pelo menos {count} caracteres."
+  },
+  "unsaved": {
+    "title": "Você tem alterações não salvas",
+    "description": "Para atualizar sua música, clique em \"Salvar alterações\" antes de sair.",
+    "stay": "Voltar e salvar",
+    "leave": "Sair sem salvar"
+  }
+}

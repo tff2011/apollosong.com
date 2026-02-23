@@ -1,0 +1,30 @@
+{
+  "success": {
+    "title": "Desabonnement Reussi",
+    "message": "Votre email a ete retire de notre liste marketing. Vous ne recevrez plus d'emails promotionnels.",
+    "note": "Note: Vous continuerez a recevoir des emails transactionnels lies a vos commandes (confirmations d'achat, livraisons de chansons, etc.)."
+  },
+  "errors": {
+    "missing_params": {
+      "title": "Lien Invalide",
+      "message": "Le lien de desabonnement est invalide ou incomplet. Veuillez utiliser le lien fourni dans l'email."
+    },
+    "invalid_token": {
+      "title": "Lien Invalide",
+      "message": "Ce lien de desabonnement est invalide ou a expire. Veuillez utiliser un lien d'un email recent."
+    },
+    "server_error": {
+      "title": "Une Erreur s'est Produite",
+      "message": "Nous n'avons pas pu traiter votre demande. Veuillez reessayer ou contacter le support."
+    },
+    "contactSupport": "Contacter le Support via WhatsApp"
+  },
+  "landing": {
+    "title": "Preferences d'Email",
+    "message": "Utilisez le lien dans votre email pour gerer vos preferences d'abonnement."
+  },
+  "seo": {
+    "title": "Se Desabonner | ChansonDivine",
+    "description": "Gerez vos preferences d'abonnement email pour ChansonDivine."
+  }
+}

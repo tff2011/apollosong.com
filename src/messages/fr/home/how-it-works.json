@@ -1,0 +1,24 @@
+{
+  "title": "Le Chemin Vers Leur Cœur",
+  "subtitle": "Seulement 3 étapes rapides vous séparent du cadeau le plus inoubliable qu'ils aient jamais reçu.",
+  "audioPrompt": "Écoutez l'audio ci-dessous pour comprendre comment ça marche.",
+  "audioCta": "Créer Ma Chanson",
+  "cta": "Commencez ici",
+  "steps": [
+    {
+      "id": "share",
+      "title": "1. Ouvrez Votre Cœur",
+      "description": "Répondez à 5 questions simples. Racontez-nous les blagues internes, ce qui les rend uniques et pourquoi vous les aimez."
+    },
+    {
+      "id": "create",
+      "title": "2. La Magie du Studio",
+      "description": "De vrais musiciens transforment vos mots épars en des paroles époustouflantes et une mélodie qui colle à l'âme."
+    },
+    {
+      "id": "deliver",
+      "title": "3. Des Larmes Inoubliables",
+      "description": "Recevez la chanson prête. Appuyez sur lecture et préparez votre appareil photo : la réaction de larmes mêlées de sourires est instantanée."
+    }
+  ]
+}

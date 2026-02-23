@@ -1,0 +1,514 @@
+{
+  "progress": {
+    "stepOf": "de",
+    "step": "Passo",
+    "complete": "Completo",
+    "saved": "Salvo",
+    "optional": "(opcional)",
+    "storyProgress": "Pergunta {current} de 3"
+  },
+  "steps": {
+    "basics": {
+      "title": "Vamos começar pelo básico",
+      "subtitle": "Conte-nos sobre a pessoa especial na sua vida",
+      "recipient": {
+        "label": "Para quem é essa canção?",
+        "options": {
+          "husband": "Marido",
+          "wife": "Esposa",
+          "boyfriend": "Namorado",
+          "girlfriend": "Namorada",
+          "children": "Filhos",
+          "father": "Pai",
+          "mother": "Mãe",
+          "sibling": "Irmão(ã)",
+          "friend": "Amigo(a)",
+          "myself": "Para mim",
+          "group": "Grupo de pessoas",
+          "other": "Outro"
+        }
+      },
+      "name": {
+        "label": "Nome do homenageado(a) que aparecerá na música",
+        "labelSelf": "Qual o seu nome?",
+        "labelGroup": "Nome do Grupo / Integrantes",
+        "placeholder": "Digite o primeiro nome",
+        "placeholderSelf": "Digite seu primeiro nome",
+        "placeholderGroup": "Não é necessário preencher nomes",
+        "tip": "Dica: use a acentuação correta para garantir a pronúncia (ex: Thaís, Jéssica, Luísa)"
+      },
+      "relationship": {
+        "label": "Qual é a sua relação com essa pessoa?",
+        "placeholder": "ex: madrinha, avó, professor(a), pastor(a)..."
+      }
+    },
+    "occasion": {
+      "title": "Qual é a ocasião?",
+      "subtitle": "Ajude-nos a entender o momento que essa canção vai celebrar",
+      "occasion": {
+        "label": "Selecione uma ocasião",
+        "options": {
+          "birthday": "Aniversário",
+          "wedding": "Casamento",
+          "anniversary": "Bodas",
+          "memorial": "Memorial / Em Memória",
+          "graduation": "Formatura",
+          "baptism": "Batismo",
+          "mothersDay": "Dia das Mães",
+          "fathersDay": "Dia dos Pais",
+          "christmas": "Natal",
+          "justBecause": "Só Porque Sim",
+          "other": "Outro"
+        }
+      },
+      "date": {
+        "label": "Quando é a data especial?",
+        "placeholder": "Selecione uma data (opcional)"
+      }
+    },
+    "story": {
+      "title": "Compartilhe a história",
+      "subtitle": "Os detalhes que você compartilhar serão o coração da canção",
+      "story": {
+        "label": "Conte-nos sobre essa pessoa",
+        "placeholder": "Compartilhe memórias, qualidades, momentos marcantes, piadas internas, ou qualquer coisa que a torne especial...",
+        "tip": "Quanto mais detalhes você compartilhar, mais pessoal será sua canção"
+      },
+      "verses": {
+        "label": "Alguma frase, citação ou versículo para incluir?",
+        "placeholder": "ex: uma frase especial, um lema de vida, um versículo (opcional)"
+      }
+    },
+    "genre": {
+      "title": "Escolha o Gênero",
+      "subtitle": "Selecione o som que melhor combina com seu ente querido",
+      "genre": {
+        "label": "Gênero Preferido",
+        "options": {
+          "pop": "Pop",
+          "country": "Sertanejo",
+          "sertanejo-raiz": "Sertanejo Raiz",
+          "sertanejo-universitario": "Sertanejo Universitário",
+          "sertanejo-romantico": "Sertanejo Romântico",
+          "rock": "Rock",
+          "eletronica": "Música Eletrônica",
+          "jovem-guarda": "Jovem Guarda",
+          "rock-classico": "Rock Clássico",
+          "pop-rock-brasileiro": "Pop Rock Brasileiro",
+          "heavy-metal": "Heavy Metal",
+          "rnb": "Black Music",
+          "jazz": "Jazz",
+          "blues": "Blues Americano",
+          "blues-melancholic": "Blues Americano (Melancólico)",
+          "blues-upbeat": "Blues Americano (Alto Astral)",
+          "tango": "Tango",
+          "valsa": "Valsa",
+          "musica-classica": "Música Clássica",
+          "mpb": "MPB",
+          "mpb-bossa-nova": "MPB / Bossa Nova (Clássica)",
+          "mpb-cancao-brasileira": "MPB Clássica / Canção Brasileira",
+          "mpb-pop": "Pop MPB (Radiofônica)",
+          "mpb-intimista": "MPB Intimista / Folk-Pop Brasileiro",
+          "bossa": "Bossa Nova",
+          "worship": "Gospel",
+          "hiphop": "Rap",
+          "funk": "Funk",
+          "funk-carioca": "Funk Carioca",
+          "funk-paulista": "Funk Paulista",
+          "funk-melody": "Funk Melody",
+          "brega": "Brega",
+          "brega-romantico": "Brega Romântico",
+          "tecnobrega": "Tecnobrega",
+          "samba": "Samba",
+          "pagode": "Pagode",
+          "pagode-de-mesa": "Pagode de Mesa (Raiz)",
+          "pagode-romantico": "Pagode Romântico (Anos 90)",
+          "pagode-universitario": "Pagode Universitário / Novo Pagode",
+          "forro": "Forró",
+          "forro-pe-de-serra-rapido": "Forró Pé-de-Serra (Dançante)",
+          "forro-pe-de-serra-lento": "Forró Pé-de-Serra (Lento)",
+          "forro-universitario": "Forró Universitário",
+          "forro-eletronico": "Forró Eletrônico",
+          "eletronica-afro-house": "Afro House (Emocional & Orgânico)",
+          "eletronica-progressive-house": "Progressive House (Melódico & Inspirador)",
+          "eletronica-melodic-techno": "Melodic Techno (Cinematográfico & Intenso)",
+          "latina": "Música Latina",
+          "salsa": "Salsa (Romântica & Clássica)",
+          "merengue": "Merengue (Animado & Festivo)",
+          "bachata": "Bachata (Romântica & Emocional)",
+          "bolero": "Bolero",
+          "axe": "Axé",
+          "capoeira": "Capoeira",
+          "reggae": "Reggae",
+          "lullaby": "Infantil",
+          "lullaby-ninar": "Canções de Ninar (Suave & Aconchegante)",
+          "lullaby-animada": "Infantil Animada (Divertida & Energética)"
+        },
+        "subgenres": {
+          "forro": {
+            "label": "Subgêneros do Forró",
+            "subtitle": "Escolha o estilo que mais combina com a canção"
+          },
+          "sertanejo": {
+            "label": "Subgêneros do Sertanejo",
+            "subtitle": "Escolha o estilo que mais combina com a canção"
+          },
+          "funk": {
+            "label": "Subgêneros do Funk",
+            "subtitle": "Escolha o estilo que mais combina com a canção"
+          },
+          "rock": {
+            "label": "Subgêneros do Rock",
+            "subtitle": "Escolha o estilo que mais combina com a canção"
+          },
+          "brega": {
+            "label": "Subgêneros do Brega",
+            "subtitle": "Escolha o estilo que mais combina com a canção"
+          },
+          "pagode": {
+            "label": "Subgêneros do Pagode",
+            "subtitle": "Escolha o estilo que mais combina com a canção"
+          },
+          "mpb": {
+            "label": "Subgêneros da MPB",
+            "subtitle": "MPB é o guarda-chuva. Escolha o estilo mais específico"
+          },
+          "lullaby": {
+            "label": "Subgêneros da Música Infantil",
+            "subtitle": "Escolha o estilo que mais combina com a canção"
+          },
+          "eletronica": {
+            "label": "Subgêneros da Eletrônica",
+            "subtitle": "Escolha o estilo que mais combina com a canção"
+          },
+          "latina": {
+            "label": "Subgêneros da Música Latina",
+            "subtitle": "Escolha o estilo que mais combina com a canção"
+          },
+          "blues": {
+            "label": "Subgêneros do Blues",
+            "subtitle": "Escolha o estilo que mais combina com a canção"
+          },
+          "options": {
+            "forro-pe-de-serra-rapido": "**Leve, animado e cheio de vida.** Esse é o forró para sorrir, bater o pé e sentir o clima alegre do Nordeste. Tem ritmo mais rápido, sanfona animada e aquele balanço gostoso que dá vontade de dançar. Ideal para celebrar momentos felizes, histórias leves, encontros em família e lembranças cheias de energia. Escolha este estilo se você quer **alegria, movimento e clima de festa**. Referências: **Luiz Gonzaga, Dominguinhos, Jackson do Pandeiro**.",
+            "forro-pe-de-serra-lento": "**Calmo, emocional e cheio de sentimento.** Esse é o forró para ouvir com o coração. O ritmo é mais devagar, a sanfona soa mais suave e a música convida à emoção, à saudade e ao carinho. Perfeito para homenagens, histórias de amor, memórias de vida, pais, avós ou momentos que pedem sensibilidade. Escolha este estilo se você quer **emocionar, homenagear ou transmitir amor e saudade**. Referências: **Dominguinhos, Marinês, Alceu Valença**.",
+            "forro-universitario": "A vertente que popularizou o forró fora do Nordeste a partir dos anos 1990, especialmente entre o público jovem do Sudeste. Mescla elementos tradicionais com linguagem urbana e arranjos mais leves. No estilo de: **Falamansa, Rastapé, Bicho de Pé, Fulô de Mandacaru**.",
+            "forro-eletronico": "O estilo mais difundido no mercado comercial e em grandes eventos. Utiliza teclado, bateria eletrônica e estruturas pop, sendo amplamente tocado em rádios, festas e festivais de grande porte. No estilo de: **Aviões do Forró, Calcinha Preta, Mastruz com Leite**.",
+            "sertanejo-raiz": "A base histórica do gênero. Letras narrativas, viola caipira, temas rurais, família e tradição. É o alicerce cultural do sertanejo brasileiro. No estilo de: **Tião Carreiro & Pardinho, Milionário & José Rico, Tonico & Tinoco**.",
+            "sertanejo-universitario": "A vertente que levou o sertanejo ao grande público urbano a partir dos anos 2000. Linguagem direta, refrões fortes e estrutura pop, mantendo identidade sertaneja. No estilo de: **Jorge & Mateus, Gusttavo Lima, Luan Santana, Fernando & Sorocaba**.",
+            "sertanejo-romantico": "Foco em emoção, relacionamento, saudade e amor. Arranjos mais melódicos e interpretação intensa, sendo um dos estilos mais consumidos nas plataformas digitais. No estilo de: **Zezé Di Camargo & Luciano, Leonardo, Bruno & Marrone, Chitãozinho & Xororó**.",
+            "funk-carioca": "Batida raiz do Rio, direta e intensa, feita para baile e energia urbana. No estilo de: **MC Marcinho, Claudinho & Buchecha, Cidinho & Doca**.",
+            "funk-paulista": "Som pesado e grave, focado em impacto, rua, carro e atitude. No estilo de: **MC Guimê, MC Davi, MC Kevin**.",
+            "funk-melody": "Funk melódico e romântico, com refrões cantados e clima emocional. No estilo de: **Latino, Perlla, Copacabana Beat**.",
+            "rock-classico": "Rock tradicional, com riffs marcantes, letras fortes e identidade atemporal. No estilo de: **Legião Urbana, Barão Vermelho, Titãs, Paralamas do Sucesso**.",
+            "pop-rock-brasileiro": "Pop rock brasileiro acústico, com clima de show ao vivo em bar. Violão batido com pegada percussiva, bateria pop rock quente, baixo de apoio e guitarras sutis com chorus. Refrão hino, ganchos marcantes e energia íntima, entre 120-130 BPM. No estilo de: **Skank, Jota Quest, Capital Inicial, Nando Reis**.",
+            "heavy-metal": "Rock pesado e intenso, com guitarras fortes, energia alta e atitude. No estilo de: **Sepultura, Angra, Matanza, Krisiun**.",
+            "brega-romantico": "Música popular romântica, emotiva e direta, muito forte no Norte do Brasil. No estilo de: **Reginaldo Rossi, Amado Batista, Waldick Soriano**.",
+            "tecnobrega": "Brega com batida eletrônica, dançante e energética, típico das festas do Pará. No estilo de: **Gaby Amarantos, Banda Calypso, Joelma**.",
+            "pagode-de-mesa": "Pagode tradicional dos subúrbios do Rio, com banjo de nylon, tantã e repique de mão. Letras do cotidiano, rodas de samba, festas e crônicas sociais. No estilo de: **Fundo de Quintal, Zeca Pagodinho, Beth Carvalho, Jorge Aragão**.",
+            "pagode-romantico": "A explosão dos anos 90, com produção mais polida, teclados e sopros. Letras focadas em amor, romance e desilusão, com clima cadenciado e radiofônico. No estilo de: **Raça Negra, Só Pra Contrariar, Molejo, Art Popular, Exaltasamba**.",
+            "pagode-universitario": "Vertente moderna que mistura pagode com sertanejo, pop e até funk. Arranjos atuais, letras sobre baladas, redes sociais, desapego e romantismo contemporâneo. No estilo de: **Thiaguinho, Sorriso Maroto, Ferrugem, Dilsinho, Mumuzinho**.",
+            "mpb-bossa-nova": "MPB elegante e sofisticada, com violão suave e canto calmo. É a música brasileira que ficou famosa no mundo. No estilo de: **Tom Jobim, João Gilberto, Vinícius de Moraes, Astrud Gilberto**.",
+            "mpb-cancao-brasileira": "MPB mais profunda e poética, com letras fortes e emocionais. Música para ouvir prestando atenção na história. No estilo de: **Chico Buarque, Caetano Veloso, Gilberto Gil, Milton Nascimento**.",
+            "mpb-pop": "MPB mais moderna e acessível, com refrão marcante e emoção direta. É a MPB que toca bastante no rádio. No estilo de: **Marisa Monte, Djavan, Ana Carolina, Vanessa da Mata**.",
+            "mpb-intimista": "MPB atual, simples e delicada, com voz próxima da conversa e letras do cotidiano. Violão, afeto e sentimento real. No estilo de: **ANAVITÓRIA, Rubel, Tiago Iorc**.",
+            "lullaby-ninar": "Música infantil calma e delicada, criada para relaxar e acalmar. Melodias simples, repetitivas e suaves, com instrumentos leves e voz doce. Clima de carinho, segurança e afeto, ideal para o momento do sono e vínculo emocional entre pais e filhos.",
+            "lullaby-animada": "Música infantil alegre e animada, com ritmo contagiante e melodia fácil de cantar. Letras simples, positivas e educativas, estimulando diversão, movimento e imaginação. Ideal para brincar, dançar e aprender de forma leve.",
+            "eletronica-afro-house": "Eletrônica com forte influência africana, groove envolvente e percussões orgânicas. Melodias repetitivas e hipnóticas, com vocais em forma de mantra ou frases curtas cheias de emoção. Clima quente, espiritual e profundo, ideal para histórias de conexão, superação e sentimento. No estilo de: **Black Coffee, Keinemusik, Hugel**.",
+            "eletronica-progressive-house": "House melódico com estrutura de canção, crescendo progressivo e refrões marcantes. Atmosfera emocional e positiva, perfeita para letras cantadas e histórias pessoais. Som moderno, limpo e envolvente, com sensação de jornada e evolução. No estilo de: **Avicii, Eric Prydz, Alesso**.",
+            "eletronica-melodic-techno": "Eletrônica profunda e sofisticada, com sintetizadores épicos, clima futurista e progressões emocionais. Vocal pontual, etéreo e impactante, usado como elemento dramático. Ideal para canções intensas, reflexivas e grandiosas. No estilo de: **Anyma, ARTBAT, Tale Of Us**.",
+            "salsa": "Música latina envolvente e elegante, com ritmo marcado, metais expressivos e melodias cheias de emoção. Ideal para canções românticas, histórias de amor e celebrações cheias de sentimento. Clima quente, dançante e sofisticado. No estilo de: **Rubén Blades, Marc Anthony, Willie Colón**.",
+            "merengue": "Música latina alegre e contagiante, com ritmo acelerado, energia positiva e clima de festa. Ideal para celebrações, homenagens felizes e canções cheias de alto astral. Som vibrante, dançante e popular. No estilo de: **Juan Luis Guerra, Wilfrido Vargas, Elvis Crespo**.",
+            "bachata": "Música latina romântica e intensa, com melodias marcantes de guitarra, ritmo envolvente e letras profundas sobre amor e saudade. Clima íntimo, apaixonado e sensível, ideal para histórias emocionais. No estilo de: **Romeo Santos, Aventura, Prince Royce**.",
+            "rnb": "Black Music ou Soul Brasileiro é a música brasileira influenciada pelo soul e R&B dos EUA, com foco em voz forte, emoção e letras intensas, cantadas em português. No estilo de: **Tim Maia, Cassiano, Hyldon, Fat Family**.",
+            "jazz": "Jazz clássico americano com swing, metais (sax e trompete) e energia de big band. É aquele som elegante e animado. No estilo de: **Frank Sinatra, Tony Bennett, Ella Fitzgerald**.",
+            "blues-melancholic": "Blues americano mais profundo e melancólico, com voz expressiva e guitarras chorosas. Clima íntimo e reflexivo. No estilo de: **B.B. King, John Lee Hooker, Gary Moore**.",
+            "blues-upbeat": "Blues americano mais animado e alto astral, com groove shuffle e riffs cheios de energia. Clima alegre e contagiante. No estilo de: **Muddy Waters, Chuck Berry, Stevie Ray Vaughan**.",
+            "axe": "Axé é a música do Carnaval da Bahia - animada, dançante, com muita percussão e energia contagiante. Feita pra pular e cantar junto. No estilo de: **Ivete Sangalo, Claudia Leitte, Chiclete com Banana, Asa de Águia**.",
+            "capoeira": "Música de roda de capoeira, com berimbau, atabaque e pandeiro. Som afro-brasileiro tradicional, com cantos de chamada e resposta. No estilo de: **Mestre Bimba, Mestre Pastinha, Grupo Olodum**."
+          }
+        }
+      },
+      "vocals": {
+        "label": "Gênero da Voz",
+        "tip": "Recomendamos escolher seu próprio gênero para que os vocais soem mais pessoais.",
+        "options": {
+          "female": "Voz Feminina",
+          "male": "Voz Masculina",
+          "either": "Sem Preferência"
+        }
+      }
+    },
+    "qualities": {
+      "title": "O que faz essa pessoa especial?",
+      "titleSelf": "Compartilhe seu coração",
+      "subtitle": "Descreva o caráter e as qualidades que você mais ama",
+      "subtitleSelf": "O que você quer transmitir em sua canção?",
+      "savedLabel": "Qualidades salvas",
+      "qualities": {
+        "label": "As belas qualidades dela(e)",
+        "labelSelf": "O que tem estado em seu coração ultimamente?",
+        "placeholder": "Ela(e) é paciente, sábia(o), engraçada(o), encorajadora(or), inspiradora(or)? O que faz dessa pessoa alguém incrível para você?",
+        "placeholderSelf": "Você está em uma fase de mudança? Enfrentando algo importante? Ou já superou algo que quer eternizar em uma canção?"
+      }
+    },
+    "memories": {
+      "title": "Histórias, memórias e datas favoritas",
+      "titleSelf": "Momentos marcantes da sua vida",
+      "subtitle": "**Quanto mais detalhes específicos, melhor a letra que criaremos!** Não se preocupe, você poderá adicionar mais informações após concluir o pedido.",
+      "subtitleSelf": "Quais são os momentos mais marcantes que moldaram quem você é hoje?",
+      "savedLabel": "Memórias salvas",
+      "memories": {
+        "label": "Momentos especiais juntos",
+        "labelSelf": "Momentos marcantes da sua vida",
+        "placeholder": "Quais memórias você sempre volta? Um momento que vocês sempre riem juntos? Algo que passaram juntos que os aproximou?",
+        "placeholderSelf": "Conquistas, superações, viagens, mudanças de vida... Quais momentos definem sua história? O que você quer eternizar?"
+      }
+    },
+    "message": {
+      "title": "Uma mensagem do coração",
+      "titleSelf": "O que você quer ser lembrado toda vez que ouvir essa música?",
+      "subtitle": "Escreva qualquer coisa que você acha relevante incluir na canção, e faremos o nosso melhor para incluir!",
+      "subtitleSelf": "Imagine tocar essa música em um dia difícil, o que você quer que ela fale sobre você?",
+      "message": {
+        "label": "Mensagem especial",
+        "labelSelf": "Mensagem especial",
+        "placeholder": "O que você quer que essa pessoa saiba, que nunca disse o suficiente? Pelo que quer agradecer? Qual é aquela coisa do fundo do coração que quer dizer?",
+        "placeholderSelf": "Você precisa de segurança, esperança, paz, confiança, identidade ou força? O que você quer lembrar nos dias difíceis? Qual mensagem quer ouvir quando precisar?"
+      }
+    },
+    "plans": {
+      "title": "Escolha Seu Plano",
+      "deliveryIn": "Entrega em",
+      "popular": "MAIS POPULAR",
+      "essencial": {
+        "name": "Essencial",
+        "description": "Ideal para quem pode esperar um pouquinho"
+      },
+      "express": {
+        "name": "Express",
+        "description": "Prioridade máxima + Revisões Ilimitadas + Suporte via WhatsApp"
+      },
+      "acelerado": {
+        "name": "Turbo",
+        "description": "Tudo do Express + Experiência de Presente + Letra em PDF + Playback Karaokê"
+      }
+    },
+    "checkout": {
+      "limitedOffer": "Oferta Por Tempo Limitado",
+      "title": "Você Está Quase Lá!",
+      "someone": "quem você ama",
+      "subtitle": "A um passo de presentear {name} com uma canção que será guardada para sempre",
+      "oneTime": "Pagamento único, sem taxas escondidas",
+      "expectedDelivery": "Data prevista de entrega:",
+      "selectedGenre": "Gênero",
+      "emailLabel": "Insira o seu melhor endereço de email",
+      "emailPlaceholder": "voce@email.com",
+      "emailRequired": "Obrigatório",
+      "whatsappLabel": "WhatsApp para contato",
+      "whatsappDescription": "Opcional - Usado apenas para comunicação sobre seu pedido se o email falhar",
+      "optional": "opcional, porém recomendado",
+      "guarantee30": "Garantia de 7 Dias",
+      "reviewSurvey": "Revisar ou Editar Respostas",
+      "reviewSurveyHint": "Edite história, memórias e mensagem sem perder o pedido",
+      "changePlan": "Mudar plano",
+      "changePlanHint": "Atual: {plan}. Toque para mudar",
+      "changePlanModalSubtitle": "Escolha o plano ideal. Você pode mudar agora sem perder nenhuma informação.",
+      "changeGenre": "Mudar gênero musical",
+      "changeGenreHint": "Toque para mudar e ouvir exemplos",
+      "orderSummary": {
+        "title": "Seu Pedido de Canção",
+        "songFor": "Canção para:",
+        "delivery": "Entrega:",
+        "customSong": "Canção Personalizada",
+        "discount": "50% OFF",
+        "total": "Total",
+        "addExtras": "Adicionar extras (opcional)",
+        "editExtras": "Editar extras",
+        "extrasHint": "Confira extras e o valor final antes de pagar",
+        "noExtrasSelected": "Nenhum extra selecionado"
+      },
+      "modal": {
+        "title": "Edite a história da canção",
+        "honoree": "Para: {name}",
+        "subtitle": "Pode escrever o quanto quiser (sem limite). Toque em Salvar quando terminar.",
+        "cancel": "Voltar",
+        "save": "Salvar"
+      },
+      "sampleSongs": {
+        "title": "Ouça Outras Canções",
+        "subtitle": "Escute canções que criamos para outras famílias"
+      },
+      "guarantee": {
+        "title": "100% Garantia de Satisfação",
+        "description": "Se você não estiver completamente satisfeito com sua canção, devolvemos seu dinheiro. Sem perguntas.",
+        "refund": {
+          "title": "Não satisfeito? Reembolso total",
+          "description": "Sem perguntas, sem burocracia"
+        },
+        "time": {
+          "title": "Garantia de 7 dias",
+          "description": "Tempo de sobra para ouvir e decidir"
+        },
+        "riskFree": {
+          "title": "Compra sem risco",
+          "description": "Sua satisfação é nossa prioridade"
+        }
+      },
+      "whatYouGet": {
+        "title": "O Que Você Recebe",
+        "song": {
+          "title": "Canção Qualidade de Rádio",
+          "description": "Canção profissional, pronta para compartilhar"
+        },
+        "lyrics": {
+          "title": "Letra Personalizada",
+          "description": "Escrita especialmente para {name}"
+        },
+        "delivery": {
+          "title": "Entrega {deliveryTime}",
+          "description": "Perfeito para presentes de última hora"
+        }
+      },
+      "whyChoose": {
+        "title": "Por Que Escolher Apollo Song",
+        "personalized": {
+          "title": "100% Personalizada",
+          "description": "Cada canção é escrita exclusivamente baseada na sua história"
+        },
+        "professional": {
+          "title": "Qualidade Profissional",
+          "description": "Criada por artistas profissionais experientes"
+        },
+        "revisions": {
+          "title": "Revisões Gratuitas",
+          "description": "Refinamos até você estar completamente feliz"
+        }
+      }
+    }
+  },
+  "orderBump": {
+    "title": "Torne Seu Presente Inesquecível",
+    "subtitle": "Opções especiais escolhidas por 67% dos nossos clientes",
+    "fastDelivery": {
+      "title": "Entrega Urgente 24h",
+      "description": "Presente de última hora? Receba amanhã na sua caixa de email — perfeito para aniversários e datas especiais",
+      "price": "+R$49"
+    },
+    "genreVariant": {
+      "title": "Mais Estilos Musicais",
+      "badge": "MESMA PESSOA",
+      "description": "Quer a mesma história de {name} em outro estilo? Reescrevemos a letra do zero para combinar com o gênero",
+      "youWillReceive": "Você já receberá:",
+      "addMore": "Adicione mais estilos:",
+      "selectWarning": "Selecione pelo menos um estilo abaixo para adicionar",
+      "perGenre": "por estilo",
+      "price": "+R$39,90"
+    },
+    "certificate": {
+      "title": "Experiência de Presente",
+      "badge": "MAIS EMOCIONANTE",
+      "description": "Criamos uma página exclusiva na internet só pro seu homenageado. Envie o link e veja a reação quando descobrir que a canção foi feita pra ele(a). Prepare os lencinhos!",
+      "price": "+R$19,90"
+    },
+    "lyrics": {
+      "title": "Letra da Música",
+      "badge": "PARA EMOLDURAR",
+      "description": "Imagine a letra num quadro na parede da sala. Todo dia, ao passar, você vai lembrar desse amor. Enviamos pronta pra imprimir.",
+      "price": "+R$14,90"
+    },
+    "extraSong": {
+      "title": "Dupla Emoção",
+      "badge": "OUTRA PESSOA",
+      "description": "Aproveite e presenteie outra pessoa especial com uma canção exclusiva por um preço especial",
+      "price": "+R$49,90",
+      "forWho": "Para quem é essa canção?",
+      "samePerson": "Mesma pessoa",
+      "samePersonDesc": "Criar outra canção para {name}",
+      "anotherPerson": "Outra pessoa",
+      "anotherPersonDesc": "Criar uma canção para outra pessoa",
+      "form": {
+        "recipientName": "Nome do Destinatário",
+        "recipientNamePlaceholder": "Digite o primeiro nome",
+        "relationship": "Relacionamento",
+        "relationshipPlaceholder": "Selecione o relacionamento",
+        "qualities": "Conte tudo sobre essa pessoa",
+        "qualitiesPlaceholder": "Conte tudo que você sabe sobre essa pessoa com detalhes específicos (escreva à vontade)...",
+        "genre": "Gênero Preferido",
+        "vocals": "Voz Preferida",
+        "vocalsFemale": "Feminina",
+        "vocalsMale": "Masculina",
+        "vocalsEither": "Tanto faz"
+      }
+    },
+    "total": "Total do Pedido",
+    "continueWithout": "Continuar Sem Extras",
+    "addToOrder": "Adicionar ao Pedido",
+    "saveExtras": "Salvar extras",
+    "clearExtras": "Limpar extras"
+  },
+  "pendingOrder": {
+    "title": "Encontramos um pagamento em aberto",
+    "subtitle": "Suas respostas estão salvas. Escolha como você quer continuar:",
+    "summaryTitle": "Resumo",
+    "summaryFor": "Para",
+    "summaryGenre": "Gênero",
+    "summaryPlan": "Plano",
+    "summaryTotal": "Total",
+    "summaryExtras": "Extras",
+    "summaryExtrasNone": "Nenhum",
+    "continuePayment": "Continuar pagamento",
+    "continuePaymentHint": "Abrir o link do seu pedido anterior (onde você parou).",
+    "reviewPlan": "Revisar antes de pagar",
+    "reviewPlanHint": "Ver e editar plano, gênero e extras sem perder nada.",
+    "startNew": "Criar nova música do zero",
+    "startNewHint": "Apaga tudo e começa o quiz de novo, do início.",
+    "startedNewTitle": "Novo pagamento pronto",
+    "startedNewDescription": "Suas respostas foram mantidas. Agora você pode continuar para criar um novo pedido.",
+    "note": "**Nenhuma cobrança acontece agora.** Você só será cobrado ao concluir o pagamento. O pedido anterior continuará em aberto até expirar.",
+    "close": "Fechar"
+  },
+  "navigation": {
+    "back": "Voltar",
+    "next": "Próximo",
+    "nextSkipMemories": "Próximo, já falei tudo que queria",
+    "submit": "Continuar para Pagamento",
+    "submitting": "Criando sua canção...",
+    "terms": "Ao continuar, você concorda com nossos",
+    "termsLink": "Termos de Serviço",
+    "and": "e",
+    "privacyLink": "Política de Privacidade"
+  },
+  "audio": {
+    "prompt": "Não quer escrever? Grave um áudio de até 5 minutos contando a história",
+    "transcriptionHint": "Sua voz será **convertida em texto** no **campo acima**. Fale com calma, em **frases curtas**, e vá **conferindo** se está certo.",
+    "stopToTranscribe": "Quando terminar de falar, clique em **Parar gravação** para o texto aparecer no campo acima.",
+    "recordButton": "Gravar áudio",
+    "stopButton": "Parar gravação",
+    "statusRecording": "Gravando...",
+    "statusUploading": "Enviando áudio...",
+    "statusQueued": "Na fila de transcrição...",
+    "statusProcessing": "Transcrevendo seu áudio...",
+    "statusCompleted": "Áudio transcrito com sucesso!",
+    "statusError": "Erro na transcrição",
+    "micError": "Erro ao acessar microfone. Verifique as permissões.",
+    "noSpokenAudio": "Não conseguimos detectar fala no áudio. Tente gravar novamente falando mais perto do microfone.",
+    "timeWarning": "Menos de 1 minuto restante!",
+    "maxTimeReached": "Tempo máximo atingido (5 min). Áudio enviado automaticamente."
+  },
+  "validation": {
+    "required": "Este campo é obrigatório",
+    "selectRecipient": "Por favor, selecione para quem é essa canção",
+    "enterName": "Por favor, digite o nome",
+    "selectGenre": "Por favor, selecione um estilo musical",
+    "selectSubgenre": "Por favor, selecione um subgênero",
+    "enterQualities": "Por favor, descreva o que faz essa pessoa especial",
+    "qualitiesMinLength": "Por favor, compartilhe um pouco mais sobre as qualidades (pelo menos algumas palavras)",
+    "enterMemories": "Por favor, compartilhe algumas memórias especiais",
+    "memoriesMinLength": "Por favor, compartilhe um pouco mais sobre suas memórias (pelo menos algumas palavras)",
+    "messageMinLength": "Por favor, compartilhe um pouco mais sobre sua mensagem (pelo menos algumas palavras)",
+    "enterEmail": "Por favor, digite seu email",
+    "invalidEmail": "Por favor, digite um email válido",
+    "submitError": "Falha ao enviar. Por favor, tente novamente."
+  }
+}

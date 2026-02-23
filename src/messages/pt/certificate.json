@@ -1,0 +1,36 @@
+{
+  "envelope": {
+    "teaser": "Alguém preparou algo especial para você...",
+    "openButton": "Abrir Presente"
+  },
+  "reveal": {
+    "subtitle": "Uma canção foi criada exclusivamente para",
+    "playButton": "Ouvir Sua Música"
+  },
+  "title": "Canção do Coração",
+  "subtitle": "Esta canção foi criada exclusivamente para",
+  "createdOn": "Criada em",
+  "genre": "Gênero",
+  "listenNow": "Ouça Sua Canção",
+  "option1": "Opção 1",
+  "option2": "Opção 2",
+  "share": {
+    "title": "Compartilhar",
+    "copied": "Link copiado!"
+  },
+  "lyrics": {
+    "title": "Letra da Música",
+    "downloadPdf": "Baixar Letra em PDF"
+  },
+  "download": {
+    "certificate": "Baixar Certificado em PDF",
+    "downloading": "Gerando PDF..."
+  },
+  "footer": "Criado com amor por ApolloSong",
+  "notFound": {
+    "title": "Certificado Não Encontrado",
+    "description": "O certificado que você está procurando não existe ou ainda não está disponível.",
+    "goHome": "Ir para a Página Inicial"
+  },
+  "loading": "Carregando certificado..."
+}

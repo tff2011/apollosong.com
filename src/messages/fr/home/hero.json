@@ -1,0 +1,30 @@
+{
+  "platformTagline": "La Plateforme N°1 de Chansons Personnalisées",
+  "badge": "Plus de 10 000+ larmes de joie versées",
+  "title": "Transformez Votre Histoire en la Chanson la Plus Émouvante",
+  "titleHighlight": "de Leur Vie.",
+  "description": "Oubliez les cadeaux évidents qui finissent dans un tiroir. Nos auteurs-compositeurs primés transforment vos sentiments les plus profonds en une chanson originale de qualité studio. Nous garantissons : il sera impossible de retenir ses larmes.",
+  "primaryCta": "Commencer à Émouvoir",
+  "urgency": {
+    "timer": "L'offre expire dans"
+  },
+  "meta": [
+    "Prête en 7 jours maximum",
+    "Qualité Studio",
+    "100% Personnalisée"
+  ],
+  "player": {
+    "label": "En cours: \"Três Apertos\"",
+    "quote": "\"Je n'avais jamais pleuré comme ça avant...\""
+  },
+  "video": {
+    "listenButton": "Écouter l'Extrait",
+    "muteButton": "Rendre Muet",
+    "audioUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/tres-apertos.mp3"
+  },
+  "socialProof": {
+    "text": "Aimé par",
+    "highlight": "10 000+ familles"
+  },
+  "backgroundAlt": "Femme pleurant de joie en écoutant de la musique"
+}

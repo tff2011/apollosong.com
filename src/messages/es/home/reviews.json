@@ -1,0 +1,306 @@
+{
+  "title": "Reseñas de ApolloSong",
+  "subtitle": "Descubre por qué más de 1000 familias confían en ApolloSong para crear canciones personalizadas y significativas que tocan corazones y crean recuerdos eternos.",
+  "stats": {
+    "rating": "4.99/5",
+    "customers": "1000+ Clientes Felices",
+    "verified": "Reseñas Verificadas"
+  },
+  "cta": "Crea tu Canción Personalizada",
+  "brand": "ApolloSong",
+  "verified": "Cliente Verificado",
+  "items": [
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-1.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-1.mp4",
+      "title": "Su Historia de Amor Para Mí Eres Tú",
+      "alt": "Video de reacción de cliente"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-2.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-2.mp4",
+      "title": "Corazones Elegidos",
+      "alt": "Video de reacción de cliente"
+    },
+    {
+      "type": "text",
+      "quote": "¡Oh alabado sea Dios! Esto es absolutamente impresionante. No puedo creerlo... Voy a tener dificultades para mantener esto en secreto hasta el domingo. ¡Lo escucharemos camino a la iglesia! Dios bendiga el trabajo que hacen.",
+      "name": "Carmen B.",
+      "avatar": "/images/reviews/avatar-1.webp"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-3.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-3.mp4",
+      "title": "Mi Corazón es Tuyo",
+      "alt": "Video de reacción de cliente"
+    },
+    {
+      "type": "text",
+      "quote": "Una canción muy muy maravillosa. ¡Me encantó absolutamente y a mi esposo también! La puse en mi FB, se la envié a sus hijos para que la escucharan... Cantaré sus alabanzas y le contaré a todos sobre su hermoso trabajo. Que Dios los bendiga a todos....",
+      "name": "Maribel B.",
+      "avatar": "/images/reviews/avatar-2.webp"
+    },
+    {
+      "type": "video",
+      "thumbnail": "/images/reviews/video-4.webp",
+      "videoUrl": "https://pub-b085b85804204c82b96e15ec554b0940.r2.dev/videos/testimonial-vid-4.mp4",
+      "title": "Tres Apretones y un Milagro",
+      "alt": "Video de reacción de cliente"
+    },
+    {
+      "type": "text",
+      "quote": "Absolutamente hermoso, capturaron momentos tan especiales... ambos estábamos llorando. No podría haber pedido una canción más hermosa. Muchas gracias por este regalo increíble.",
+      "name": "Patricia S.",
+      "avatar": "/images/reviews/avatar-3.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Esta canción me hizo llorar. La forma en que capturaron nuestra historia y la convirtieron en una melodía tan hermosa es verdaderamente un regalo de Dios. Gracias por este recuerdo precioso.",
+      "name": "Raquel M.",
+      "avatar": "/images/reviews/avatar-4.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Esta canción fue tan hermosa y conmovedora, me hizo llorar mientras escuchaba. Cada día trato de mantener vivos los recuerdos de mis sobrinas y esto fue simplemente hermoso. Quería expresar mi gratitud.",
+      "name": "Lucía K.",
+      "avatar": "/images/reviews/avatar-5.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Este es el MEJOR, MÁS PENSADO regalo que he recibido. ¡Se lo voy a poner esta noche y seguro les envío el video de su reacción! Muchas muchas muchas gracias. Estoy llorando horrible ahora mismo.",
+      "name": "Jéssica T.",
+      "avatar": "/images/reviews/avatar-6.webp"
+    },
+    {
+      "type": "text",
+      "quote": "¡Estoy sin palabras! Esto es absolutamente hermoso y no podemos agradecerles lo suficiente por palabras tan hermosas. Gracias por hacer el cumpleaños de mi esposo tan increíblemente especial.",
+      "name": "María G.",
+      "avatar": "/images/reviews/avatar-7.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi mamá falleció el mes pasado y esta canción capturó su espíritu perfectamente. Cada vez que la escucho, siento su presencia. Gracias por este regalo eterno.",
+      "name": "Sara Jiménez",
+      "avatar": "/images/reviews/avatar-8.webp"
+    },
+    {
+      "type": "text",
+      "quote": "La pusimos en nuestra fiesta de 25 aniversario. No quedó un ojo seco en la sala. Nuestros hijos estaban sollozando. El mejor dinero que he gastado.",
+      "name": "David Torres",
+      "avatar": "/images/reviews/avatar-9.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ordené esto para el bautismo de mi hija. Las letras sobre su camino hacia la fe fueron tan personales y hermosas. La atesorará para siempre.",
+      "name": "Elena Díaz",
+      "avatar": "/images/reviews/avatar-10.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Le di esto a mi esposa el día de nuestra boda como sorpresa. No podía parar de llorar. ¡El pastor incluso pidió usarla en futuras ceremonias!",
+      "name": "Miguel Rodríguez",
+      "avatar": "/images/reviews/avatar-11.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi padre sirvió en el ejército por 30 años. Esta canción honró su servicio y fe de una manera que nunca podría haber expresado yo mismo.",
+      "name": "Jenifer Vargas",
+      "avatar": "/images/reviews/avatar-12.webp"
+    },
+    {
+      "type": "text",
+      "quote": "¿Cómo pones 50 años de matrimonio en una canción? De alguna manera lo lograron. Mis padres quedaron sin palabras.",
+      "name": "Roberto Andrade",
+      "avatar": "/images/reviews/avatar-13.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Soy líder de alabanza y nunca he escuchado algo tan genuino. Capturaron el legado de mi abuela de la manera más hermosa.",
+      "name": "Amanda Martínez",
+      "avatar": "/images/reviews/avatar-14.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi hijo tiene autismo y esta canción celebró su camino único. Ahora la escucha cada noche antes de dormir. Nos dieron un tesoro.",
+      "name": "Cristina Téllez",
+      "avatar": "/images/reviews/avatar-15.webp"
+    },
+    {
+      "type": "text",
+      "quote": "La ordené para el cumpleaños 60 de mi esposo. Es un tipo duro que nunca llora. Se derrumbó completamente. Valió cada centavo.",
+      "name": "Patricia Bravo",
+      "avatar": "/images/reviews/avatar-16.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Esta fue para la celebración de recuperación del cáncer de mi mejor amiga. La canción dio palabras a emociones que no podíamos expresar. Dios bendiga a su equipo.",
+      "name": "Michelle León",
+      "avatar": "/images/reviews/avatar-17.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Sorprendí a mis padres por sus bodas de oro. Mamá dijo que fue como escuchar su historia de amor contada por ángeles.",
+      "name": "Kevin García",
+      "avatar": "/images/reviews/avatar-18.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi hija se casó el fin de semana pasado. La pusimos durante el baile padre-hija. El momento más emocional de mi vida.",
+      "name": "Guillermo Cruz",
+      "avatar": "/images/reviews/avatar-19.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Perdí a mi hermano inesperadamente. Esta canción ayudó a nuestra familia a hacer duelo y celebrar su vida. Ahora la ponemos en cada reunión familiar.",
+      "name": "Estefanía Morales",
+      "avatar": "/images/reviews/avatar-20.webp"
+    },
+    {
+      "type": "text",
+      "quote": "¡Las armonías me dieron escalofríos! De alguna manera supieron exactamente lo que mi corazón quería decirle a mi esposa. Ella la pone diario.",
+      "name": "Jaime Mejía",
+      "avatar": "/images/reviews/avatar-21.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Soy pastor y he visto muchos momentos conmovedores. ¿Pero escuchar mi propia historia en forma de canción? Absolutamente abrumador.",
+      "name": "Daniel Blanco",
+      "avatar": "/images/reviews/avatar-22.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mis gemelos cumplieron 18 y esta canción capturó su vínculo perfectamente. ¡Ambos se tatuaron una letra de la canción!",
+      "name": "Rebeca Herrera",
+      "avatar": "/images/reviews/avatar-23.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Para el cumpleaños 80 de mi mamá. Cuatro generaciones de nuestra familia estaban llorando juntas. Esta es ahora nuestro himno familiar.",
+      "name": "Cristóbal Martín",
+      "avatar": "/images/reviews/avatar-24.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi esposo y yo renovamos nuestros votos después de 20 años. Esta canción fue el centro de atención. Ni una sola persona quedó con los ojos secos.",
+      "name": "Laura Torres",
+      "avatar": "/images/reviews/avatar-25.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Ordené esto para el servicio memorial de mi abuela. Fue tan personal que la gente preguntó si ella misma la había escrito.",
+      "name": "Bryan Jiménez",
+      "avatar": "/images/reviews/avatar-26.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Le di esto a mi esposa después de su aborto espontáneo. Nos ayudó a ambos a sanar y recordar a nuestro bebé ángel. Eternamente agradecido.",
+      "name": "Andrés Vega",
+      "avatar": "/images/reviews/avatar-27.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi hija sobrevivió un accidente de auto. Esta canción cuenta su testimonio de la protección de Dios. La comparte por todas partes.",
+      "name": "Nicole Ruiz",
+      "avatar": "/images/reviews/avatar-28.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Para el 100 aniversario de nuestra iglesia. Capturaron un siglo de fe, comunidad y amor. Ovación de pie de todos.",
+      "name": "Timoteo Yáñez",
+      "avatar": "/images/reviews/avatar-29.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi papá tiene Alzheimer. Cuando escuchó esta canción sobre nuestros recuerdos, sonrió y dijo mi nombre. Momento invaluable.",
+      "name": "Kimberly Reyes",
+      "avatar": "/images/reviews/avatar-30.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Soy mamá de acogida. Esta canción celebró mi camino con mis niños. Finalmente sienten que tienen un himno familiar.",
+      "name": "Ashley Ramírez",
+      "avatar": "/images/reviews/avatar-31.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Obtuve esto para mi prometida en nuestro compromiso. ¡Ella dijo que sí antes de que terminara la canción! La mejor propuesta.",
+      "name": "Josué López",
+      "avatar": "/images/reviews/avatar-32.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi esposa es enfermera que trabajó durante COVID. Esta canción honró su sacrificio. Toda su unidad lloró cuando la escucharon.",
+      "name": "Mateo Hernández",
+      "avatar": "/images/reviews/avatar-33.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Para la graduación de mi hijo. Desde sus primeros pasos hasta su diploma — todo en una hermosa canción. La lleva a la universidad.",
+      "name": "Elizabeth Sánchez",
+      "avatar": "/images/reviews/avatar-34.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi esposo falleció después de 45 años juntos. Esta canción es mi consuelo. La escucho cada mañana con mi café.",
+      "name": "Dorotea Aguilar",
+      "avatar": "/images/reviews/avatar-35.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Sorprendí a mi mentor que me guió a Cristo hace 20 años. Quedó completamente abrumado. La mejor manera de decir gracias.",
+      "name": "Ryan Mendoza",
+      "avatar": "/images/reviews/avatar-36.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi hija superó la adicción. Esta canción celebra sus 5 años de sobriedad. Es su recordatorio de la gracia de Dios.",
+      "name": "Catalina Barrera",
+      "avatar": "/images/reviews/avatar-37.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Adoptamos a nuestro hijo del extranjero. Esta canción cuenta su viaje a casa con nosotros. Pide escuchar 'su canción' cada noche.",
+      "name": "Marco Navarro",
+      "avatar": "/images/reviews/avatar-38.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Para el 40 aniversario de mis padres. Bailaron lento en la cocina llorando. No los había visto tan felices en años.",
+      "name": "Heather Castro",
+      "avatar": "/images/reviews/avatar-39.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi hermana venció el cáncer de mama. Esta canción fue su himno de victoria. La pone en cada cita de control.",
+      "name": "Esteban Pérez",
+      "avatar": "/images/reviews/avatar-40.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Tengo 85 años y obtuve esto para mis bisnietos. Ahora siempre tendrán una parte de mí cuando ya no esté. Hermoso.",
+      "name": "Margarita Espinoza",
+      "avatar": "/images/reviews/avatar-41.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Nuestro pequeño grupo de iglesia ha estado junto 15 años. Esta canción capturó nuestro vínculo. La ponemos en cada reunión ahora.",
+      "name": "Jasón Trujillo",
+      "avatar": "/images/reviews/avatar-42.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Mi hijo regresó de su despliegue a salvo. Esta canción agradece a Dios por traerlo a casa. A todo su pelotón les encantó.",
+      "name": "Diana Castillo",
+      "avatar": "/images/reviews/avatar-43.webp"
+    },
+    {
+      "type": "text",
+      "quote": "Para la jubilación de mi esposo después de 35 años de enseñanza. Sus antiguos alumnos contribuyeron. Hubo tantas lágrimas.",
+      "name": "Susana Estrada",
+      "avatar": "/images/reviews/avatar-44.webp"
+    }
+  ]
+}

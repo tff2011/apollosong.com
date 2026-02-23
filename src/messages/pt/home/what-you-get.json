@@ -1,0 +1,31 @@
+{
+    "title": "O Que Você Recebe",
+    "subtitle": "Mais Que Uma Música. Uma Experiência Implacável.",
+    "description": "Desenhamos cada etapa milimetricamente para ter certeza de que o momento da entrega vai superar todas as expectativas e tirar o fôlego daquela pessoa.",
+    "deliveryLink": "Página Oficial da Canção",
+    "deliveryEmail": "E-mail de Entrega VIP",
+    "vinylLabel": "Apollo Song",
+    "features": {
+        "radio": {
+            "title": "Som Profissional Inquestionável",
+            "description": "Música produzida de verdade. A qualidade do áudio e dos vocais prende a atenção e a emoção logo nos primeiros 5 segundos."
+        },
+        "lyrics": {
+            "title": "Letra e Alma Feita Sob Medida",
+            "description": "Cada verso conta a história de vocês de forma inconfundível. Ao ouvir, eles vão saber na hora que foi feito especialmente para eles."
+        },
+        "versions": {
+            "title": "Você Escolhe A Mais Perfeita",
+            "description": "No nosso sistema, entregamos sempre 2 versões da música para você ouvir. Você escolhe a que melhor conseguiu captar o seu sentimento."
+        },
+        "plans": {
+            "title": "Prazos Para Toda Urgência",
+            "description": "Esqueceu do presente? Temos uma via Expressa de 24 horas. E nossa rota Clássica, entregue tranquilamente em até 7 dias."
+        },
+        "streaming": {
+            "title": "Eternize no Spotify e Apple Music",
+            "description": "Eles vão poder adicionar a música na própria playlist e colocar para tocar no carro, junto dos seus artistas mais escutados."
+        }
+    },
+    "cta": "Criar Minha Música"
+}

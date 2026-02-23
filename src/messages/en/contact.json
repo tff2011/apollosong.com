@@ -1,0 +1,14 @@
+{
+  "title": "Contact Us",
+  "subtitle": "Have a question or a story to share? We'd love to hear from you.",
+  "form": {
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "hello@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "sending": "Sending...",
+    "submit": "Send Message"
+  }
+}

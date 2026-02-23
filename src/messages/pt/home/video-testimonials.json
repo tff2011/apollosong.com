@@ -1,0 +1,27 @@
+{
+  "title": "Ouça as lágrimas de alegria",
+  "subtitle": "Famílias reais compartilhando sua reação à Apollo Song.",
+  "items": [
+    {
+      "name": "Sarah M.",
+      "location": "Texas",
+      "quote": "Nunca chorei assim.",
+      "video": "/images/testimonial-sarah.webp",
+      "alt": "Sarah enxugando lágrimas de alegria após ouvir sua canção"
+    },
+    {
+      "name": "David K.",
+      "location": "Tennessee",
+      "quote": "Pareceu Deus falando através da música.",
+      "video": "/images/testimonial-david.webp",
+      "alt": "David emocionado no carro segurando o celular"
+    },
+    {
+      "name": "Emily R.",
+      "location": "Califórnia",
+      "quote": "O melhor presente que já dei.",
+      "video": "/images/testimonial-emily.webp",
+      "alt": "Emily chorando de alegria segurando uma caixa de presente"
+    }
+  ]
+}

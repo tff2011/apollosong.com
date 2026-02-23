@@ -1,0 +1,25 @@
+{
+    "title": "À Qui Est Destinée Cette Chanson ?",
+    "swipeHint": "Glissez pour explorer →",
+    "cta": "Commencer à créer votre chanson",
+    "items": {
+        "partner": "Pour l'Amour de Votre Vie",
+        "children": "Pour Votre Fils ou Fille",
+        "proposal": "Pour la Demande Parfaite",
+        "wedding": "Pour Célébrer Votre Union",
+        "birthday": "Pour Un Anniversaire Inoubliable",
+        "parents": "Pour Votre Papa ou Maman",
+        "grandparents": "Pour Vos Grands-Parents",
+        "friends": "Pour Cet Ami Spécial",
+        "yourself": "Pour Vous-Même",
+        "baptism": "Pour le Baptême de Votre Bébé",
+        "genderReveal": "Pour la Révélation du Sexe",
+        "graduation": "Pour Une Remise de Diplôme Spéciale",
+        "anniversary": "Pour Célébrer Vos Noces",
+        "loss": "Pour Honorer Celui Qui Est Parti",
+        "strength": "Pour Donner de la Force",
+        "healing": "Pour Quelqu'un Qui a Besoin de Guérison",
+        "prayers": "Pour Une Prière Spéciale",
+        "breakthroughs": "Pour Célébrer Une Victoire"
+    }
+}
